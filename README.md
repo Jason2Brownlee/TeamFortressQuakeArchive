@@ -17,7 +17,6 @@ Release Date | File | Description
 1996-09-11 | [tf1_2src.zip](bin/tf1_2src.zip) | TeamFortress v1.2
 1996-09-17 | [tf1_21pr.zip](bin/tf1_21pr.zip)<br>[tf1_21sc.zip](bin/tf1_21sc.zip) | TeamFortress v1.21
 1996-10-28 | [tfeev1_0.zip](bin/tfeev1_0.zip)<br>[tf_maps.zip](bin/tf_maps.zip) | TeamFortress Entity Editor v1.0 and sample maps
-????-??-?? | tfeev1_1.zip | TeamFortress Entity Editor v1.1
 1996-10-31 | [tf1_3.zip](bin/tf1_3.zip) | TeamFortress v1.3
 1996-11-04 | ? | TeamFortress v1.31
 1996-11-10 | ? | TeamFortress v1.32
@@ -31,6 +30,7 @@ Release Date | File | Description
 1996-12-28 | tf203src.zip | TeamFortress v2.03
 1997-01-23 | [tf21_cl.zip](bin/tf21_cl.zip) | TeamFortress v2.1
 1997-01-27 | ? | TeamFortress v2.11
+1997-02-04 | [ented.zip](bin/ented.zip)<br>tfeev1_1.zip | TeamFortress Entity Editor v1.1
 1997-02-04 | ? | TeamFortress v2.12
 1997-02-17 | ? | TeamFortress v2.13
 1997-03-12 | qwwf214.zip<br>tf214src.zip | TeamFortress v2.14
