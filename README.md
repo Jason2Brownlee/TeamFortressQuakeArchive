@@ -1,6 +1,8 @@
 # TeamFortress Quake Archive
 
-This project archives all releases of TeamFortress for Quake 1.
+Archives of all official releases of TeamFortress for Quake 1.
+
+Includes TeamFortress Quake (TFQ) and TeamFortress Quakeworld (TFQW).
 
 From the readme:
 
@@ -68,6 +70,8 @@ Release Date | File | Description
 * **Date Format**: YYYY-MM-DD.
 * **No Link**: indicates that we could not locate a copy of the file yet.
 * **No Date**: indicates that we could not corroborate the date of release yet.
+
+For other TeamFortress file archives see [Resources](research/resources.md).
 
 ## How You Can Help
 
