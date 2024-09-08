@@ -1,5 +1,7 @@
 # known but broken urls that link to wish list files
 
+ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
+ftp://ftp.keeg.com/tf25btg.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_35.txt
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_coop.zip
@@ -38,7 +40,8 @@ http://www.planetquake.com/teamfortress/files/tf214src.zip
 http://www.planetquake.com/teamfortress/files/tf25btg.zip
 http://www.planetquake.com/teamfortress/files/tfeev1_1.zip
 http://www.teamfortress.com/files/teamfortress/TF25BTJ.ZIP
+http://www.teamfortress.com/files/teamfortress/tf265b.zip
+http://www.teamfortress.com/files/teamfortress/tf265d.zip
 http://www.teamfortress.com/files/teamfortress/tf265e.zip
 http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
 http://www.teamfortress.com/files/teamfortress/tf26ffbb.zip
-

@@ -27,6 +27,8 @@ tf265e.zip
 tf2666bd.zip
 tf26ffbb.zip
 tfeev1_1.zip
+tf265b.zip
+tf265d.zip
 
 # guessed at filenames
 qw25bta.zip
@@ -43,9 +45,7 @@ tf1_34.zip
 tf201src.zip
 tf202src.zip
 tf265a.zip
-tf265b.zip
 tf265c.zip
-tf265d.zip
 
 # text files (e.g. stomped.com, cdrom.com, etc.)
 tf1_1src.txt
