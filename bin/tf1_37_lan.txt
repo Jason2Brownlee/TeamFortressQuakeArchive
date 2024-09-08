@@ -1,0 +1,727 @@
+*==============================================================*
+* TeamFortress v1.37 beta 4                         readme.txt *
+* Written by Robin Walker, John Cook, Ian Caughley	       *
+*==============================================================*
+
+Introduction
+------------
+
+TeamFortress is a new QuakeC patch which radically changes
+team games. It provides far more incentive for teams to 
+actually work as a team. Each member of the team has unique
+weapons, items, and abilities.
+
+Although the patch works just fine in normal Quake maps, it
+is designed to be run in maps written specifically for it.
+There are a number of these maps available, and new ones 
+appearing weekly.
+
+What do you need to know?
+-----------------------
+Well, you should read this file, and you should read the help
+inside the game. No, I don't mean the default Quake help!
+If you play TeamFortress, you'll notice that instead of seeing
+"Help" in the main menu, you'll see "TF Help".
+Read the help there, and play!
+		
+Player Classes
+--------------
+TeamFortress uses multiple player classes.
+All players start in Observer mode. 
+When in Observer Mode, players can use their fire button to cycle
+through all the observation points on a map, and watch the action.
+To get out of Observer Mode, players must choose a class.
+
+You can choose a class in two ways:
+Either select the class from the menu which appears, or type in
+the class's short name. Read the TF Help in Quake to find out the
+short names for each class.
+
+The classes are as follows:
+	SCOUT:		Fastest moving class. Can only wear a small amount of the 
+				lowest absorption armor. Limited to the 2 Shotguns and Nailgun.
+				Low ammo levels.
+				Carries a Motion Detector, 3 flares, 2 concussion grenades.
+
+	SNIPER:		Medium speed. Wears only small amount of armor, upto medium
+				absorption level. Limited to Nailgun and Sniper's rifle. Medium
+				ammo levels.
+				Carries 2 hand grenades.
+
+	SOLDIER:	Slow moving class. Wears large amount of armor, at all 
+				absorption levels. All normal weapons except Grenade Launcher.
+				High ammo levels.
+				Carries 4 hand grenades, 4 nail grenades.
+
+	DEMOLITION MAN: Medium speed. Wears medium amount of armor, upto medium
+				absorption level. Uses the ShotGun and Grenade/Pipebomb Launcher
+				Carries 1 DetPack, 6 hand grenades, 4 Mirv Grenades.
+
+	COMBAT MEDIC: Medium speed. Wears medium amount of armor, upto medium
+				absorption level. Uses both Shotguns and the Super Nailgun.
+				Carries Medikit, 3 hand grenades, 1 concussion grenades.
+				Regenerates slowly. Has a Bioweapon.
+
+	HEAVY WEAPONS GUY: The slowest moving class of all. Lotsa armor, high
+				absorption levels. Uses both Shotguns, the Nailgun, and
+				the Assault Cannon (yeah!)
+				Carries 4 hand grenades and 1 Mirv Grenade.
+
+	PYRO:		Medium speed. Wears some flame-resistant armor.  Uses the 
+				shotgun, flamethrower, and incendiary cannon. 
+				Carriers 1 hand grenade and 4 Napalm grenades.
+
+	RANDOM PC : Each time you respawn you have your class randomly 
+				assigned to you.
+
+New Weapons
+-----------
+Please note that the New Weapons do not show up on the row of weapon
+icons in the status bar. There is a reason for this. At first, we used
+to light up the weapon icon corresponding to the number of the New Weapon.
+For example, the Heavy Weapons Guy has the Assault Cannon, and can select
+it by pressing 7. So we lit up the Rocket Launcher icon. We immediately
+got lots of mail from people saying "I can't get the rocket launcher
+readied when I'm the Heavy Weapons Guy!".
+So we don't light them up.
+
+Sniper Rifle:
+	This weapon is used instead of the shotgun by the SNIPER playerclass. It
+	uses shotgun shells for ammo, and operates in two modes:
+		- Single Shot. With a reload time of 2.5 seconds, this mode is what
+		  sniping is all about. One shot from this will kill most players
+		  except for a heavily armored SOLDIER or DEMOLITION MAN.
+		  The longer you aim, the more damage the sniper shot will do.
+		  To aim, just keep holding down the fire button. 
+		  When aiming, the view slowly zooms in. You can disable this
+		  feature using the "autozoom" command.
+		- Auto Shot. Although this fire mode does a lot less damage than
+		  single shot and uses a lot of ammo, its great for picking off
+		  a wounded target, or a fast moving SCOUT.
+	The other tricky bit about the sniper rifle is that it is a rifle. You
+	can't just snap shot from the hip with it. If you're moving too fast,
+	the rifle simply won't fire. Besides, you're a sniper, you're not
+	supposed to be strafe-fighting with soldiers! :)
+	Select it as if it was the shotgun.
+
+Assault Cannon:
+	Big! Fires lotsa bullets! Really fast!
+	What more do you want?
+	It's used by the Heavy Weapons Guy. Select it like you would the
+	Rocket Launcher. It takes 10 cells just to power up	each time you 
+	pull the trigger, and then starts to eat up your shotgun ammo like 
+	you wouldn't believe!
+	It also tends to eat up enemies too, so it isn't all bad :)
+	As you fire the Assault Cannon, it gets hotter and harder to control. 
+	After firing, it has to cool. This can take a while, and is dependant 
+	on how long you fired it for, natch :)
+	Luckily, cooling require no effort on your part, so you can change
+	weapons while you wait.
+	Oh, you can't move while firing either, and you can't fire when
+	you're not on the ground.
+	Select it as if it was the rocket launcher.
+
+BioWeapon:
+	This weapon is used by the COMBAT MEDIC. The COMBAT MEDIC's axe has two
+	modes: Medikit and BioWeapon. In Bioweapon Mode, when the COMBAT MEDIC
+	hits someone with the axe, they will become infected, and begin to lose
+	health. Anyone coming in contact with an infected person also becomes
+	infected. Infection can be cured by the COMBAT MEDIC's medikit.
+	COMBAT MEDICS are immune to the Bioweapon.
+
+Incendiary Cannon:
+	This weapon is used in place of the rocket launcher by the PYRO class.
+	It does a little damage, and sets everyone in radius on fire. 
+	Select it as if it was the rocket launcher.
+
+Grenades
+--------
+Several new types of grenades now exist, and all classes have access to at
+least one of them. They are not to be confused with the grenades used by
+the grenade launcher.
+Use of these grenades is exactly as one would expect. Pull the pin, throw
+it, and wait. After 3 seconds it goes off. Just make sure you throw it
+_before_ the 3 seconds are up :)
+
+I strongly suggest you use the aliases we provide in the fortress.cfg 
+to throw grenades. Bind it to a key. Then, when you press the key, the
+grenade will be primed, and when you release the key, the grenade will
+be thrown.
+Don't forget, the grenade goes off after 3 seconds :)
+
+The grenade types are as follows:
+	Hand		:	Hand grenades simply explode. They are twice as powerful
+					as those shot from the grenade launcher.
+
+	Concussion	:	Concussion grenades don't actually hurt anyone, they just
+					blow everyone away from the grenade explosion at a high
+					speed, and then make them woozy. They're the SCOUT's best 
+					way of escaping from a roomful of enemies. The ensuing confusion 
+					usually gives him enough time to run.
+
+	Nail		:	Nail grenades are good in large rooms. Instead of detonating,
+					they raise up into the air and hover. They then begin to 
+					rotate while firing nails. After doing this for a few seconds
+					they explode like a normal grenade.
+
+	Mirv		:	Mirv grenades are room-clearers. When one explodes,
+					it divides into approximately 15 individual grenades which
+					then explode.
+
+	Napalm		:	When these explode they throw flames out in all directions,
+					setting things, like players, alight.
+
+	Flare		:	These aren't really grenades. When they go off, they 
+					simply light up the area around them. They go out after 
+					a while.
+
+New Items
+---------
+Motion Detector:
+	This item is the SCOUT's best friend. The SCOUT can specify an amount of
+	cells spent on a scan. The detector displays a list of all enemies/friends
+	within a distance around the SCOUT, and their direction in relation to the 
+	SCOUT. The more energy spent, the larger the detection distance.
+	Bear in mind though that the motion detector only detects motion (natch! :)
+	So it won't pick up stationary or very slow moving players.
+	You can toggle detection of friends and enemies using the aliases "scane" 
+	and "scanf".
+
+Medikit:
+	The COMBAT MEDIC has a medikit which allows him to heal any other member
+	of his/her team by hitting them with his axe, when it is in Medikit Mode. 
+	Each hit will heal them	10 points and reduce the 'ammo' for the medikit 
+	by 10. You can see how much 'ammo' for the medikit you have by looking 
+	at your inventory. If the COMBAT MEDIC walks over a health box while at 
+	maximum health, the health box will be used to replenish the medikit 'ammo'.
+
+Detpack:
+	The DEMOLITION MAN has a Detpack. This is a large-scale explosive device.
+	When the DEMOLITION MAN places it he is unable to move for 4 seconds
+	while he primes it.
+	The timer on the Detpack is set by the DEMOLITION MAN, using the 
+	"det5", "det10", and "det20" aliases. For more info on the Detpack
+	aliases, read the TF Help in Quake.
+	Scouts can disarm Detpacks by running over them. It does take a couple
+	of seconds tho.
+
+New Rules
+---------
+Reloading:
+	All basic weapons except the Nailgun and Super Nailgun have clips. When all
+	the ammo in a clip is spent, the weapon is reloaded. This can take anywhere
+	from 1 second for the Shotgun to 5 seconds for the Rocket Launcher. Ammo
+	amounts in the clips varies between weapons.
+	While reloading, you cannot change weapons.
+	You can force a reload at any time with the "reload" alias, in 
+	preparation for a fight :)
+
+Armor Classes:
+	There are various classes of armor now, which protect against various
+	different attack types. Each playerclass is restricted to using only
+	certain types. 
+	You can find out what class of armor you're wearing using the Inventory
+	command. When you pick up armor, the message displayed will tell you
+	what armor class it is, if any.
+
+ToggleAble Game Settings
+------------------------
+There are now a few toggleable game settings which can be changed while
+playing. Each has an alias which toggles it.
+The options at the moment are:
+	Multiskin/Classkin
+		This option switches between Multiskin, where each player can use the 
+		skin commands to cycle through all the available skins and choose one
+		they like, and Classkin, where each player has his/her skin chosen
+		for them based on their class.
+	Class Persistence On/Off
+		This option allows you to turn on Class persistence between levels.
+		E.g. If it's on, when you go to a new level each player will stay
+		the same class they were in the last level.
+	Cheat Checking On/Off
+		This option toggles whether you want speed checking of players in
+		an attempt to catch people tinkering with their maxspeed. It's not
+		an elegant way of checking, and is by no mean foolproof, so you
+		may wish to turn it off. If you're playing with friends, turn it off
+		and save some of the server's computing time. If you're playing on 
+		the net, you might want to leave it on. It's better than nothing :)
+	FortressMap On/Off
+		This option turns on the use of effects which only work on maps
+		built specifically for TeamFortress. I'd advise against turning 
+		it on in maps that aren't built for TeamFortress. 
+		If you play on a TeamFortress Map, TeamFortress will detect this,
+		and set this setting On, but you're welcome to turn it off if
+		you want to deathmatch. 
+		See TeamFortressMap Details below for more info.
+	AutoTeam On/Off
+		When on, AutoTeam will automatically assign players to the team
+		with the least number of people in it, when the player chooses
+		his/her class.
+	Respawn Delay Cycle
+		You can cycle through various respawn delay times. Respawn
+		delay time is the amount of time a player is unable to respawn
+		for after they die.
+		This is useful in Team Games to prevent players from killing
+		themselves to get back to their Fortress quickly.
+	TeamFrags On/Off
+		When On, this toggleflag makes each player's frag count equal
+		to the number of points his/her team has. Using TAB key you can
+		then see how each team is going.
+	Manual-COlor On/Off
+		When Off, which is default, Team colors are automatically assigned.
+		When On, Team colors are assigned based upon the player who creates
+		them. See below.
+	Server Toggle
+		This toggleflag has one use: When it's set, no toggleflags can
+		ever been changed again. This can be used by a server operator
+		to set the state of the toggleflags and then lock them in place.
+
+Multiple Compile Modes
+-----------------------
+Using the preprocessor that John wrote, we can use the same source code
+to produce quite different patches. At the moment, we've got 3 versions,
+which are as follows:
+
+	Standard:
+		- The patch you've all grown to know and love.
+
+	Co-Op:
+		- Is the only version with Quake monsters in it.
+		- If you set the coop variable to 2, then any doors which 
+		  require keys won't open until all players have unlocked them.
+		- Has more advanced skill settings. 
+			- Skill 0,1,2 are all the same as normal quake.
+			- Skill 2.1 is Nightmare mode.
+			- Skills between 2.2 and 3 make monsters respawn. The number
+			  of times monsters respawn is as follows:
+			  	number of respawns = (skill - 2.1) * 10
+			  e.g. Skill 2.5 makes monsters respawn 4 times.
+
+	Net:
+		- Basically designed to reduce net traffic.
+		- Sniper rifle made a little tougher, and autozoom defaults to off.
+		  (Ever tried to snipe someone when you've got a ping of 350?)
+
+Alias Summary
+--------------
+The aliases that are automatically created for you by TeamFortress are:
+
+Help Related
+	help			:	Read the TF Help
+
+General
+	inv				:	Display your inventory
+	showtf			:	Display the status of all Toggleflags
+	reload			:	Reload your weapon
+
+Class Changing
+	scout			:	Change class to Scout
+	sniper			:	Change class to Sniper
+	soldier			:	Change class to Soldier
+	demoman			:	Change class to Demolitions Man
+	medic			:	Change class to Combat Medic
+	hwguy			:	Change class to Heavy Weapons Guy
+	pyro			:	Change class to Pyro
+	randompc		:	Change class to Random Class
+
+Team Interaction
+	imin1			:	Start/Join Team 1
+	imin2			:	Start/Join Team 2
+	imin3			:	Start/Join Team 3
+	imin4			:	Start/Join Team 4
+	showscores		:	Display Team Scores
+	showclasses		:	Display the Classes of your Team Members
+	dropkey			:	Drops a key.
+	dropammo		:	Drops a box of ammo.
+
+Grenades
+	primeone		:	Prime a grenade of Type 1
+	primetwo		:	Prime a grenade of Type 2
+	throwgren		:	Throw whatever grenade you've primed
+
+Pipebombs
+	detpipe			:	Detonate all your pipebombs
+
+Scanner
+	scane			:	Toggle detection of enemies with the Scanner
+	scanf			:	Toggle detection of friendlies with the Scanner
+	scan10			:	Scan using 10 cells
+	scan50			:	Scan using 50 cells
+	scan250			:	Scan using 250 cells
+
+Detpack
+	det5			:	Set your detpack for 5 seconds
+	det10			:	Set your detpack for 10 seconds
+	det20			:	Set your detpack for 20 seconds
+
+Toggleable Game Settings
+	t_skin			:	Toggle Multiskin/Classkin
+	t_classpersist	:	Toggle Class Persistence
+	t_cheatcheck	:	Toggle Cheat Checking
+	t_fortressmap	:	Toggle FortressMap
+	t_autoteam		:	Toggle Auto-Teaming
+	t_respawndelay	:	Toggle RespawnDelays
+	t_teamfrags		:	Toggle TeamFrags
+	t_notoggle		:	Toggle Server-Only Toggleflags
+	t_manualcolor	:	Toggle Team Manual-Coloring
+
+Skin Selection
+	nextskin		:	Change skin to the next skin in the player.mdl 
+	prevskin		:	Change skin to the previous skin in the player.mdl 
+
+Sample aliases for Set Skin
+	skin10			:	Change skin to number 10 in the player.mdl
+	skin20			:	Change skin to number 20 in the player.mdl
+
+Map Handling
+	nextlevel		:	Cycle through the TF maps on the server. When
+						the current map ends, the one that will next
+						be played is the one designated by the nextlevel
+						command.
+
+Team Details
+-----------------------
+We now handle a basic Team structure. Apart from standard Teamplay,
+you can use FortressTeams. In FortressTeams we allow upto 4 different
+teams on the one map.
+Players can join a team by using the aliases imin1,imin2,imin3, and imin4.
+The first player to join a particular team becomes the Team Leader.
+If the Manual-Color Toggleflag is on (see above), the color of of the 
+Team Leader's pants becomes the Team Color. Otherwise, the Team Colors
+are automatically assigned.
+Any players who join the Team from then on will have their colors 
+automatically changed to the Team Colors.
+
+Once players join a team they cannot change to another team.
+Player's cannot change their _pants_ color, although Shirt colors can 
+be changed freely.
+FortressTeams are a must on any Map that was written for TeamFortress,
+since the spawnpoints on a TeamFortress Map are allocated to particular
+teams. See the TeamFortressMap Details for more info.
+Now, when you join a team, you are also shown the classes that your
+team members are playing as. You can also use the command "showclasses"
+to see what class they are at any particular time. Very useful if your
+team members are playing RandomPC.
+
+TeamFortressMap Details
+-----------------------
+As of v1.2 we've got support built in for maps designed specifically
+for this patch, allowing them to use various extra entities.
+This allows us to do fancy things, such as:
+
+	Auto Detection
+	Team SpawnPoints
+	Armor 			
+
+	Goals
+	GoalItems
+	Timer Goals
+
+These only come into effect if the Toggleable game setting FortressMap is On,
+and the map you are playing on is designed for TeamFortress.
+If you want to create your own Maps for TeamFortress, the details you
+need to know are in a separate file, included in this .zip, called tfortmap.txt
+
+Servers with this Code
+----------------------
+If you're interested in using some/all of this code for a Net server, 
+then all I ask is one thing: Mail me (address below) and tell me. 
+I'd like to know if anyone uses it as a Net server, simply because I'd like 
+to play a server on the net using this code. 
+Since I don't have a server...;)
+The biggest advantage of notifying me that you're running a server
+with this code is that I'll mail you new versions whenever they come out.
+
+Make sure you use the Net version on a server, since it's much
+nicer on bandwidth.
+
+Copyright and Distribution
+--------------------------------------
+Authors may use this code for the basis of other freeware quakec
+code, but not for any for-profit code, such as modification of this 
+patch for the purpose of running it on a commercial Quake Server.
+
+You may distribute this patch in any electronic format as long as this 
+textfile remains unmodified and all of the files in the archive are
+present, and as long as no charge is made for it.
+
+Non-Commercial Quake Servers are free to run this patch, but 
+it'd be nice in you mailed us and mentioned that you are.
+
+Availability
+------------
+The latest version of this patch can always be found at the 
+TeamFortress WWW page:
+	http://minyos.its.rmit.edu.au/~cookj/index.htm
+
+TeamFortress Maps can be found on our www site, or in the directory:
+	ftp://ftp.cdrom.com/pub/idgames2/levels/team_fortress/
+
+Other Stuff
+-----------
+TeamFortress was written by Robin Walker, John Cook, and Ian Caughley. 
+Various other people contributed ideas to the original version: 
+I can't hope to list them all, but here's some of them:
+	Peter Wilson, Jason Grant.
+
+A special mention _must_ go to Alexandre Brouaux (brouauxa@micronet.fr),
+who's been a fantastic help, not only with the actual coding, but also
+with other problems. The Pyro class is a direct result of his help.
+
+Some of the code for TeamFortress was influenced by other people's.
+They are as follows:
+	Both Flame Grenades and the Flamer were almost entirely written
+	by Alexandre Brouaux (brouauxa@micronet.fr). Thanks Alexandre!
+	Mirv Grenade code was influenced by Firewall code from Steve Bond (wedge@nuc.net)
+	Pipebomb code was influenced by code from AsmodeusB (tazq@sos.on.ca)
+
+Although we've never seen their code, these people are credited here
+because they've got great ideas:
+	Multiskin, from the first person to work it out, Dennis Noordsij (lnoordsi@inter.NL.net)
+
+Also, thanks must go to the following people for their comments and suggestions:
+	John Wolsch (john_w@bga.com)
+	Thomas LULLIER (106110.1406@compuserve.com)
+	Alexandre Brouaux (brouauxa@micronet.fr)
+	Bas Olthoff (reboot@dsl.nl)
+	Phil Sykes (phil@centrenet.co.uk)
+	Serendip (an705819@anon.penet.fi)
+	Frank O'Connor (FrankO@mail.Publix.com)
+	Chi Tang (ctang@nucleus.com)
+	Chris Etheridge (etherbi@castlegate.net)
+	Kevin Cheng (chengn@stu.ca)
+	Matt Cortes (link@alpha.pulsar.net)
+	Mark Rosten (mark@barney.dungeon.com)
+	Craig Daily (cadaily@usa.pipeline.com)
+We wouldn't have got past 1.0, let alone the rest, if it wasn't 
+for these guys/gals.
+
+Also, major thanks goes to Tom (rist@pacbell.net) for writing the 
+TeamFortress Semi-Technical FAQ, which can be got from the WWW page.
+
+And finally, thanks must go to Mike Kaminski (LKKAM@msn.com), for pointing
+out the stupidest mistake I've made for a while :)
+
+What are we working on now?
+Version 1.4 is going to have two new classes :
+	Spy, Engineer
+Also, we'll have simple 'bot code for people who don't have enough
+players in their neighbourhood to have enough players on each team:
+	SniperBot, SoldierBot, MedicBot, HeavyWeaponsBot, and Turrets.
+
+I'm happy to help with any questions about the source you have.
+One thing that we took pains to do was to make almost _everything_ #defined. 
+You can 'tweak' 90% the game details just by editing the defs.qc
+
+Finally, if you want to talk to me, or play me, I can usually be found
+most nights of the week on quake1.mel.aone.net.au, or quake.netspace.net.au
+I'll be happy to answer any questions, or talk over suggestions.
+
+Robin. (Bro in Quake)
+walker@netspace.net.au
+
+==============================================================================
+Version info for those that interested:
+--------------------------------
+Version 1.35 - Released 30/11/96
+--------------------------------
+Features added:
+	- Menu for teams and classes.
+	- Rocket ammo boxes sometimes give grenades
+	- Ammo dropping.
+	- Key dropping.
+	- Toggleflag added:
+		- Manual-Color. If it's not on, team colors are automatically assigned.
+
+Changes:
+	- Quake's autoaiming put back in for sniper rifle
+	- Console commands now usable while dead
+
+Multiple Compile Modes:
+	- Coop mode version, with:
+		- monsters included
+		- enhanced skill levels
+		- coop mode 2 added, with:
+			- Doors which all players must open.
+	- Net server version, with:
+		- Max. number of flames in world reduced
+		- Sniper rifle beefed up
+		- Sniper rifle autozoom defaults to OFF
+		- General alterations to reduce net traffic
+
+--------------------------------
+Version 1.34 - Internal Version
+--------------------------------
+Features added:
+	- Monster's put back in.
+	- Co-Op version implemented.
+
+--------------------------------
+Version 1.33 - Released 11/11/96
+--------------------------------
+Bugs Removed:
+	- Nextlevel command not working.
+
+--------------------------------
+Version 1.32 - Released 10/11/96
+--------------------------------
+Features added:
+	- Nextlevel command.
+		Players can use the "Nextlevel" command to cycle through the
+		v1.3 FortressMaps and choose which one will be played when the
+		current one ends.
+	- Deathmatch 3 setting.
+		When in deathmatch 3, players can choose the class they will
+		respawn as.
+
+Changes:
+	- Removed all pre-impulses.
+	  	We used these in LAN games and they're fine. But on the net,
+	  	the lag can cause problems with them. So they're gone. We 
+	  	have left in the pre-impulses for Detpacks and Scanners so
+	  	players can still define their own time settings/energy levels.
+	- Detpack setting changed.
+	  	Instead of stopping you for 4 seconds when you set a detpack,
+	  	now you have to hold down the Detpack-Set key for 4 seconds
+	  	without moving, and you can stop and run at any time.
+	 	The old method is still there if you want to use it instead.
+	- Sniper Rifle changed.
+		It takes a little longer to build up the damage now, so snap-shots
+		won't kill so much. Aiming still builds up the damage.
+		Also, the Sniper must stop moving before he can start to aim.
+	- Team Color Checking
+		Now it doesn't penalise the player in any way for changing colors,
+		it just sets them back. Players with lag on servers would get 
+		penalised before they're colors had been set when they joined a 
+		team. :)
+
+Bugs Removed:
+	- Announcing of class choices when deathmatching.
+	- Sniper aiming not incrementing damage.
+	- Teamfrags not keeping correct count.
+	- Team 4 wasn't working.
+
+--------------------------------
+Version 1.31 - Released 4/11/96
+--------------------------------
+Features added:
+	- Class choices are announced to Team Members.
+
+Changes:
+	- Pyro Class made a little weaker, as follows:
+		- Flames on Players burn for half as long.
+		- Incendiary Cannon has a smaller radius.
+
+Bugs Removed:
+	- Pipebomb's crashing the server.
+		"I just commented out the debug!" John cried :)
+	- Grenade names in inventory fixed.
+	- Updating of Current Ammo fixed.
+	- Weapon firing in air fixed.
+		"Who the hell is DeMorgan?!?!" Robin screams :)
+	- Speed resetting when a GoalItem is removed corrected.
+	- Detpack activation of Goals fixed.
+
+--------------------------------
+Version 1.3  - Released 31/10/96
+--------------------------------
+Features added:
+	- Lives for players in each team.
+	- More Toggleables added.
+		- TeamFrags
+		- Server Only
+	- Napalm Grenades added
+	- Others, but I can't remember them. :)
+
+Changes:
+	- Entire TeamFortress Map code rewritten.
+	  Huge amount of changes and added functionality for them.
+	  See the tfortmap.txt for complete details.
+
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+		 Heavy Weapons Guy, Pyro, RandomClass.
+
+Bugs Removed:
+	- Respawn Delays fixed.
+	- Inventory display of second Grenade type fixed.
+	- Lotsa other small things
+
+--------------------------------
+Version 1.21 - Released 17/9/96
+--------------------------------
+Bugs Removed:
+	- Assault Cannon backpack/cooling bug fixed.
+	- BioWeapon not infecting monsters bug fixed.
+	- Megahealth always curing infection bug fixed.
+	- Detpack stuffcmd failure bug fixed.
+	- Medikit non-precached sound bug fixed.
+	- Deathmatch Everyone-respawn-in-the-same-place bug fixed.
+	- Heavy Weapon Guy's weapons cleaned up.
+
+--------------------------------
+Version 1.2	- Released 11/9/96
+--------------------------------
+Features added:
+	- TeamFortressMap Goal Support (Yeeha!)
+	- Bioweapon for the Combat Medic
+	- More Toggleables added.
+		- Auto Teaming
+		- Respawn Delays
+	- Players start in Observer mode.
+
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+		 Heavy Weapons Guy, RandomClass.
+
+Changes:
+	- Rewrote various sections to reduce variable use
+	- Changed Team Spawnpoints handling
+	- Team Members now only damage each other with Area-Effect weapons.
+	- Armor doesn't protect against drowning, etc.
+	- Remove telefragging.
+	- Concussion grenade toned down a little.
+	- Rewrote all the code for timers. Not only does it
+	  now save variable space, it also makes sure we clean
+	  up _all_ timers.
+
+Bugs Removed:
+	- John got it! The nastiest bug we've had yet!! Bye bye Zmalloc error!
+	- Medikit bug fixed
+	- Toggleflags being incorrectly passed between levels fixed
+
+Known Bugs:
+	- The Assault Cannon cooling still isn't perfect.
+
+--------------------------------
+Version 1.1	- Released 31/8/96
+--------------------------------
+Features added:
+	- Help revamped.
+	- Aliases for Help, Detpacks, and Scanners added.
+	- Multiple Player skin support added.
+	- Added World Toggleables handling.
+		- Classkin and Multiskin Toggle added.
+		- Class persistence between levels Toggle added.
+		- Cheatchecking Toggle added.
+        - TeamFortressMap Toggle added.
+	- Detpack CountDown added.
+	- Scanner now gives directions of blips
+	- NetServer setting which uses no non-standard quake files
+	- TeamFortress Map Support (Yeah!!)
+
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+		 Heavy Weapons Guy.
+
+Changes:
+	- Undefined players are now invincible, but can't move.
+
+Bugs Removed:
+	- Detpack was spawning two objects.
+	- Gibbed while Reloading bug fixed.
+	- Dying while concussed bug fixed.
+
+--------------------------------
+Version 1.1	- Released 24/8/96
+--------------------------------
+Initial Release
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic
+

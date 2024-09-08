@@ -1,0 +1,322 @@
+*==============================================================*
+*   TeamFortress v1.37
+* 
+* Written by Robin Walker and John Cook. 
+*==============================================================*
+
+ALL THOSE INTERESTING IN PLAYING TEAMFORTRESS MUST READ THIS!!!!!!
+
+Heya kids. In light of all these Quake DM and CTF servers that have popped, 
+I felt it was time for something new to keep things interesting so I've set 
+up a TeamFortress server. I clipped the most important info from the 
+readme.txt and am posting it to get everyone started. In TeamFortress, 
+different players have different abilities, so playing as a team is vital 
+for winning. It is not like DM or CTF where you can start running around 
+and blasting the other team the second you join which is why it's VERY 
+important that you read this! 
+
+Questions, comments, complaints? Visit the TeamFortress WWW page:
+	
+	http://minyos.its.rmit.edu.au/~cookj/index.htm
+
+Player Classes
+--------------
+TeamFortress uses multiple player classes. Whenever a new map is loaded,
+all players start in Observer mode (0 armour, 1 health, 0 ammo, don't panic just yet)
+When in Observer Mode, players can use their fire button to cycle
+through all the observation points on a map, and watch the action.
+To get out of Observer Mode, players must choose a class.
+To choose a class, type it in the console. Once a player class 
+is chosen, you cannot change class for the rest of that level.
+Players now have skins denoting what class they are. This allows you
+to determine both the class and team of other players.
+The classes implemented so far are as follows:
+
+	SCOUT:		Fastest moving class. Can only wear a small amount of the 
+			lowest absorption armor. Limited to the 2 Shotguns and Nailgun.
+			Low ammo levels.
+			Carries a Motion Detector, 3 flares, 2 concussion grenades.
+
+	SNIPER:		Medium speed. Wears only small amount of armor, upto medium
+			absorption level. Limited to Nailgun and Sniper's rifle. Medium
+			ammo levels.
+			Carries 2 hand grenades.
+
+	SOLDIER:	Slow moving class. Wears large amount of armor, at all 
+			absorption levels. All normal weapons except Grenade Launcher.
+			High ammo levels.
+			Carries 5 hand grenades, 1 nail grenade.
+
+	DEMOLITION MAN: Medium speed. Wears medium amount of armor, upto medium
+			        absorption level. Uses the ShotGun and Grenade/Pipebomb Launcher
+		                        Carries 1 DetPack, 6 hand grenades, 4 Mirv Grenades.
+
+	COMBAT MEDIC: Medium speed. Wears medium amount of armor, upto medium
+			   absorption level. Uses both Shotguns and the Super Nailgun.
+			   Carries Medikit, 3 hand grenades, 2 concussion grenades.
+			   Regenerates slowly. Has a Bioweapon.
+
+	HEAVY WEAPONS GUY: The slowest moving class of all. Lotsa armor, high
+				absorption levels. Uses both Shotguns, the Nailgun, and
+				the Assault Cannon (yeah!)
+				Carries 4 hand grenades and 1 Mirv Grenade.
+
+	PYRO:		Medium speed. Wears some flame-resistant armor.  Uses the 
+			shotgun, flamethrower, and incendiary cannon. 
+			Carriers 1 hand grenade and 4 Napalm grenades.
+
+	RANDOM CLASS: Each time you respawn you have your class randomly 
+		 	   assigned to you.
+
+New Weapons
+-----------
+Please note that the New Weapons do not show up on the row of weapon
+icons in the status bar. There is a reason for this. At first, we used
+to light up the weapon icon corresponding to the number of the New Weapon.
+For example, the Heavy Weapons Guy has the Assault Cannon, and can select
+it by pressing 7. So we lit up the Rocket Launcher icon. We immediately
+got lots of mail from people saying "I can't get the rocket launcher
+readied when I'm the Heavy Weapons Guy!".
+So we don't light them up.
+Sorry, no grappling hook (yet) for those of you that have grown fond of them.
+
+Sniper Rifle:
+	This weapon is used instead of the shotgun by the SNIPER playerclass. It
+	uses shotgun shells for ammo, and operates in two modes:
+		- Single Shot. With a reload time of 2.5 seconds, this mode is what
+		  sniping is all about. One shot from this will kill most players
+		  except for a heavily armored SOLDIER or DEMOLITION MAN.
+		  The longer you aim, the more damage the sniper shot will do.
+	             **To aim, just keep holding down the fire button. 
+		  		   When aiming, the view slowly zooms in.**
+ 		  You can disable this feature using the "autozoom" command.
+		- Auto Shot. Although this fire mode does a lot less damage than
+		  single shot and uses a lot of ammo, its great for picking off
+		  a wounded target, or a fast moving SCOUT.
+	The other tricky bit about the sniper rifle is that it is a rifle. You
+	can't just snap shot from the hip with it. If you're moving too fast,
+	the rifle simply won't fire. Besides, you're a sniper, you're not
+	supposed to be strafe-fighting with soldiers! :)
+	Select it as if it was the shotgun.
+
+Assault Cannon:
+	Big! Fires lotsa bullets! Really fast!
+	What more do you want?
+	It's used by the Heavy Weapons Guy. Select it like you would the
+	Rocket Launcher. It takes 10 cells just to power up each time you 
+	pull the trigger, and then starts to eat up your shotgun ammo like 
+	you wouldn't believe!
+	It also tends to eat up enemies too, so it isn't all bad :)
+	As you fire the Assault Cannon, it gets hotter and harder to control. 
+	After firing, it has to cool. This can take a while, and is dependant 
+	on how long you fired it for, natch :)
+	Luckily, cooling requires no effort on your part, so you can change
+	weapons while you wait.
+	Oh, you can't move while firing either, and you can't fire when
+	you're not on the ground.
+	Select it as if it was the rocket launcher.
+
+BioWeapon:
+	This weapon is used by the COMBAT MEDIC. The COMBAT MEDIC's axe has two
+	modes: Medikit and BioWeapon. In Bioweapon Mode, when the COMBAT MEDIC
+	hits someone with the axe, they will become infected, and begin to lose
+	health. Anyone coming in contact with an infected person also becomes
+	infected. Infection can be cured by the COMBAT MEDIC's medikit.
+	COMBAT MEDICS are immune to the Bioweapon.
+
+Incendiary Cannon:
+	This weapon is used in place of the rocket launcher by the PYRO class.
+	It does a little damage, and sets everyone in radius on fire. 
+	Select it as if it was the rocket launcher.
+
+Grenades
+--------
+Several new types of grenades now exist, and all classes have access to at
+least one of them. They are not to be confused with the grenades used by
+the grenade launcher.
+Use of these grenades is exactly as one would expect. Pull the pin, throw
+it, and wait. After 3 seconds it goes off. Just make sure you throw it
+_before_ the 3 seconds are up :)
+Use the inventory alias (see below) to detemine which key activates which grenade; i.e. the first type of
+grenade listed will be fired with the key bound to "primeone; throwgren"
+The grenade types are as follows:
+	Hand		:	Hand grenades simply explode. They are twice as powerful
+					as those shot from the grenade launcher.
+
+	Concussion	:	Concussion grenades don't actually hurt anyone, they just
+					blow everyone away from the grenade explosion at a high
+					speed, and then make them woozy. They're the SCOUT's best 
+					way of escaping from a roomful of enemies. The ensuing 					confusion usually gives him enough time to run.
+
+	Nail		:	Nail grenades are good in large rooms. Instead of detonating,
+					they raise up into the air and hover. They then begin to 
+					rotate while firing nails. After doing this for a few seconds
+					they explode like a normal grenade.
+
+	Mirv		:	Mirv grenades are room-clearers. When one explodes,
+					it divides into approximately 15 individual grenades which
+					then explode.
+
+	Napalm		:	When these explode they throw flames out in all directions,
+					setting things, like players, alight.
+
+New Items
+---------
+Motion Detector:
+	This item is the SCOUT's best friend. The SCOUT can specify an amount of
+	cells spent on a scan. The detector displays a list of all enemies/friends
+	within a distance around the SCOUT, and their direction in relation to the 
+	SCOUT. The more energy spent, the larger the detection distance.
+	Bear in mind though that the motion detector only detects motion (natch! :)
+	So it won't pick up stationary or very slow moving players.
+	You can toggle detection of friends and enemies using the aliases "scane" and "scanf"
+	or impulse 1 and 2 after the Pre-Impulse. For more information on 
+	Pre-Impulses, see the Impulse Summary.
+
+Medikit:
+	The COMBAT MEDIC has a medikit which allows him to heal any other member
+	of his/her team by hitting them with his axe, when it is in Medikit Mode. 
+	Each hit will heal them	10 points and reduce the 'ammo' for the medikit 
+	by 10. You can see how much 'ammo' for the medikit you have by looking 
+	at your inventory. If the COMBAT MEDIC walks over a health box while at 
+	maximum health, the health box will be used to replenish the medikit 'ammo'.
+
+Detpack:
+	The DEMOLITION MAN has a Detpack. This is a large-scale explosive device.
+	To set the Detpack (using my example config), you must hold the "enter" key for 
+	4 seconds without moving. You can retrieve the Detpack and run if an enemy 
+	gives you a hard time before it's set.
+	 
+	The timer on the Detpack is set by the DEMOLITION MAN. e.g. After the 
+	Pre-Impulse, an Impulse of 10 sets the timer for 10 seconds. For more 
+	information on Pre-Impulses, see the Impulse Summary.
+	Scouts can disarm them by running over them :)
+
+New Rules
+---------
+Reloading:
+	All basic weapons except the Nailgun and Super Nailgun have clips. When all
+	the ammo in a clip is spent, the weapon is reloaded. This can take anywhere
+	from 1 second for the Shotgun to 5 seconds for the Rocket Launcher. Ammo
+	amounts in the clips varies between weapons.
+	While reloading, you cannot change weapons.
+
+Armor Classes:
+	There are various classes of armor now, which protect against various
+	different attack types. Each playerclass is restricted to using only
+	certain types. 
+	You can find out what class of armor you're wearing using the Inventory
+	command. When you pick up armor, the message displayed will tell you
+	what armor class it is, if any.
+
+
+
+
+Alias Summary
+--------------
+There are many new aliases in TeamFortress and stopping to type them in the console would probably
+prove suicidal in an intense game. I've bound the most common commands and included a config.cfg
+as an example. Feel free to use this to get started. 
+The aliases that are automatically created for you by TeamFortress are:
+
+Help Related
+	helpme			:	Display Help Index
+	generalhelp		:	Display General command help
+	classhelp		:	Display Class command help
+	weaponhelp		:	Display Weapon command help
+	itemhelp			:	Display Item command help
+	skinhelp			:	Display Skin command help
+	teamhelp		:	Display Team command help
+	preimphelp		:	Display Pre-Impulse help 
+	showpreimp		:	Display a list of the Pre-Impulses used
+	showimp		:	DIsplay a list of the Impulses used
+
+General
+	inv			:	Display your inventoryChanging
+	scout			:	Change class to Scout
+	sniper			:	Change class to Sniper
+	soldier			:	Change class to Soldier
+	demoman		:	Change class to Demolitions Man
+	medic			:	Change class to Combat Medic
+	hwguy			:	Change class to Heavy Weapons Guy
+	pyro			:	Change class to Pyro
+	randompc		:	Change class to Random Class
+	primeone		:	Prime a grenade of Type 1
+	primetwo		:	Prime a grenade of Type 2
+	throwgren		:	Throw whatever grenade you've primed
+Pipebombs
+	detpipe			:	Detonate all your pipebombs
+Scanner
+	scane			:	Toggle detection of enemies with the Scanner
+	scanf			:	Toggle detection of friendlies with the Scanner
+Sample aliases for the Scanner
+	scan10			:	Scan using 10 cells	
+	scan50			:	Scan using 50 cells	
+	scan250			:	Scan using 250 cells
+Sample aliases for the Detpack
+	det5			:	Set your detpack for 5 seconds	
+	det20			:	Set your detpack for 20 seconds	
+	det250			:	Set your detpack for 250 seconds
+Skin Selection
+	nextskin			:	Change skin to the next skin in the player.mdl 
+	prevskin			:	Change skin to the previous skin in the player.mdl 
+
+Sample aliases for Set Skin
+	skin10			:	Change skin to number 10 in the player.mdl
+	skin20			:	Change skin to number 20 in the player.mdl
+
+Team Handling
+	imin1			:	Start/Join Team 1
+	imin2			:	Start/Join Team 2
+	imin3			:	Start/Join Team 3
+	imin4			:	Start/Join Team 4
+	showscores		:	Display Team Scores
+	showclasses		:	Display the Classes of your Team Members
+
+The sample aliases are examples of how the Pre-Impulses commands are used.
+For more information on Pre-Impulses and how to create your own aliases for
+Scanner/Detpack/Setskin etc, see the Impulse Summary.
+
+
+
+Impulse Summary
+---------------
+In version 1.0 everything relied on Impulses. Now, it's all bound to aliases.
+This means you don't have to know the impulses unless you want to merge this
+with another patch, in which case you can look at the code, or type "showimp"
+in the console.
+The only thing I should mention is Pre-Impulses. A Pre-Impulse is an impulse
+which must be used before another impulse. The second impulse can then be
+interpreted in a different way.
+For example:
+	The SCOUT's Motion Detector has a Pre-Impulse of 249. You specify the 
+	amount of energy you want to spend on the scan with an impulse after it.
+	So if you wanted to use 50 energy to scan, you would do Impulse 249
+	followed by Impulse 50. The recommended way to do this is to bind
+	a key to an alias. In the console, you could do this:
+		alias scan_50 "impulse 249; wait; impulse 50"
+		bind S scan_50
+	This would make 'S' do a scan using 50 energy.
+There are already aliases created for all Pre-Impulse things, but you might 
+to make your own, for different time/energy usages.
+You will probably want to make an alias to set your favourite skin when 
+playing Multiskin, so you don't have to use nextskin 14 times if you
+like skin 15. Create an alias which does the Multiskin Pre-Impulse(202), and 
+then does the Impulse matching the skin you want, e.g. 15.
+
+
+Example config.cfg
+------------------------
+I'd suggest clipping these aliases and pasting them into your own config.cfg
+
+bind "ENTER" "+det5"
+bind "b" "detpipe"
+bind "e" "scane"
+bind "f" "scanf"
+bind "i" "inv"
+bind "r" "reload"
+bind "s" "scan50"
+bind "ALT" "primetwo; throwgren"	
+bind "CTRL" "primeone; throwgren"
+
+
