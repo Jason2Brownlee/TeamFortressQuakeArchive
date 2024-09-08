@@ -44,12 +44,13 @@ Release Date | File | Description
 1997-05-21 | tf25btg.zip | TeamFortress v2.5 Beta G
 1997-05-27 | tf25bth.zip | TeamFortress v2.5 Beta H
 1997-06-03 | tf25bti.zip | TeamFortress v2.5 Beta I
+1997-06-?? | tf25btj.zip | TeamFortress v2.5 Beta J
 1997-06-10 | ? | TeamFortress v2.5 Final Beta
-1997-06-13 | [tf25rel.zip](bin/tf25rel.zip)<br>[tf25src.zip](bin/tf25src.zip) | TeamFortress v2.5 Final Release
+1997-06-13 | [tf25rel.zip](bin/tf25rel.zip) ([txt](bin/tf25rel.txt))<br>[tf25src.zip](bin/tf25src.zip) | TeamFortress v2.5 Final Release
 1997-06-15 | [tf25fix.zip](bin/tf25fix.zip) | Team Fortress v2.5 GLQuakeWorld Fix
 ????-??-?? | tf26ffbb.zip | ?
 1997-08-13 | [tf26fb_c.zip](bin/tf26fb_c.zip) | TeamFortress v2.6 Final Beta
-1997-08-14 | [tf26fb.zip](bin/tf26fb.zip) | TeamFortress v2.6 Final Beta
+1997-08-14 | [tf26fb.zip](bin/tf26fb.zip) ([txt](bin/tf26fb.txt)) | TeamFortress v2.6 Final Beta
 1997-08-23 | [tf26crel.zip](bin/tf26crel.zip)<br>[tf26rel.zip](bin/tf26rel.zip)<br>[tf26inst.exe](bin/tf26inst.exe) | TeamFortress v2.6 Final Release
 1997-??-?? | ? | TeamFortress v2.65 Bug Fix A
 1997-??-?? | ? | TeamFortress v2.65 Bug Fix B
