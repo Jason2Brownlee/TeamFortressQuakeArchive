@@ -1,0 +1,197 @@
+*==============================================================*
+* TeamFortress v1.0											   *
+*==============================================================*
+Introduction
+------------
+
+TeamFortress is a new QuakeC patch which radically changes
+team games. It provides far more incentive for teams to 
+actually work as a team. Each member of the team has unique
+weapons, items, and abilities.
+
+It is most fun to play on a map with two, or more, clearly defined
+team fortresses, or bases. We're a little limited until we 
+write a good map for it, but until then, try some of quake's
+levels. Define the team areas, and a goal or two. 
+For example, we sometimes play on e1m1. Its not a big map, so 
+we play with two teams of 4. One team's base is the room containing
+the end of level slipgate. The other team starts at the bridge
+outside, and has to finish the level. The first team has to
+prevent the other team from finishing the level.
+
+Once you have some clear goals like this, and start using the 
+individual class's abilities to complement each other, it's a hell
+of a lot of fun! :)
+
+Oh, and one more thing, I know there are some things in this
+patch, such as pipe-bombs, that are in other patches, but they're 
+here because they're good to have. I'd far rather people complain 
+about our lack of originality than say "Why the hell didn't they 
+put in pipebombs?" :)
+
+Oh yeah, don't bother running.
+
+Player Classes
+--------------
+
+TeamFortress uses multiple player classes. Whenever a new map is loaded,
+all players start as an Undefined class. This class has 1 health, an axe,
+and cannot pick up anything. Once a player class is chosen, you cannot
+change class for the rest of that level. To choose a class, just use the
+appropriate impulse. (See Impulse Summary)
+The classes implemented so far are as follows:
+	SCOUT:		Fastest moving class. Can only wear a small amount of the 
+				lowest absorption armor. Limited to the 2 Shotguns and Nailgun.
+				Low ammo levels.
+				Carries a Motion Detector, 2 grenades, 3 concussion grenades.
+
+	SNIPER:		Medium speed. Wears only small amount of armor, upto medium
+				absorption level. Limited to Nailgun and Sniper's rifle. Medium
+				ammo levels.
+				Carries 2 grenades.
+
+	SOLDIER:	Slowest moving class. Wears large amount of armor, at all 
+				absorption levels. All normal weapons except Grenade Launcher.
+				High ammo levels.
+				Carries 4 grenades, 4 nail grenades.
+
+	DEMOLITION MAN: Medium speed. Wears medium amount of armor, upto medium
+				absorption level. Uses the ShotGun and Grenade/Pipebomb Launcher
+				Carries 1 DetPack, 6 grenades, 4 Mirv Grenades.
+
+	COMBAT MEDIC: Medium speed. Wears medium amount of armor, upto medium
+				absorption level. Uses both Shotguns and the Super Nailgun.
+				Carries Medikit, 3 grenades, 2 concussion grenades.
+				Regenerates slowly.
+
+New Weapons
+-----------
+Sniper Rifle:
+	This weapon is used instead of the shotgun by the SNIPER playerclass. It
+	uses shotgun shells for ammo, and operates in two modes:
+		- Single Shot. With a reload time of 3 seconds, this mode is what
+		  sniping is all about. One shot from this will kill most players
+		  except for a heavily armored SOLDIER or DEMOLITION MAN.
+		- Auto Shot. Although this fire mode does a lot less damage than
+		  single shot and uses a lot of ammo, its great for picking off
+		  a wounded target, or a fast moving SCOUT.
+	The other tricky bit about the sniper rifle is that it is a rifle. You
+	can't just snap shot from the hip with it. If you're moving too fast,
+	the rifle simply won't fire. Besides, you're a sniper, you're not
+	supposed to be strafe-fighting with soldiers! :)
+
+Grenades
+--------
+Several new types of grenades now exist, and all classes have access to at
+least one of them. They are not to be confused with the grenades used by
+the grenade launcher.
+Use of these grenades is exactly as one would expect. Pull the pin, throw
+it, and wait. After 3 seconds it goes off. Just make sure you throw it
+_before_ the 3 seconds are up :)
+The grenade types are as follows:
+	Normal		:	Normal grenades simply explode. They are twice as powerful
+					as those shot from the grenade launcher.
+
+	Concussion	:	Concussion grenades don't actually hurt anyone, they just
+					blow everyone away from the grenade explosion at a high
+					speed, and then make them woozy. They're the SCOUT's best 
+					way of escaping from a roomful of enemies. The ensuing confusion 
+					usually gives him enough time to run.
+
+	Nail		:	Nail grenades are good in large rooms. Instead of detonating,
+					they raise up into the air and hover. They then begin to 
+					rotate while firing nails. After doing this for a few seconds
+					they explode like a normal grenade.
+
+	Mirv		:	Mirv grenades are room-clearers. When one explodes,
+					it divides into approximately 15 individual grenades which
+					then explode.
+
+New Items
+---------
+Motion Detector:
+	This item is the SCOUT's best friend. The SCOUT can specify an amount of
+	cells spent on a scan. The detector displays a list of all enemies/friends
+	within a distance around the SCOUT. The more energy spent, the larger
+	the detection distance.
+	Bear in mind though that the motion detector only detects motion (natch! :)
+	So it won't pick up stationary or very slow moving players.
+	You can toggle detection of friends and enemies using impulse 1 and 2 after
+	the Pre-Impulse. For more information on Pre-Impulses, see the Impulse Summary.
+
+Medikit:
+	The COMBAT MEDIC has a medikit which allows him to heal any other member
+	of his/her team by hitting them with his axe. Each hit will heal them
+	10 points and reduce the 'ammo' for the medikit by 10. You can see how
+	much 'ammo' for the medikit you have by looking at your inventory. If
+	the COMBAT MEDIC walks over a health box while at maximum health, the 
+	health box will be used to replenish the medikit 'ammo'.
+
+Detpack:
+	The DEMOLITION MAN has a Detpack. This is a large-scale explosive device.
+	When the DEMOLITION MAN places it he is unable to move for 4 seconds
+	while he primes it.
+	The timer on the Detpack is set by the DEMOLITION MAN. e.g. After the 
+	Pre-Impulse, an Impulse of 10 sets the timer for 10 seconds. For more 
+	information on Pre-Impulses, see the Impulse Summary.
+
+New Rules
+---------
+Reloading:
+	All weapons except the Nailgun and Super Nailgun have clips. When all
+	the ammo in a clip is spent, the weapon is reloaded. This can take anywhere
+	from 1 second for the Shotgun to 5 seconds for the Rocket Launcher. Ammo
+	amounts in the clips varies between weapons.
+	While reloading, you cannot change weapons.
+
+Impulse Summary
+---------------
+The most important impulse number is 254. This impulse gives you a list
+of all the impulses in the game. Simply read it. 
+The only other thing to mention is Pre-Impulses. A Pre-Impulse is an impulse
+which must be used before another impulse. For example:
+	The SCOUT's Motion Detector has a Pre-Impulse of 249. You specify the 
+	amount of energy you want to spend on the scan with an impulse after it.
+	So if you wanted to use 50 energy to scan, you would do Impulse 249
+	followed by Impulse 50. The recommended way to do this is to bind
+	a key to an alias. In the console, you could do this:
+		alias scan_50 "impulse 249; wait; impulse 50"
+		bind S scan_50
+	This would make 'S' do a scan using 50 energy.
+
+Other Stuff
+-----------
+TeamFortress was written by Robin Walker and John Cook. Various other people
+contributed ideas to it. I can't hope to list them all, but here's some of them:
+	Ian Caughley, Peter Wilson, Jason Grant.
+
+Of course, some of out ideas grew out of random musings by other people 
+on the net. 
+Finally, some of the code for TeamFortress was influenced by other people's.
+They are as follows:
+	Mirv Grenade code was influenced by Firewall code from Steve Bond (wedge@nuc.net)
+	Pipebomb code was influenced by code from AsmodeusB (tazq@sos.on.ca)
+
+What are we working on now?
+More classes :) Technician, Observer/Referee, 
+More items - Personal Teleporter devices, Deployable autocannons(like Aliens :)
+		   - JumpJets, Personal Shields Generators, Rebounding Shield
+		   - Armor protecting against specific weapons
+More weapons - BioDiseases,
+More grenades - Shock gren.(get out of the water!), Teleport Grenades
+Skins for each class
+Mdls for all weapons and grenades
+And some maps built specifically for this code.
+
+If you're interested in using some/all of this code for a server, 
+then all I ask is one thing: Mail me (address below) and tell me. 
+I'd like to know if anyone uses it as a server, simply because I'd like 
+to play a server on the net using this code. 
+Since I don't have a server...;)
+
+I'm happy to help with any questions about the source you have.
+One thing that we took pains to do was to make almost _everything_ #defined. 
+You can 'tweak' 90% the game details just by editing the defs.qc
+
+Robin. (Bro in Quake)
+walker@netspace.net.au
