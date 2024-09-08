@@ -76,5 +76,12 @@ Maybe you can help to make this archive more complete.
 * Do you know a better description for one of the above releases?
 * Do you have a missing file for one of the above releases?
 
+### Missing File Wishlists
+
+Below are lists of known files missing from the archive.
+
+* [TeamFortress Filename Wishlist](research/wishlist.txt): list of known files missing from the archive.
+* [TeamFortress URL Wishlist](research/wishlist_urls.txt): list of broken URLs for files missing from the archive.
+
 If you can help, please contact me directly: jason.brownlee05@gmail.com
 
