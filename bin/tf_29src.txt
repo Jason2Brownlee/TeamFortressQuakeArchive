@@ -1,0 +1,28 @@
+Source: https://archive.org/details/tf_29src
+
+This is the complete source code to Team Fortress 2.9 for Quake.
+
+You will need to use PreQCC to compile this. I've included it here for prosperity. It's obsolete these days.
+
+If you don't want to figure out PreQCC, I've included a fixed .zip which includes a working Makefile for UNIX like systems that will compile the qwprogs.dat with the modern fteqcc compiler.
+
+The last official version of Team Fortress that had its Source Code released was TF 2.5 - so this needs to be preserved separately. This archive never saw an official release.
+
+This was due to the team possibly being fed up with the attitude of the Quake community at the time, there being confusion between different 'ports' of Team Fortress and more.
+
+This statement was published after the release of Team Fortress 2.5:
+If you're creating a Full TF Port... we'd prefer you didn't.
+We don't really want to see other patches floating around with 2 or 3 new classes added and the Scout removed. It's not that we don't want competition for TF... it's just that we don't want to see other patches that are built on the TF base.
+And promising us that you'll remove all TF's existing classes and create new ones doesn't help... you're still using the TF foundation code, with the inbuilt map code, etc. And if you're not using that, why not just write your own mod from scratch?
+
+We will still continue to release the TF source code, because we still believe it's useful to others out there. We learnt qc by example, and we want to help other qc coders.
+If there's something in TF that you want to use in your own patch, such as the menu system, etc, then by all means use our code. We're just trying to discourage others from using the TF code as the entire base for building their own patch.
+
+Of course, we realise we can't stop anyone from going ahead with a TF port anyway... but bear in mind it'll definately affect our decision to continue releasing the TF source code.
+
+We release the TF source so fledgling qc coders have more example qc to look through and learn from. We don't release it so people can play cut'n'paste to make their own patch.
+
+
+Addeddate 2022-02-25 23:33:55
+Identifier tf_29src
+Scanner Internet Archive HTML5 Uploader 1.6.4
