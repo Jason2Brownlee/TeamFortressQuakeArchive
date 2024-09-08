@@ -63,6 +63,7 @@ Release Date | File | Description
 1998-05-23 | [tf28.zip](bin/tf28.zip)<br>[tf28inst.exe](bin/tf28inst.exe)<br>[tf28upgr.zip](bin/tf28upgr.zip) | TeamFortress v2.8
 1998-05-25 | ? | TeamFortress v2.81
 1998-10-23 | [tf29qw.zip](bin/tf29qw.zip) | TeamFortress v2.9
+2022-02-26 | [tf_29src.zip](bin/tf_29src.zip)<br>[tf_29src_fteqcc.zip](bin/tf_29src_fteqcc.zip)<br>[preqcc.zip](bin/preqcc.zip) | TeamFortress v2.9 Source Final
 
 * **Date Format**: YYYY-MM-DD.
 * **No Link**: indicates that we could not locate a copy of the file yet.
