@@ -9,7 +9,10 @@ ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_net.zip
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
+http://jord.sbc.edu/files/tf/qwtf2.zip
 http://jord.sbc.edu/files/tf/tf203src.zip
+http://jord.sbc.edu/files/tf/tf2files.zip
+http://jord.sbc.edu/files/tf/tf2src.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_cl.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_lan.zip
