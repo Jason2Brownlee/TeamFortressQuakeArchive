@@ -9,6 +9,7 @@ ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_net.zip
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
+ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
 http://jord.sbc.edu/files/tf/qwtf2.zip
 http://jord.sbc.edu/files/tf/tf203src.zip
 http://jord.sbc.edu/files/tf/tf2files.zip
@@ -32,6 +33,7 @@ http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_net.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_src.zip
+http://www.clanmegadeath.com/fanon/files/tf265d.zip
 http://www.planetquake.com/teamfortress/files/25betaf.zip
 http://www.planetquake.com/teamfortress/files/25files.zip
 http://www.planetquake.com/teamfortress/files/newfiles.zip
