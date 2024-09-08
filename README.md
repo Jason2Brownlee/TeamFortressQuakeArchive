@@ -6,7 +6,7 @@ From the readme:
 
 > TeamFortress is a new QuakeC patch which radically changes team games. It provides far more incentive for teams to actually work as a team. Each member of the team has unique weapons, items, and abilities.
 
-## TeamFortress Release List
+## TeamFortress Releases
 
 Chronological list of official releases in [bin/](bin/) including date, filename link, and description.
 
@@ -18,7 +18,7 @@ Release Date | File | Description
 1996-09-17 | [tf1_21pr.zip](bin/tf1_21pr.zip)<br>[tf1_21sc.zip](bin/tf1_21sc.zip) | TeamFortress v1.21
 1996-10-28 | [tfeev1_0.zip](bin/tfeev1_0.zip)<br>[tf_maps.zip](bin/tf_maps.zip) | TeamFortress Entity Editor v1.0 and sample maps
 ????-??-?? | tfeev1_1.zip | TeamFortress Entity Editor v1.1
-1996-10-31 | ? | TeamFortress v1.3
+1996-10-31 | [tf1_3.zip](bin/tf1_3.zip) | TeamFortress v1.3
 1996-11-04 | ? | TeamFortress v1.31
 1996-11-10 | ? | TeamFortress v1.32
 1996-11-11 | tf1_33.zip | TeamFortress v1.33
