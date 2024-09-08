@@ -12,7 +12,7 @@ Chronological list of official releases in [bin/](bin/) including date, filename
 
 Release Date | File | Description
 --- | --- | ---
-1996-08-22 | [fortv1_0.zip](bin/fortv1_0.zip) ([txt](bin/fortv1_0.txt))<br>[tf1.zip](bin/tf1.zip)<br>[tf1qc.zip](bin/tf1qc.zip) | TeamFortress v1.0
+1996-08-22 | [fortv1_0.zip](bin/fortv1_0.zip) ([txt](bin/fortv1_0.txt)) | TeamFortress v1.0
 1996-08-31 | [tf1_1src.zip](bin/tf1_1src.zip) | TeamFortress v1.1
 1996-09-11 | [tf1_2src.zip](bin/tf1_2src.zip) | TeamFortress v1.2
 1996-09-17 | [tf1_21pr.zip](bin/tf1_21pr.zip)<br>[tf1_21sc.zip](bin/tf1_21sc.zip) | TeamFortress v1.21
