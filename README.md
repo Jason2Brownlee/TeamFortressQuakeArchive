@@ -1,6 +1,6 @@
 # TeamFortress Quake Archive
 
-Archives of all official releases of TeamFortress for Quake 1.
+Archive of all official releases of TeamFortress for Quake 1.
 
 Includes TeamFortress Quake (TFQ) and TeamFortress Quakeworld (TFQW) clients and servers. Does not include maps.
 
