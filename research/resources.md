@@ -18,4 +18,4 @@ Other TeamFortress Quake file archives.
 * [[UPDATE] TeamFortress Version 1.1](https://groups.google.com/g/rec.games.computer.quake.announce/c/Fzk7vCmp7MI/m/piBQXsNygawJ), rec.games.computer.quake.announce, Robin, 2 Sept 1996
 * [Team Fortress 2.9 Source Code](https://www.quakeworld.nu/forum/topic/1738/team-fortress-29-source-code) Discussion of unreleased v2.9 QuakeC source code.
 * [FortressOne QWTF File Archive](https://fortressone-package.s3.amazonaws.com/index.html)
-
+* [r/tfarchive Subreddit](https://www.reddit.com/r/tfarchive/)
