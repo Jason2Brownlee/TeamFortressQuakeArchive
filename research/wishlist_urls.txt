@@ -46,6 +46,7 @@ http://www.planetquake.com/teamfortress/files/qw25btf.zip
 http://www.planetquake.com/teamfortress/files/qwwf215.zip
 http://www.planetquake.com/teamfortress/files/tf214src.zip
 http://www.planetquake.com/teamfortress/files/tf25btg.zip
+http://www.planetquake.com/teamfortress/files/tf25bti.zip
 http://www.planetquake.com/teamfortress/files/tfeev1_1.zip
 http://www.teamfortress.com/files/teamfortress/TF25BTJ.ZIP
 http://www.teamfortress.com/files/teamfortress/tf265b.zip
