@@ -7,6 +7,8 @@ ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_coop.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_net.zip
 ftp://ftp.pk.edu.pl/pub/games/id/quaketoys/teamfort/tf25_cl.zip
+ftp://ftp.pnc.com.au/pub/quake-addons/25betaf.zip
+ftp://ftp.pnc.com.au/pub/quake-addons/25files.zip
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
