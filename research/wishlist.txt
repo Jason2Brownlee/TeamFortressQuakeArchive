@@ -30,6 +30,7 @@ tf265e.zip
 tf2666bd.zip
 tf26ffbb.zip
 tfeev1_1.zip
+tf26fbc.zip
 
 # guessed at filenames
 qw25bta.zip
