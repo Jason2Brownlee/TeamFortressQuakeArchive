@@ -25,6 +25,7 @@ Release Date | File | Description
 1996-11-11 | tf1_33.zip | TeamFortress v1.33
 1996-11-?? | ? | TeamFortress v1.34
 1996-11-30 | tf1_35.zip ([txt](bin/tf1_35.txt))<br>[v1_35pak.zip](bin/v1_35pak.zip)<br>[net1_35.zip](bin/net1_35.zip)<br>[coop1_35.zip](bin/coop1_35.zip)<br>[1_35nopr.zip](bin/1_35nopr.zip)<br>[v1_35src.zip](bin/v1_35src.zip) | TeamFortress v1.35
+1996-12-07 | ? | TeamFortress v1.36 Beta
 1996-12-17 | tf1_37.zip<br>tf1_37_cl.zip ([txt](bin/tf1_37_cl.txt))<br>tf1_37_coop.zip ([txt](bin/tf1_37_coop.txt))<br>tf1_37_lan.zip ([txt](bin/tf1_37_lan.txt)) <br>tf1_37_net.zip ([txt](bin/tf1_37_net.txt))<br>tf1_37_src.zip ([txt](bin/tf1_37_src.txt))<br>[tf137cl.zip](bin/tf137cl.zip)<br>[tf137src.zip](bin/tf137src.zip) | TeamFortress v1.37
 1996-12-22 | [qwtf2.zip](bin/qwtf2.zip)<br>[qwtf2nnf.zip](bin/qwtf2nnf.zip) | TeamFortress v2.0 Beta
 1996-12-24 | ? | TeamFortress v2.01
