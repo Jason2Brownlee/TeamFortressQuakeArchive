@@ -28,9 +28,11 @@ tf265b.zip
 tf265d.zip
 tf265e.zip
 tf2666bd.zip
-tf26ffbb.zip
 tfeev1_1.zip
 tf26fbc.zip
+
+# exists, but not sure what these are... let's get them and find out
+tf26ffbb.zip
 
 # guessed at filenames (no evidence they exist)
 qw25bta.zip
@@ -63,7 +65,6 @@ tf213src.zip
 tf265a.zip
 tf265c.zip
 
-
 # text files (e.g. could be on ftps like stomped.com, cdrom.com, etc.)
 tf1_1src.txt
 tf1_21pr.txt
@@ -79,3 +80,11 @@ tf1_34.txt
 tf1_35.txt
 tf1_37.txt
 tfeev1_0.txt
+
+# lan hacks of tf - might have useful info (e.g. original release txt files)
+hack_271.zip
+hack271.zip
+hack2811.rar
+hack2811.zip
+hack2811.txt
+clantf30.rar
