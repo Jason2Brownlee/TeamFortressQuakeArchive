@@ -1,6 +1,6 @@
 # teamfortress file wish list
 
-# known filenames
+# known filenames (we have evidence they exist)
 25betaf.zip
 25files.zip
 newfiles.zip
@@ -32,7 +32,7 @@ tf26ffbb.zip
 tfeev1_1.zip
 tf26fbc.zip
 
-# guessed at filenames
+# guessed at filenames (no evidence they exist)
 qw25bta.zip
 qw25btb.zip
 qw25btc.zip
@@ -44,12 +44,27 @@ tf137net.zip
 tf1_31.zip
 tf1_32.zip
 tf1_34.zip
+tf1_36.zip
+tf1_38.zip
+tf1_39.zip
+tf201src.zip
 tf201src.zip
 tf202src.zip
+tf202src.zip
+tf211_cl.zip
+tf211cl.zip
+tf211src.zip
+tf212_cl.zip
+tf212cl.zip
+tf212src.zip
+tf213_cl.zip
+tf213cl.zip
+tf213src.zip
 tf265a.zip
 tf265c.zip
 
-# text files (e.g. stomped.com, cdrom.com, etc.)
+
+# text files (e.g. could be on ftps like stomped.com, cdrom.com, etc.)
 tf1_1src.txt
 tf1_21pr.txt
 tf1_21sc.txt
@@ -64,5 +79,3 @@ tf1_34.txt
 tf1_35.txt
 tf1_37.txt
 tfeev1_0.txt
-
-

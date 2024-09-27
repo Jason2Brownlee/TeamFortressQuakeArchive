@@ -53,7 +53,7 @@ Release Date | File | Description
 1997-??-?? | tf265a.zip | TeamFortress v2.65 Bug Fix A
 1997-??-?? | tf265b.zip | TeamFortress v2.65 Bug Fix B
 1997-??-?? | tf265c.zip | TeamFortress v2.65 Bug Fix C
-1997-??-?? | tf265d.zip | TeamFortress v2.65 Bug Fix D
+1997-11-?? | tf265d.zip | TeamFortress v2.65 Bug Fix D
 1997-12-05 | tf265e.zip | TeamFortress v2.65 Bug Fix E
 1997-12-16 | [tf2666.zip](bin/tf2666.zip) | TeamFortress v2.666
 1997-12-24 | tf2666bd.zip | TeamFortress v2.666 Christmas Mode
