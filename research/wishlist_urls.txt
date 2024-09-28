@@ -2,6 +2,9 @@
 
 ftp://docent.if.uj.edu.pl/pub/tf25_cl.zip
 ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
+ftp://ftp.dataforce.net/pub/Quake/TF/25betaf.zip
+ftp://ftp.dataforce.net/pub/Quake/TF/qw25bte.zip
+ftp://ftp.dataforce.net/pub/Quake/TF/tf25btj.zip
 ftp://ftp.keeg.com/tf25btg.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_35.txt
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37.zip
