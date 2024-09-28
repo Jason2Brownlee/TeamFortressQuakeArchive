@@ -1,5 +1,6 @@
 # known but broken urls that link to wish list files
 
+ftp://docent.if.uj.edu.pl/pub/tf25_cl.zip
 ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
 ftp://ftp.keeg.com/tf25btg.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_35.txt
