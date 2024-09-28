@@ -1,0 +1,15 @@
+TeamFortress Quake Version 1.21
+Multiple Player classes patch
+for Quake, with advanced team
+options, new weapons, items,
+rules, Advanced Map Support, etc.
+
+Source can be found at
+http://minyos.its.rmit.edu.au/~cookj/index.htm
+
+(our zipped source is as big as our zipped progs.dat!)
+
+OS: msdos, win95
+
+John.
+cookj@yallara.cs.rmit.edu.au
