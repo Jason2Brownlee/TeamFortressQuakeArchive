@@ -2,7 +2,6 @@
 
 # known filenames (we have evidence they exist)
 25betaf.zip
-25files.zip
 newfiles.zip
 nq25btf.zip
 qw25bte.zip

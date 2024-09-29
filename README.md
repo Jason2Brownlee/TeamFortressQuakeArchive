@@ -42,7 +42,7 @@ Release Date | File | Description
 1997-04-21 | ? | TeamFortress v2.5 Beta C
 1997-04-22 | ? | TeamFortress v2.5 Beta D
 1997-04-25 | qw25bte.zip | TeamFortress v2.5 Beta E
-1997-05-17 | qw25btf.zip<br>nq25btf.zip<br>newfiles.zip<br>25files.zip | TeamFortress v2.5 Beta F
+1997-05-17 | qw25btf.zip<br>nq25btf.zip<br>newfiles.zip<br>[25files.zip](bin/25files.zip) | TeamFortress v2.5 Beta F
 1997-05-21 | tf25btg.zip | TeamFortress v2.5 Beta G
 1997-05-27 | tf25bth.zip | TeamFortress v2.5 Beta H
 1997-06-03 | tf25bti.zip | TeamFortress v2.5 Beta I
