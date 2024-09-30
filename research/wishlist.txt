@@ -29,6 +29,7 @@ tf265e.zip
 tf2666bd.zip
 tfeev1_1.zip
 tf26fbc.zip
+tf2.8.1.zip
 
 # exists, but not sure what these are... let's get them and find out
 tf26ffbb.zip
