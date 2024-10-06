@@ -65,6 +65,11 @@ tf213cl.zip
 tf213src.zip
 tf265a.zip
 tf265c.zip
+v1_31pak.zip
+v1_32pak.zip
+v1_34pak.zip
+v1_36pak.zip
+v1_37pak.zip
 
 # text files (e.g. could be on ftps like stomped.com, cdrom.com, etc.)
 tf1_1src.txt
@@ -81,7 +86,12 @@ tf1_35.txt
 tf1_37.txt
 tf1_5.txt
 tfeev1_0.txt
+v1_31pak.txt
+v1_32pak.txt
 v1_33pak.txt
+v1_34pak.txt
+v1_36pak.txt
+v1_37pak.txt
 
 # lan hacks of tf - might have useful info (e.g. original release txt files)
 hack_271.zip
