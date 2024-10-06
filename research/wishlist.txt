@@ -16,6 +16,7 @@ tf1_37_coop.zip
 tf1_37_lan.zip
 tf1_37_net.zip
 tf1_37_src.zip
+tf2.8.1.zip
 tf203src.zip
 tf214src.zip
 tf25_cl.zip
@@ -27,9 +28,9 @@ tf265b.zip
 tf265d.zip
 tf265e.zip
 tf2666bd.zip
-tfeev1_1.zip
 tf26fbc.zip
-tf2.8.1.zip
+tfeev1_1.zip
+v1_33pak.zip
 
 # exists, but not sure what these are... let's get them and find out
 tf26ffbb.zip
@@ -67,19 +68,20 @@ tf265c.zip
 
 # text files (e.g. could be on ftps like stomped.com, cdrom.com, etc.)
 tf1_1src.txt
+tf1_2.txt
 tf1_21pr.txt
 tf1_21sc.txt
 tf1_2src.txt
-tf1_2.txt
 tf1_3.txt
-tf1_5.txt
 tf1_31.txt
 tf1_32.txt
 tf1_33.txt
 tf1_34.txt
 tf1_35.txt
 tf1_37.txt
+tf1_5.txt
 tfeev1_0.txt
+v1_33pak.txt
 
 # lan hacks of tf - might have useful info (e.g. original release txt files)
 hack_271.zip
