@@ -22,6 +22,7 @@ http://jord.sbc.edu/files/tf/qwtf2.zip
 http://jord.sbc.edu/files/tf/tf203src.zip
 http://jord.sbc.edu/files/tf/tf2files.zip
 http://jord.sbc.edu/files/tf/tf2src.zip
+http://web.ukonline.co.uk/dr.stebbings/ZIPFILES/qwwf213.zip
 http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.txt
 http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_cl.zip
