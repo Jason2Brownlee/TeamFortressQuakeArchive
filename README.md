@@ -35,18 +35,18 @@ Release Date | File | Description
 1997-02-04 | [ented.zip](bin/ented.zip)<br>tfeev1_1.zip | TeamFortress Entity Editor v1.1
 1997-02-04 | ? | TeamFortress v2.12
 1997-02-17 | ? | TeamFortress v2.13
-1997-03-12 | qwwf214.zip<br>tf214src.zip<br>[lanwf214.zip](bin/lanwf214.zip) | TeamFortress v2.14
+1997-03-12 | qwwf214.zip<br>tf214src.zip<br>[lanwf214.zip](bin/lanwf214.zip)<br>[] | TeamFortress v2.14
 1997-03-12 | qwwf215.zip | TeamFortress v2.15
 1997-04-14 | 25betaf.zip | TeamFortress v2.5 Beta A
 1997-04-16 | ? | TeamFortress v2.5 Beta B
 1997-04-21 | ? | TeamFortress v2.5 Beta C
 1997-04-22 | ? | TeamFortress v2.5 Beta D
 1997-04-25 | qw25bte.zip | TeamFortress v2.5 Beta E
-1997-05-17 | qw25btf.zip<br>nq25btf.zip<br>newfiles.zip<br>[25files.zip](bin/25files.zip) | TeamFortress v2.5 Beta F
+1997-05-17 | qw25btf.zip<br>nq25btf.zip<br>[newfiles.zip](bin/newfiles.zip)<br>[25files.zip](bin/25files.zip) | TeamFortress v2.5 Beta F
 1997-05-21 | tf25btg.zip | TeamFortress v2.5 Beta G
 1997-05-27 | tf25bth.zip | TeamFortress v2.5 Beta H
 1997-06-03 | tf25bti.zip | TeamFortress v2.5 Beta I
-1997-06-10 | tf25btj.zip | TeamFortress v2.5 Beta J (Final Beta)
+1997-06-10 | [tf25btj.zip](bin/tf25btj.zip) | TeamFortress v2.5 Beta J (Final Beta)
 1997-06-13 | [tf25rel.zip](bin/tf25rel.zip) ([txt](bin/tf25rel.txt))<br>[tf25src.zip](bin/tf25src.zip) | TeamFortress v2.5 Final Release
 1997-06-15 | [tf25fix.zip](bin/tf25fix.zip) | Team Fortress v2.5 GLQuakeWorld Fix
 1997-06-19 | tf25_cl.zip | Team Fortress v2.5 Client

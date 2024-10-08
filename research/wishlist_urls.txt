@@ -5,7 +5,6 @@ ftp://ftp.cityline.ru/pub/quake/fortress/TF2.8.1.zip
 ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
 ftp://ftp.dataforce.net/pub/Quake/TF/25betaf.zip
 ftp://ftp.dataforce.net/pub/Quake/TF/qw25bte.zip
-ftp://ftp.dataforce.net/pub/Quake/TF/tf25btj.zip
 ftp://ftp.freesoftware.com/pub/planetquake/tfnewswire/base/TF2.8.1.zip
 ftp://ftp.keeg.com/tf25btg.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_35.txt
@@ -30,7 +29,6 @@ http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_net.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_src.zip
-http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/newfiles.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/nq25btf.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/qwwf214.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/qwwf215.zip
@@ -47,7 +45,6 @@ http://www.cdrom.com/pub/planetquake/tfnewswire/base/TF2.8.1.zip
 http://www.clanmegadeath.com/fanon/files/tf265d.zip
 http://www.mirage.org/fanon/files/tf26fbc.zip
 http://www.planetquake.com/teamfortress/files/25betaf.zip
-http://www.planetquake.com/teamfortress/files/newfiles.zip
 http://www.planetquake.com/teamfortress/files/nq25btf.zip
 http://www.planetquake.com/teamfortress/files/qw25bte.zip
 http://www.planetquake.com/teamfortress/files/qw25btf.zip
@@ -57,7 +54,6 @@ http://www.planetquake.com/teamfortress/files/tf25btg.zip
 http://www.planetquake.com/teamfortress/files/tf25bti.zip
 http://www.planetquake.com/teamfortress/files/tfeev1_1.zip
 http://www.quake.convey.ru/ftp/pub/quake/patches.qc/hack2811.zip
-http://www.teamfortress.com/files/teamfortress/TF25BTJ.ZIP
 http://www.teamfortress.com/files/teamfortress/tf265b.zip
 http://www.teamfortress.com/files/teamfortress/tf265d.zip
 http://www.teamfortress.com/files/teamfortress/tf265e.zip

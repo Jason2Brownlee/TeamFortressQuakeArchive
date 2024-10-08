@@ -2,7 +2,6 @@
 
 # known filenames (we have evidence they exist)
 25betaf.zip
-newfiles.zip
 nq25btf.zip
 qw25bte.zip
 qw25btf.zip
@@ -23,7 +22,6 @@ tf25_cl.zip
 tf25btg.zip
 tf25bth.zip
 tf25bti.zip
-tf25btj.zip
 tf265b.zip
 tf265d.zip
 tf265e.zip
