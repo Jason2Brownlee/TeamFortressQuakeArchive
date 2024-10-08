@@ -17,7 +17,6 @@ tf2.8.1.zip
 tf203src.zip
 tf25_cl.zip
 tf25btg.zip
-tf25bth.zip
 tf25bti.zip
 tf265b.zip
 tf265d.zip

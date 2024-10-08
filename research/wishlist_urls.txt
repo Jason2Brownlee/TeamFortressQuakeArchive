@@ -30,7 +30,6 @@ http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_net.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_src.zip
-http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bth.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bti.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tfeev1_1.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_cl.zip
