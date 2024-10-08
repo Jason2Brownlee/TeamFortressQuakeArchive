@@ -35,7 +35,7 @@ Release Date | File | Description
 1997-02-04 | [ented.zip](bin/ented.zip)<br>tfeev1_1.zip | TeamFortress Entity Editor v1.1
 1997-02-04 | ? | TeamFortress v2.12
 1997-02-17 | ? | TeamFortress v2.13
-1997-03-12 | qwwf214.zip<br>tf214src.zip | TeamFortress v2.14
+1997-03-12 | qwwf214.zip<br>tf214src.zip<br>[lanwf214.zip](bin/lanwf214.zip) | TeamFortress v2.14
 1997-03-12 | qwwf215.zip | TeamFortress v2.15
 1997-04-14 | 25betaf.zip | TeamFortress v2.5 Beta A
 1997-04-16 | ? | TeamFortress v2.5 Beta B
