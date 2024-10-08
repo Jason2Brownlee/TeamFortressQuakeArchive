@@ -23,6 +23,8 @@ tf265e.zip
 tf2666bd.zip
 tf26fbc.zip
 v1_33pak.zip
+tf2files.zip
+tf2src.zip
 
 # exists, but not sure what these are... let's get them and find out
 tf26ffbb.zip
