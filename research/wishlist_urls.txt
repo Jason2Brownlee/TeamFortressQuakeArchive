@@ -30,7 +30,6 @@ http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_net.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_src.zip
-http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/qwwf215.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf214src.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bth.zip
 http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bti.zip
@@ -46,7 +45,6 @@ http://www.mirage.org/fanon/files/tf26fbc.zip
 http://www.planetquake.com/teamfortress/files/25betaf.zip
 http://www.planetquake.com/teamfortress/files/qw25bte.zip
 http://www.planetquake.com/teamfortress/files/qw25btf.zip
-http://www.planetquake.com/teamfortress/files/qwwf215.zip
 http://www.planetquake.com/teamfortress/files/tf214src.zip
 http://www.planetquake.com/teamfortress/files/tf25btg.zip
 http://www.planetquake.com/teamfortress/files/tf25bti.zip
