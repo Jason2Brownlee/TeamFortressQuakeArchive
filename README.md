@@ -17,7 +17,7 @@ Release Date | File | Description
 1996-08-22 | [fortv1_0.zip](bin/fortv1_0.zip) ([txt](bin/fortv1_0.txt)) | TeamFortress v1.0
 1996-08-31 | [tf1_1src.zip](bin/tf1_1src.zip) | TeamFortress v1.1
 1996-09-11 | [tf1_2src.zip](bin/tf1_2src.zip) | TeamFortress v1.2
-1996-09-17 | [tf1_21pr.zip](bin/tf1_21pr.zip) ([txt](bin/tf1_21pr.txt))<br>[tf1_21sc.zip](bin/tf1_21sc.zip)<br>[fort.zip](bin/fort.zip)<br>[fort_src.zip](bin/fort_src.zip) | TeamFortress v1.21
+1996-09-17 | [tf1_21pr.zip](bin/tf1_21pr.zip) ([txt](bin/tf1_21pr.txt))<br>[tf1_21sc.zip](bin/tf1_21sc.zip) | TeamFortress v1.21
 1996-10-28 | [tfeev1_0.zip](bin/tfeev1_0.zip)<br>[tf_maps.zip](bin/tf_maps.zip) | TeamFortress Entity Editor v1.0 and sample maps
 1996-10-31 | [tf1_3.zip](bin/tf1_3.zip) | TeamFortress v1.3
 1996-11-04 | ? | TeamFortress v1.31
@@ -63,7 +63,6 @@ Release Date | File | Description
 1998-05-23 | [tf28.zip](bin/tf28.zip)<br>[tf28inst.exe](bin/tf28inst.exe)<br>[tf28upgr.zip](bin/tf28upgr.zip) | TeamFortress v2.8
 1998-05-25 | [tf281.zip](bin/tf281.zip)<br>tf2.8.1.zip | TeamFortress v2.81
 1998-10-23 | [tf29qw.zip](bin/tf29qw.zip) | TeamFortress v2.9
-2022-02-25 | [tf_29src.zip](bin/tf_29src.zip) ([txt](bin/tf_29src.txt))<br>[tf_29src_fteqcc.zip](bin/tf_29src_fteqcc.zip) | TeamFortress v2.9 Source Final
 
 * **Date Format**: YYYY-MM-DD.
 * **No Filename**: indicates that we could determine the release filename yet.
