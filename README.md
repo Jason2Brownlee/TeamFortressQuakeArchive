@@ -2,7 +2,7 @@
 
 This project archives all releases of TeamFortress for Quake 1.
 
-TeamFortress (TF or TFQ) / TeamFortress QuakeWorld (TFQW) is a widely popular third-party modifications for Quake, the 1996 computer game by id Software. It was developed and maintained by Robin Walker and John Cook circa 1996-1998.
+"TeamFortress Quake" (TF or TFQ) / "TeamFortress QuakeWorld" (TFQW) is a widely popular third-party modifications for Quake, the 1996 computer game by id Software. It was developed and maintained by Robin Walker and John Cook circa 1996-1998.
 
 Description of TeamFortress from the release readme file:
 
