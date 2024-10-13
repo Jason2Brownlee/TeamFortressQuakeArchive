@@ -1,10 +1,10 @@
 # TeamFortress Quake Archive
 
-Archive of all official releases of TeamFortress for Quake 1.
+This project archives all releases of TeamFortress for Quake 1.
 
-Includes TeamFortress Quake (TFQ) and TeamFortress Quakeworld (TFQW) clients and servers. Does not include maps.
+TeamFortress (TF or TFQ) / TeamFortress QuakeWorld (TFQW) is a widely popular third-party modifications for Quake, the 1996 computer game by id Software. It was developed and maintained by Robin Walker and John Cook circa 1996-1998.
 
-From the readme:
+Description of TeamFortress from the release readme file:
 
 > TeamFortress is a new QuakeC patch which radically changes team games. It provides far more incentive for teams to actually work as a team. Each member of the team has unique weapons, items, and abilities.
 
