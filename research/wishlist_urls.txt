@@ -18,6 +18,7 @@ ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
 ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
+http://hyperdeath.com/news/tf265e.zip
 http://jord.sbc.edu/files/tf/qwtf2.zip
 http://jord.sbc.edu/files/tf/tf203src.zip
 http://jord.sbc.edu/files/tf/tf2files.zip
