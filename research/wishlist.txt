@@ -68,7 +68,6 @@ v1_37pak.zip
 # text files (e.g. could be on ftps like stomped.com, cdrom.com, etc.)
 tf1_1src.txt
 tf1_2.txt
-tf1_21pr.txt
 tf1_21sc.txt
 tf1_2src.txt
 tf1_3.txt
