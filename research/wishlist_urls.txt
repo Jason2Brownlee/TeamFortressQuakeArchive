@@ -1,57 +1,68 @@
 # known but broken urls that link to wish list files
 
-ftp://docent.if.uj.edu.pl/pub/tf25_cl.zip
-ftp://ftp.cityline.ru/pub/quake/fortress/TF2.8.1.zip
-ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
-ftp://ftp.dataforce.net/pub/Quake/TF/25betaf.zip
-ftp://ftp.dataforce.net/pub/Quake/TF/qw25bte.zip
-ftp://ftp.freesoftware.com/pub/planetquake/tfnewswire/base/TF2.8.1.zip
-ftp://ftp.keeg.com/tf25btg.zip
+# tf1_33
+ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
+ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
+http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.txt
+http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.zip
+# tf1_35
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_35.txt
+# tf1_37
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_coop.zip
 ftp://ftp.lib.siu.edu/pub/mirrors/idsoftware/quakec/teamplay/tf1_37_net.zip
-ftp://ftp.pk.edu.pl/pub/games/id/quaketoys/teamfort/tf25_cl.zip
-ftp://ftp.pnc.com.au/pub/quake-addons/25betaf.zip
-ftp://ftp.sign-comsys.com/pub/games/QUAKE/TF/25betaf.zip
-ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
-ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
-ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
-ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
-http://hyperdeath.com/news/tf265e.zip
-http://jord.sbc.edu/files/tf/qwtf2.zip
-http://jord.sbc.edu/files/tf/tf203src.zip
-http://jord.sbc.edu/files/tf/tf2files.zip
-http://jord.sbc.edu/files/tf/tf2src.zip
-http://web.ukonline.co.uk/dr.stebbings/ZIPFILES/qwwf213.zip
-http://web.ukonline.co.uk/Members/dr.stebbings/ZIPFILES/qwwf213.zip
-http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.txt
-http://web.ukonline.co.uk/Members/jc.burton/v1_33pak.zip
-http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_cl.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_net.zip
-http://www.cdrom.com/pub/idgames2/newstuff/tf1_37_src.zip
-http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_cl.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_coop.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_lan.zip
 http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_net.zip
-http://www.cdrom.com/pub/idgames2/quakec/teamplay/tf1_37_src.zip
-http://www.cdrom.com/pub/planetquake/tfnewswire/base/TF2.8.1.zip
-http://www.clanmegadeath.com/fanon/files/tf265d.zip
-http://www.gameaholic.com/deicide/download.cgi?/quakec/teamplay/tf1_37_cl.zip
 http://www.gameaholic.com/deicide/download.cgi?/quakec/teamplay/tf1_37_coop.zip
 http://www.gameaholic.com/deicide/download.cgi?/quakec/teamplay/tf1_37_lan.zip
 http://www.gameaholic.com/deicide/download.cgi?/quakec/teamplay/tf1_37_net.zip
-http://www.gameaholic.com/deicide/download.cgi?/quakec/teamplay/tf1_37_src.zip
-http://www.mirage.org/fanon/files/tf26fbc.zip
+# tf2files.zip
+http://jord.sbc.edu/files/tf/tf2files.zip
+# tf2src.zip
+http://jord.sbc.edu/files/tf/tf2src.zip
+# tf203src.zip
+http://jord.sbc.edu/files/tf/tf203src.zip
+# qwwf213.zip
+http://web.ukonline.co.uk/dr.stebbings/ZIPFILES/qwwf213.zip
+http://web.ukonline.co.uk/Members/dr.stebbings/ZIPFILES/qwwf213.zip
+# 25betaf.zip
+ftp://ftp.dataforce.net/pub/Quake/TF/25betaf.zip
+ftp://ftp.pnc.com.au/pub/quake-addons/25betaf.zip
+ftp://ftp.sign-comsys.com/pub/games/QUAKE/TF/25betaf.zip
 http://www.planetquake.com/teamfortress/files/25betaf.zip
+# qw25bte.zip
+ftp://ftp.cts.com/users/king/g/gibkeeg/qw25bte.zip
+ftp://ftp.dataforce.net/pub/Quake/TF/qw25bte.zip
 http://www.planetquake.com/teamfortress/files/qw25bte.zip
+# qw25btf.zip
 http://www.planetquake.com/teamfortress/files/qw25btf.zip
+# tf25btg.zip
+ftp://ftp.keeg.com/tf25btg.zip
 http://www.planetquake.com/teamfortress/files/tf25btg.zip
-http://www.quake.convey.ru/ftp/pub/quake/patches.qc/hack2811.zip
+# tf25_cl.zip
+ftp://docent.if.uj.edu.pl/pub/tf25_cl.zip
+ftp://ftp.pk.edu.pl/pub/games/id/quaketoys/teamfort/tf25_cl.zip
+# tf265a.zip
+# ?
+# tf265b.zip
 http://www.teamfortress.com/files/teamfortress/tf265b.zip
+# tf265c.zip
+# ?
+# tf265d.zip
+http://www.clanmegadeath.com/fanon/files/tf265d.zip
 http://www.teamfortress.com/files/teamfortress/tf265d.zip
+# tf265e.zip
+ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
+http://hyperdeath.com/news/tf265e.zip
 http://www.teamfortress.com/files/teamfortress/tf265e.zip
+# tf2666bd.zip
 http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
+
+# ???
+http://www.mirage.org/fanon/files/tf26fbc.zip
+# ???
 http://www.teamfortress.com/files/teamfortress/tf26ffbb.zip
