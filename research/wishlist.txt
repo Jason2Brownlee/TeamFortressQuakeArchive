@@ -8,12 +8,9 @@ qwwf213.zip
 tf1_33.zip
 tf1_35.zip
 tf1_37.zip
-tf1_37_cl.zip
 tf1_37_coop.zip
 tf1_37_lan.zip
 tf1_37_net.zip
-tf1_37_src.zip
-tf2.8.1.zip
 tf203src.zip
 tf25_cl.zip
 tf25btg.zip
@@ -85,11 +82,3 @@ v1_33pak.txt
 v1_34pak.txt
 v1_36pak.txt
 v1_37pak.txt
-
-# lan hacks of tf - might have useful info (e.g. original release txt files)
-hack_271.zip
-hack271.zip
-hack2811.rar
-hack2811.zip
-hack2811.txt
-clantf30.rar

@@ -1,5 +1,7 @@
 # known but broken urls that link to wish list files
 
+# tf1_1src.txt
+ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_1src.txt
 # tf1_33
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.txt
 ftp://ftp.stomped.com/pub/quake/quakec/multiplayer/tf1_33.zip
