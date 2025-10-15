@@ -17,6 +17,85 @@ fortv1_0.zip           23-Aug-96 19:05    69k
 
 -- [http://www.cdrom.com/pub/idgames2/quakec/teamplay/](https://web.archive.org/web/19961225222656/http://www.cdrom.com/pub/idgames2/quakec/teamplay/) (archived)
 
+Robin Walker (programmer) announced the release on USENET in `rec.games.computer.quake.announce`:
+
+```text
+Multiple PlayerClasses QuakeC Patch.
+Robin
+22 Aug 1996
+
+Announcing TeamFortress v1.0: (Excerpt from readme)
+
+*==============================================================*
+* TeamFortress v1.0 *
+*==============================================================*
+Introduction
+------------
+
+TeamFortress is a new QuakeC patch which radically changes
+team games. It provides far more incentive for teams to
+actually work as a team. Each member of the team has unique
+weapons, items, and abilities.
+
+Player Classes
+--------------
+
+TeamFortress uses multiple player classes. Whenever a new map is
+loaded,
+all players start as an Undefined class. This class has 1 health, an
+axe,
+and cannot pick up anything. Once a player class is chosen, you cannot
+change class for the rest of that level. To choose a class, just use
+the
+appropriate impulse. (See Impulse Summary)
+The classes implemented so far are as follows:
+SCOUT: Fastest moving class. Can only wear a small amount of the
+lowest absorption armor. Limited to the 2 Shotguns and Nailgun.
+Low ammo levels.
+Carries a Motion Detector, 2 grenades, 3 concussion grenades.
+
+SNIPER: Medium speed. Wears only small amount of armor, upto medium
+absorption level. Limited to Nailgun and Sniper's rifle. Medium
+ammo levels.
+Carries 2 grenades.
+
+SOLDIER: Slowest moving class. Wears large amount of armor, at all
+absorption levels. All normal weapons except Grenade Launcher.
+High ammo levels.
+Carries 4 grenades, 4 nail grenades.
+
+DEMOLITION MAN: Medium speed. Wears medium amount of armor, upto
+medium absorption level. Uses the ShotGun and Grenade/Pipebomb
+Launcher. Carries 1 DetPack, 6 grenades, 4 Mirv Grenades.
+
+COMBAT MEDIC: Medium speed. Wears medium amount of armor, upto medium
+absorption level. Uses both Shotguns and the Super Nailgun.
+Carries Medikit, 3 grenades, 2 concussion grenades.
+Regenerates slowly.
+
+==================================================================
+
+Uploaded to ftp,cdrom.com and ftp.stomped.com
+Source included, no progs.dat.
+
+This is a _team_ patch. It is a lot of fun to play single player, or
+deathmatch, (especially the sniper's rifle :), but it is designed for
+team games.
+If you've got a bunch of friends and play games regularly on a LAN,
+this is the patch you've been looking for.
+
+(If I may say so myself :)
+---
+Robin. (Bro in Quake)
+wal...@netspace.net.au
+Robin.
+wal...@netspace.net.au
+"Can you help me remember how to smile? Make it somehow all seem worthwhile?
+How on earth did I get so jaded? Life's mysteries seem so faded..."
+```
+
+-- [rec.games.computer.quake.announce](https://groups.google.com/g/rec.games.computer.quake.announce/c/-LVYmqQGn1o/m/WoufJcw3PZAJ)
+
 
 The file timestamp suggests that `fortv1_0.txt` was uploaded early on August 22nd 1996 and that `fortv1_0.zip` was uploaded later the next day.
 
@@ -46,8 +125,174 @@ Released as `tf1_1src.zip`.
 
 It was likely uploaded to `ftp.cdrom.com`.
 
-It appears on the `stomped.com` file area.
+Robin Walker (programmer) announced the release on USENET in `rec.games.computer.quake.announce`:
 
+```text
+[UPDATE] TeamFortress Version 1.1
+Robin
+2 Sept 1996
+
+Snipped from the readme.txt:
+*==============================================================*
+* TeamFortress v1.1 readme.txt *
+*==============================================================*
+Introduction
+------------
+TeamFortress is a new QuakeC patch which radically changes
+team games. It provides far more incentive for teams to
+actually work as a team. Each member of the team has unique
+weapons, items, and abilities.
+
+Player Classes
+--------------
+The classes implemented so far are as follows:
+SCOUT: Fastest moving class. Can only wear a small amount of the
+lowest absorption armor. Limited to the 2 Shotguns and Nailgun.
+Low ammo levels.
+Carries a Motion Detector, 2 grenades, 3 concussion grenades.
+
+SNIPER: Medium speed. Wears only small amount of armor, upto medium
+absorption level. Limited to Nailgun and Sniper's rifle. Medium
+ammo levels.
+Carries 2 grenades.
+
+SOLDIER: Slow moving class. Wears large amount of armor, at all
+absorption levels. All normal weapons except Grenade Launcher.
+High ammo levels.
+Carries 4 grenades, 4 nail grenades.
+
+DEMOLITION MAN: Medium speed. Wears medium amount of armor, upto
+medium absorption level. Uses the ShotGun and Grenade/Pipebomb
+Launcher. Carries 1 DetPack, 6 grenades, 4 Mirv Grenades.
+
+COMBAT MEDIC: Medium speed. Wears medium amount of armor, upto medium
+absorption level. Uses both Shotguns and the Super Nailgun.
+Carries Medikit, 3 grenades, 2 concussion grenades.
+Regenerates slowly.
+
+HEAVY WEAPONS GUY: The slowest moving class of all. Lotsa armor, high
+absorption levels. Uses both Shotguns, the Nailgun, and
+the Assault Cannon (yeah!)
+Carries 4 grenades and 1 Mirv Grenade.
+
+New Weapons
+-----------
+Sniper Rifle:
+Assault Cannon:
+
+Grenades
+--------
+The grenade types are as follows:
+Normal
+Concussion
+Nail
+Mirv
+
+New Items
+---------
+Motion Detector:
+Medikit:
+Detpack:
+
+New Rules
+---------
+Reloading:
+
+ToggleAble Game Settings
+------------------------
+The options are:
+Multiskin/Classkin
+Class Persistence On/Off
+Cheat Checking On/Off
+FortressMap On/Off
+
+Copyright and Distribution
+--------------------------------------
+Authors may use this code for the basis of other freeware quakec
+code, but not for any for-profit code.
+
+You may distribute this patch in any electronic format as long as this
+
+textfile remains unmodified and all of the files in the archive are
+present, and as long as no charge is made for it.
+
+Quake Servers are free to run this patch, but it'd be nice in
+you mailed us and mentioned that you are.
+
+Availability
+------------
+The latest version of this patch can always be found at the
+TeamFortress WWW page - http://minyos.its.rmit.edu.au/~cookj
+
+The latest version should also be on the following locations:
+ftp.cdrom.com/pub/quake/ <- check incoming, newstuff or
+quakec/multiplayer
+The Quake Stomping Grounds - http://www.stomped.com/files.shtml
+
+Other things:
+Advanced Team Support.
+FortressMap support with Team spawnpoints.
+NetServer Mode, which uses only standard Quake files.
+Aliases for all commands.
+
+------------
+I'm happy to help with any questions about the source you have.
+One thing that we took pains to do was to make almost _everything_
+#defined.
+You can 'tweak' 90% the game details just by editing the defs.qc
+
+Robin. (Bro in Quake)
+wal...@netspace.net.au
+Quake TeamFortress WWW page - http://minyos.its.rmit.edu.au/~cookj
+
+=======
+Version info for those that interested:
+
+-----------
+Version 1.1
+-----------
+Features added:
+- Help revamped.
+- Aliases for Help, Detpacks, and Scanners added.
+- Multiple Player skin support added.
+- Added World Toggleables handling.
+- Classkin and Multiskin Toggle added.
+- Class persistence between levels Toggle added.
+- Cheatchecking Toggle added.
+- TeamFortressMap Toggle added.
+- Detpack CountDown added.
+- Scanner now gives directions of blips
+- NetServer setting which uses no non-standard quake files
+- TeamFortress Map Support (Yeah!!)
+
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+Heavy Weapons Guy.
+
+Changes:
+- Undefined players are now invincible, but can't move.
+
+Bugs Removed:
+- Detpack was spawning two objects.
+- Gibbed while Reloading bug fixed.
+- Dying while concussed bug fixed.
+
+-----------
+Version 1.0
+-----------
+Initial Release
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic
+
+
+Robin.
+wal...@netspace.net.au
+"Can you help me remember how to smile? Make it somehow all seem worthwhile?
+How on earth did I get so jaded? Life's mysteries seem so faded..."
+```
+
+-- [rec.games.computer.quake.announce](https://groups.google.com/g/rec.games.computer.quake.announce/c/Fzk7vCmp7MI/m/piBQXsNygawJ)
+
+
+It appears on the `stomped.com` file area.
 
 > TeamFortress v1.1	9/8/96	87K	TeamFortress is a new QuakeC patch which radically changes team games. It provides far more incentive for teams to actually work as a team. Each member of the team has unique weapons, items, and abilities. Also adds lots of weapons patches and misc stuff. Robin Walker and John Cook
 
@@ -88,6 +333,41 @@ The timestamps suggest the archive may have been created on August 31st.
 ## v1.2
 
 Released as `tf1_2src.zip`.
+
+The release was announced by John Cook on USENET:
+
+```text
+TeamFortress v1.2 released
+John
+10 Sept 1996
+
+TeamFortress v1.2 has been released, check it out at
+http://minyos.its.rmit.edu.au/~cookj/index.htm
+or
+ftp.cdrom.com/quake/quakec
+Features:
+Multiple player classes, each with own weapons and abilities.
+Soldier, scout, combat medic, heavy weapons guy, demolitions man, sniper.
+Enhanced teamplay functions. (after all, it is TeamFortress!)
+New random class, player becomes a different class with each respawn.
+Player is an observer until they choose a class.
+Lots of new map handling features:
+Autodetection of TeamFortress maps, different spawn points
+for different teams, the map 'decides' how many different teams
+are supported, highly functional goal entities with team goals,
+goal groups, and lots of different stuff.
+And lots more...
+
+Cheers,
+John
+
+--
+john cook co...@yallara.cs.rmit.edu.au
+```
+
+-- [rec.games.computer.quake.announce](https://groups.google.com/g/rec.games.computer.quake.announce/c/TM3wc_lgKUA/m/yNir0zxKZbwJ)
+
+Contents of `tf1_2src.zip`:
 
 ```text
 -rw-rw-r--  0 0      0         182  1 Oct  1996 FILE_ID.DIZ
@@ -140,7 +420,7 @@ Version 1.1	- Released 24/8/96
 --------------------------------
 ```
 
-These dates are close to what can be derived.
+Version v1.0 is mistakenly listed as v1.1 (i.e. v1.1 is listed twice). The dates are close to what can be derived.
 
 ## v1.21
 
@@ -150,7 +430,7 @@ Released as the files, a binary and source release:
 * `tf1_21sc.zip`
 
 
-The versions of these release were repacked for BBS distribution:
+The versions of these release were repacked for BBS distribution and include additional `FILE_ID.DIZ`, `!WOHER!.TXT`, and `ARSENAL.96` files.
 
 Content of `tf1_21pr.zip`:
 
@@ -240,12 +520,23 @@ Bugs Removed:
 
 -- tf1_21sc.zip/README.TXT
 
+After this release, there is mention that the TeamFortress homepage was updated on BluesNews on September 21st:
+
+> Go check out the Team Fortress Page which has been completely redone to make it easier to learn about their new concept for teamplay
+
+-- [https://www.bluesnews.com/archives/sept96-4.html](https://www.bluesnews.com/archives/sept96-4.html)
+
+Link:
+
+* http://minyos.its.rmit.edu.au/~cookj/
+
+This suggests that `bluesnews.com` was aware of TeamFortress, but no mention of the mod appears prior to this date (as far as I can tell).
 
 ## v1.22
 
 The filename for this release is not known. It was probably released as `tf_v122.zip`.
 
-The changelog from v1.3 does not include mention of v1.22, it jumps from v1.21 to v1.2
+The changelog from v1.3 does not include mention of v1.22, it jumps from v1.21 to v1.3
 
 This version was mentioned in the online version of the changelog:
 
@@ -259,18 +550,6 @@ Features added:
 ```
 
 -- [http://minyos.its.rmit.edu.au/~cookj/pages/version.htm](https://web.archive.org/web/19970121054854/http://minyos.its.rmit.edu.au/~cookj/pages/version.htm) (archived)
-
-There is mention that the TeamFortress homepage was updated on Blues News on September 21st:
-
-> Go check out the Team Fortress Page which has been completely redone to make it easier to learn about their new concept for teamplay
-
--- [https://www.bluesnews.com/archives/sept96-4.html](https://www.bluesnews.com/archives/sept96-4.html)
-
-Link:
-
-* http://minyos.its.rmit.edu.au/~cookj/
-
-This suggests that `bluesnews.com` was aware of TeamFortress, but no mention of the mod appears prior to this date (as far as I can tell).
 
 A copy of the release was found unzipped on the "[Phenomenon](https://discmaster.textfiles.com/browse/34043)" Addon Quake CD.
 
@@ -295,7 +574,7 @@ Version 1.22 - Released 19/10/96
 
 -- TF_V122/README.TXT
 
-The changes file in the release suggests it was a minor release:
+The `changes.txt` file in the release suggests it was a minor release:
 
 ```text
 *==============================================================*
@@ -327,6 +606,18 @@ TF v1.4 is already started! It will feature two new classes, the Spy and the Ass
 
 -- [http://minyos.its.rmit.edu.au/~cookj/pages/working.htm](https://web.archive.org/web/19970121054840/http://minyos.its.rmit.edu.au/~cookj/pages/working.htm) (archived)
 
+The release was mentioned on Blues News:
+
+> October 30th
+>
+> TeamFortress 1.3\
+> Version 1.3 of TeamFortress, a multiplayer patch that allows different character classes, and offers several goal-oriented team play modes (like CTF) has been released on the TeamFortress homepage.
+
+-- [https://www.bluesnews.com/archives/oct96-4.html](https://www.bluesnews.com/archives/oct96-4.html)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/index.htm
 
 The release was mentioned on Redwood's News:
 
@@ -340,7 +631,7 @@ Link:
 
 * http://minyos.its.rmit.edu.au/~cookj/index.htm
 
-The release in this archive is a repack for distribution on BBSs:
+The release in this archive is a repack for distribution on BBSs and includes an additional `FILE_ID.DIZ` file:
 
 ```text
 -rw-rw-r--  0 0      0       48596 27 Oct  1996 TFORTMAP.TXT
@@ -350,8 +641,6 @@ The release in this archive is a repack for distribution on BBSs:
 ```
 
 The timestamps suggest a release on October 31.
-
-Unlike prior releases, this version is compiled and does not include source code.
 
 
 ## v1.31
@@ -402,6 +691,8 @@ Bugs Removed:
 ```
 
 -- README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
 
 
 ## v1.32
@@ -469,6 +760,8 @@ Bugs Removed:
 
 -- README.TXT
 
+**A copy of this release has not yet been acquired for this archive.**
+
 ## v1.33
 
 This version was released as `tf1_33.zip` and/or `v1_33pak.zip`.
@@ -480,7 +773,20 @@ This version is mentioned on the TeamFortress news page:
 
 -- [http://minyos.its.rmit.edu.au/~cookj/pages/working.htm](https://web.archive.org/web/19970121054840/http://minyos.its.rmit.edu.au/~cookj/pages/working.htm) (archived)
 
-This suggests that v1.33 was released around November 12th 1996.
+This release was later announced on BluesNews:
+
+> November 17th
+>
+> New TeamFortress\
+> There's a new release of the TeamFortress teamplay patch (version 1.33) on the TeamFortress Homepage. Thank you to Tim Scott for letting me know.
+
+-- [https://www.bluesnews.com/archives/nov96-3.html](https://www.bluesnews.com/archives/nov96-3.html)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/
+
+Evidence suggests that v1.33 was released around November 12th 1996.
 
 This is close to the release date mentioned in the changelog from the v1.35 release:
 
@@ -511,6 +817,8 @@ Link:
 
 * http://web.ukonline.co.uk:80/Members/jc.burton/v1_33pak.zip
 
+**A copy of this release has not yet been acquired for this archive.**
+
 ## v1.34
 
 There's no mention of this release on the TeamFortress news page.
@@ -519,7 +827,7 @@ This version is not mentioned in the online version of the release history:
 
 * [http://minyos.its.rmit.edu.au/~cookj/pages/version.htm](https://web.archive.org/web/19970121054854/http://minyos.its.rmit.edu.au/~cookj/pages/version.htm) (archived)
 
-The changelog from v1.35 suggests there was no v1.34:
+The changelog from v1.35 suggests there was no public v1.34:
 
 ```text
 Changes TeamFortress v1.35 from v1.33
@@ -540,6 +848,22 @@ Features added:
 ```
 
 -- v1_35pak.zip/README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
+
+After this release, a call for TeamFortress map makers was shared on BluesNews:
+
+> November 21st
+>
+> TeamFortress Map Makers Needed\
+> I got word from Robin, one of the creators of the TeamFortress patch, who would like experienced map authors who are interested in creating maps for use with the add-on to contact him. More info on what is involved in adding TF entities to a map are available on the TeamFortress Page.
+
+-- [https://www.bluesnews.com/archives/nov96-3.html](https://www.bluesnews.com/archives/nov96-3.html)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/
+
 
 ## v1.35
 
@@ -595,6 +919,21 @@ Links:
 * http://minyos.its.rmit.edu.au/~cookj/files/v1_35src.zip
 * http://minyos.its.rmit.edu.au/~cookj/files/1_35nopr.zip
 
+This release was mentioned on BluesNews:
+
+> November 30, 1996
+>
+> TeamFortress Update\
+> Version 1.35 of the TeamFortress QuakeC patch, as well as a special net server version and a coop-version have been released. On the TeamFortress Page. The authors are also looking for some net servers to run the patch.
+
+-- [https://www.bluesnews.com/archives/nov96-5.html](https://www.bluesnews.com/archives/nov96-5.html)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/
+
+
+Content of `v1_35pak.zip`:
 
 ```text
 -rw-rw-r--  0 0      0         596 29 Nov  1996 CHANGES.TXT
@@ -604,10 +943,199 @@ Links:
 -rw-rw-r--  0 0      0       48599 30 Nov  1996 TFORTMAP.TXT
 ```
 
--- v1_35pak.zip
+Content of `net1_35.zip`:
 
+```text
+-rw-rw-r--  0 0      0         596 29 Nov  1996 CHANGES.TXT
+-rw-rw-r--  0 0      0         493 30 Nov  1996 FORTRESS.CFG
+-rw-rw-r--  0 0      0     1685495 30 Nov  1996 PAK0.PAK
+-rw-rw-r--  0 0      0       29069 30 Nov  1996 README.TXT
+-rw-rw-r--  0 0      0       48599 30 Nov  1996 TFORTMAP.TXT
+```
+
+Content of `coop1_35.zip`:
+
+```text
+-rw-rw-r--  0 0      0         596 29 Nov  1996 CHANGES.TXT
+-rw-rw-r--  0 0      0         493 30 Nov  1996 FORTRESS.CFG
+-rw-rw-r--  0 0      0     1916607 30 Nov  1996 PAK0.PAK
+-rw-rw-r--  0 0      0       29069 30 Nov  1996 README.TXT
+-rw-rw-r--  0 0      0       48599 30 Nov  1996 TFORTMAP.TXT
+```
+
+Content of `v1_35src.zip`:
+
+```text
+-rw-rw-r--  0 0      0         829 11 Nov  1996 ADMIN.QC
+-rw-rw-r--  0 0      0       15082 21 Nov  1996 AI.QC
+-rw-rw-r--  0 0      0        1697 25 Jul  1996 AMTEST.QC
+-rw-rw-r--  0 0      0       12867 20 Nov  1996 BOSS.QC
+-rw-rw-r--  0 0      0        3829 30 Oct  1996 BOT.QC
+-rw-rw-r--  0 0      0       16945 30 Oct  1996 BOTAI.QC
+-rw-rw-r--  0 0      0        3168  9 Nov  1996 BUTTONS.QC
+-rw-rw-r--  0 0      0         596 29 Nov  1996 CHANGES.TXT
+-rw-rw-r--  0 0      0       48363 30 Nov  1996 CLIENT.QC
+-rw-rw-r--  0 0      0       12475 21 Nov  1996 COMBAT.QC
+-rw-rw-r--  0 0      0         749 30 Oct  1996 COMBOT.QC
+-rw-rw-r--  0 0      0        2668 30 Nov  1996 COOP.QC
+-rw-rw-r--  0 0      0       47263 30 Nov  1996 DEFS.QC
+-rw-rw-r--  0 0      0       11227 28 Nov  1996 DEMON.QC
+-rw-rw-r--  0 0      0       10475 28 Nov  1996 DOG.QC
+-rw-rw-r--  0 0      0       18050 30 Nov  1996 DOORS.QC
+-rw-rw-r--  0 0      0       12119 28 Nov  1996 ENFORCER.QC
+-rw-rw-r--  0 0      0        7199 20 Nov  1996 FIGHT.QC
+-rw-rw-r--  0 0      0        7956 20 Nov  1996 FISH.QC
+-rw-rw-r--  0 0      0        1738  9 Nov  1996 FLARE.QC
+-rw-rw-r--  0 0      0       19702 28 Nov  1996 HKNIGHT.QC
+-rw-rw-r--  0 0      0       34171 29 Nov  1996 ITEMS.QC
+-rw-rw-r--  0 0      0         222 25 Jul  1996 JCTEST.QC
+-rw-rw-r--  0 0      0       10898 28 Nov  1996 KNIGHT.QC
+-rw-rw-r--  0 0      0        3290 30 Nov  1996 MENU.QC
+-rw-rw-r--  0 0      0       17395 20 Nov  1996 MISC.QC
+-rw-rw-r--  0 0      0        9788 25 Jul  1996 MODELS.QC
+-rw-rw-r--  0 0      0       10826 30 Nov  1996 MONSTERS.QC
+-rw-rw-r--  0 0      0        1356 29 Nov  1996 MSKIN.QC
+-rw-rw-r--  0 0      0       16078 28 Nov  1996 OGRE.QC
+-rw-rw-r--  0 0      0       11561 30 Oct  1996 OLDBOT.QC
+-rw-rw-r--  0 0      0        9707 20 Nov  1996 OLDONE.QC
+-rw-rw-r--  0 0      0         473 29 Nov  1996 OPTIONS.QC
+-rw-rw-r--  0 0      0        8279  9 Nov  1996 PLATS.QC
+-rw-rw-r--  0 0      0       24744 20 Nov  1996 PLAYER.QC
+-rw-rw-r--  0 0      0         362 29 Nov  1996 PREPROGS.SRC
+-rw-rw-r--  0 0      0        2598 27 Aug  1996 PROGDEFS.QC
+-rw-rw-r--  0 0      0         495 30 Nov  1996 PROGS.SRC
+-rw-rw-r--  0 0      0       17961  9 Nov  1996 PYRO.QC
+-rw-rw-r--  0 0      0       29069 30 Nov  1996 README.TXT
+-rw-rw-r--  0 0      0        9067 28 Nov  1996 SHALRATH.QC
+-rw-rw-r--  0 0      0       14085 28 Nov  1996 SHAMBLER.QC
+-rw-rw-r--  0 0      0       11217 28 Nov  1996 SOLDIER.QC
+-rw-rw-r--  0 0      0         486 25 Jul  1996 SPRITES.QC
+-rw-rw-r--  0 0      0        6378 21 Nov  1996 SUBS.QC
+-rw-rw-r--  0 0      0        7374 20 Nov  1996 TARBABY.QC
+-rw-rw-r--  0 0      0       85664 30 Nov  1996 TFORT.QC
+-rw-rw-r--  0 0      0       14691 30 Nov  1996 TFORTHLP.QC
+-rw-rw-r--  0 0      0       38070 29 Nov  1996 TFORTMAP.QC
+-rw-rw-r--  0 0      0       48599 30 Nov  1996 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       11104 10 Nov  1996 TFORTTM.QC
+-rw-rw-r--  0 0      0       16147 28 Nov  1996 TRIGGERS.QC
+-rw-rw-r--  0 0      0        3079 29 Oct  1996 TURRET.QC
+-rw-rw-r--  0 0      0       60197 30 Nov  1996 WEAPONS.QC
+-rw-rw-r--  0 0      0       12051 28 Nov  1996 WIZARD.QC
+-rw-rw-r--  0 0      0       11801  9 Nov  1996 WORLD.QC
+-rw-rw-r--  0 0      0       20678 20 Nov  1996 ZOMBIE.QC
+```
+
+Content of `1_35nopr.zip`:
+
+```text
+-rw-rw-r--  0 0      0         596 29 Nov  1996 CHANGES.TXT
+-rw-rw-r--  0 0      0         493 30 Nov  1996 FORTRESS.CFG
+-rw-rw-r--  0 0      0         277 30 Nov  1996 QUAKE.RC
+-rw-rw-r--  0 0      0       29069 30 Nov  1996 README.TXT
+-rw-rw-r--  0 0      0       48599 30 Nov  1996 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       64008 28 Nov  1996 GFX/CONBACK.LMP
+-rw-rw-r--  0 0      0       64008  9 Nov  1996 GFX/HELP0.LMP
+-rw-rw-r--  0 0      0       64008  9 Nov  1996 GFX/HELP1.LMP
+-rw-rw-r--  0 0      0       64008 30 Nov  1996 GFX/HELP2.LMP
+-rw-rw-r--  0 0      0       64008 29 Nov  1996 GFX/HELP3.LMP
+-rw-rw-r--  0 0      0       64008 29 Nov  1996 GFX/HELP4.LMP
+-rw-rw-r--  0 0      0       64008 29 Nov  1996 GFX/HELP5.LMP
+-rw-rw-r--  0 0      0       26888  8 Nov  1996 GFX/MAINMENU.LMP
+-rw-rw-r--  0 0      0        5864  9 Nov  1996 GFX/P_MULTI.LMP
+-rw-rw-r--  0 0      0       49560 19 Sep  1996 PROGS/CROSS1.MDL
+-rw-rw-r--  0 0      0       26532 28 Nov  1996 PROGS/HANDGREN.MDL
+-rw-rw-r--  0 0      0      593848 31 Oct  1996 PROGS/PLAYER.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_BIO.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_MEDI.MDL
+-rw-rw-r--  0 0      0        7482 12 Sep  1996 SOUND/MISC/VAPEUR2.WAV
+-rw-rw-r--  0 0      0       21286  8 Jul  1994 SOUND/WEAPONS/FLMFIRE.WAV
+-rw-rw-r--  0 0      0        7508 25 Sep  1996 SOUND/WEAPONS/FLMFIRE2.WAV
+-rw-rw-r--  0 0      0        7710 25 Sep  1996 SOUND/WEAPONS/FLMGREXP.WAV
+-rw-rw-r--  0 0      0        5124  7 Sep  1996 SOUND/WEAPONS/HIS.WAV
+-rw-rw-r--  0 0      0        3262 10 Aug  1996 SOUND/WEAPONS/SNIPER.WAV
+-rw-rw-r--  0 0      0        2714 16 Oct  1996 SOUND/WEAPONS/SNIPRLD2.WAV
+```
+
+The timestamps suggest the archives were created November 30th.
+
+This matches the changelog from the readme file:
+
+```text
+--------------------------------
+Version 1.35 - Released 30/11/96
+--------------------------------
+Features added:
+    - Menu for teams and classes.
+    - Rocket ammo boxes sometimes give grenades
+    - Ammo dropping.
+    - Key dropping.
+    - Toggleflag added:
+        - Manual-Color. If it's not on, team colors are automatically assigned.
+
+Changes:
+    - Quake's autoaiming put back in for sniper rifle
+    - Console commands now usable while dead
+
+Multiple Compile Modes:
+    - Coop mode version, with:
+        - monsters included
+        - enhanced skill levels
+        - coop mode 2 added, with:
+            - Doors which all players must open.
+    - Net server version, with:
+        - Max. number of flames in world reduced
+        - Sniper rifle beefed up
+        - Sniper rifle autozoom defaults to OFF
+        - General alterations to reduce net traffic
+```
+
+-- README.TXT
 
 ## v1.36
+
+Robin Walker (programmer) announced testing of this version on USENET:
+
+```text
+TeamFortress 1.36 Beta on Netspace server
+Robin
+7 Dec 1996
+
+Bored of CTF?
+Experience some _real_ teamplay!
+Over the next few days, we're doing testing of the new TeamFortress
+v1.36 Beta on the Netspace Quake Server. It'll be running CTF v3
+maps, so make sure you've got the CTF maps.
+The server _may_ go down occasionally if bugs are found, but it'll
+only be for a few minutes at a time.
+Also, the Netspace server has recently undergone an ip change,
+so if you can't connect to quake.netspace.net.au, try:
+203.17.103.34
+
+This new version has CTF map support, the long awaited Grappling
+Hook, a new user interface, and a few other surprises.
+
+For those who are new to TeamFortress, it's a Teamplay oriented
+patch with 7 Player Classes:
+Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+Heavy Weapons Guy, and Pyromaniac
+
+It has new weapons, new items, new graphics, new rules, etc.
+You can find out all about it at:
+http://minyos.its.rmit.edu.au/~cookj
+
+Hope to see you there.
+
+Robin. (Bro in Quake)
+
+
+------
+wal...@netspace.net.au
+TeamFortress QuakeC Patch Version 1.35 is out!
+7 Player Classes! Map support! New Weapons! Armor! Grenades!
+Download it from the WWW page: http://minyos.its.rmit.edu.au/~cookj
+```
+
+-- [rec.games.computer.quake.servers](https://groups.google.com/g/rec.games.computer.quake.servers/c/jA96ia2irCQ/m/3tOES33tZ5QJ)
 
 This release was mentioned on the TeamFortress homepage:
 
@@ -636,9 +1164,24 @@ And the news page:
 
 -- [http://minyos.its.rmit.edu.au/~cookj/pages/working.htm](https://web.archive.org/web/19970121054840/http://minyos.its.rmit.edu.au/~cookj/pages/working.htm) (archived)
 
-This may have been another internal release like v1.24 or a minor release like 1.22.
+There is mention of beta testing of a release on BluesNews:
+
+> December 7, 1996
+>
+> TeamFortress Beta\
+> There's beta testing of TeamFortress on the Netspace server. The new version has, among other things, Threewave CTF map support and includes the Grappling Hook (so bring your marshmallows for the campfire). The server is 203.17.103.34, running CTF 3 maps.
+
+-- [https://www.bluesnews.com/archives/dec96-1.html](bin/https://www.bluesnews.com/archives/dec96-1.html)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/
 
 It does not appear in the changelog in version 1.37.
+
+This may have been another internal release like v1.24 or a minor release like 1.22.
+
+**A copy of this release has not yet been acquired for this archive.**
 
 ## v1.37
 
@@ -662,6 +1205,50 @@ quake.netspace.net.au will swap between running CTF and the v1.37 beta.
 > We've fixed the problems with v1.36 now, with big thanks going to Nige. It should be released tomorrow sometime.
 
 -- [http://minyos.its.rmit.edu.au/~cookj/pages/working.htm](https://web.archive.org/web/19970121054840/http://minyos.its.rmit.edu.au/~cookj/pages/working.htm) (archived)
+
+Beta testing of this release was announced on USENET:
+
+```text
+TeamFortress now at Netspace
+cc1...@mail.oaks.com.au
+11 Dec 1996
+
+We are now testing a BETA of Team Fortress at quake.netspace.net.au.
+Expect it to be either on port 26001 or 26000, depending on the time
+of day. The IP address is 203.17.103.34.
+This is a specially-enhanced version of TF that uses CTF3 maps ! So
+all you need to play is the same map and -game setup that you use for
+CTF3.
+
+To quote from the web page,
+
+'TeamFortress is a new QuakeC patch which radically changes normal and
+team games. It provides far more incentive for teams to actually work
+as a team. Each member of the team has unique weapons, items, and abilities.
+
+There are seven different classes for players to choose from, each
+specialising in their own field. To make it even better, there is extra
+teamplay and map functionality, with team-specific spawn points, resupply
+area's, and special goals for each team to complete. Some example objectives
+are hold the enemy base, capture the flag, defend an area, infilitrate a
+fort, and many others.'
+
+In the version of TF that we are running, the goals are the same as CTF 3.
+Special player classes include sniper (has deadly sniper rifle), demo man
+(has lotsa explosives :), pyro (sets things on fire), soldier (has RL),
+heavy weapons guy (slow but well-armoured ; has very deadly chain cannon),
+scout (VERY fast and light), and medic (can heal and give health to team
+members, can give deadly and very infectious disease to enemy).
+
+For more information see http://minyos.its.rmit.edu.au/~cookj/index.htm
+
+If you can't connect to the quake.netspace.net.au server, make sure your
+name server is resolving it to the above IP address as our IP changed
+recently.
+```
+
+-- [rec.games.computer.quake.servers](https://groups.google.com/g/rec.games.computer.quake.servers/c/tE7RzugwCSw/m/nYd6Dyf1UbMJ)
+
 
 The release was mentioned on Redwood's News:
 
@@ -691,11 +1278,7 @@ Links:
 * http://www.bluesnews.com/files/tf137cl.zip
 * http://yallara.cs.rmit.edu.au/~cookj/
 
-
-
-
-
-
+The release was uploaded to `cdrom.com`:
 
 ```text
 tf1_37_cl.txt          17-Dec-96 02:23    28k
@@ -796,7 +1379,62 @@ Content of `tf137src.zip`:
 
 The timestamps suggest a release on December 16th.
 
+The header of the readme file suggests multiple, perhaps up to four beta versions of this release:
 
+```text
+*==============================================================*
+* TeamFortress v1.37 beta 4                         readme.txt *
+* Written by Robin Walker, John Cook, Ian Caughley         *
+*==============================================================*
+```
+
+The changelog in the readme for this release does not include any details of this release.
+
+A changelog for this release does appear in the next available release (e.g v2.0), but does not include a date:
+
+```text
+--------------------------------
+Version 1.37 - Beta Released
+--------------------------------
+So many changes, so here are just a few of them:
+    - Pipebombs completely cleaned up. Now there's a
+      limit defined in options.qc, default 10, and
+      this is divided out between teams.
+      e.g. in CTF both teams can have upto 5.
+    - "reload" fixed.
+    - "dropammo" fixed.
+    - Concussion gren healing fixed.
+    - Teamplay options are much better.
+    - Temp1 variable now hold Toggleflags, so they
+      persist over maps.
+    - maxammo for all ammo increased for each
+      class, so that scouts can carry rockets,
+      but still not use them. This way they can
+      carry them to team members.
+    - BioWeapon and Medikit can be merged into
+      one weapon if MEDIKIT_IS_BIOWEAPON is defined.
+      It heals if you hit a teammember and infects
+      if you hit an enemy.
+    - Dropammo menu appears faster
+    - Spawn blood when curing concussion
+    - Prevented infections attacking your own team,
+      if teamplay options prevent it doing damage
+    - telefragged players respawn a couple of seconds
+      later, so we don't get that telefrag crap.
+    - autoteam kicks in after 30 seconds into a map.
+      So teams can be restructured when people enter
+      a new map, and then after 30 seconds, people will
+      be assigned automatically.
+    - Firing removes help now, and prints the "8 to see..."
+    - People can now ask for bindings to be done for them,
+      with a selection of keys for mouse and key players.
+    - Player's push each other, and flag carrying players
+      have a bigger weight.
+```
+
+-- qwtf2.zip/README.TXT
+
+**Some files for this release have not yet been acquired for this archive.**
 
 
 ## v1.4
@@ -822,10 +1460,149 @@ This version was also mentioned in the online FAQ:
 
 -- [http://minyos.its.rmit.edu.au/~cookj/faq.html](https://web.archive.org/web/19970121054908/http://minyos.its.rmit.edu.au/~cookj/faq.html) (archived)
 
+This version does not appear in the changelog for the next release, e.g. v2.0.
 
+**A copy of this release has not yet been acquired for this archive.**
+
+# v2.0
+
+Released as:
+
+* `tf2files.zip`
+* `tf2src.zip`
+* `qwtf2.zip`
+* `qwtf2nnf.zip`
+
+This version was announced on BluesNews:
+
+> December 22, 1996
+>
+> QuakeWorld TeamFortress Quake\
+> Robin of TeamFortess Quake (also take note of the new homepage address) sends along word that they've released a beta of Quake TeamFortress 2.0, which is designed for QuakeWorld. They are now looking for server operators who are interesting in testing it out. There are two versions: one is the patch that doesn't download anything other than skins, the other is the patch which uses some new graphics and sounds.
+
+-- [http://bluesnews.com/](https://web.archive.org/web/19961226231646/http://bluesnews.com/) (archived) and <https://www.bluesnews.com/archives/dec96-3.html>
+
+Links:
+
+* http://yallara.cs.rmit.edu.au/~cookj/
+* http://bluesnews.com/files/qwtf2nnf.zip
+* http://bluesnews.com/files/qwtf2.zip
+
+Content of `qwtf2.zip`:
+
+```text
+-rw-rw-r--  0 0      0      405088 22 Dec  1996 PROGS.DAT
+-rw-rw-r--  0 0      0       33203 22 Dec  1996 README.TXT
+-rw-rw-r--  0 0      0        6776 22 Dec  1996 SERVER.TXT
+-rw-rw-r--  0 0      0       49560 19 Sep  1996 PROGS/CROSS1.MDL
+-rw-rw-r--  0 0      0       26532 28 Nov  1996 PROGS/HANDGREN.MDL
+-rw-rw-r--  0 0      0      593848 31 Oct  1996 PROGS/PLAYER.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_BIO.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_MEDI.MDL
+-rw-rw-r--  0 0      0       31503 22 Dec  1996 SKINS/TF_DEMO.PCX
+-rw-rw-r--  0 0      0       33445 22 Dec  1996 SKINS/TF_HWGUY.PCX
+-rw-rw-r--  0 0      0       27813 22 Dec  1996 SKINS/TF_MEDIC.PCX
+-rw-rw-r--  0 0      0       30499 22 Dec  1996 SKINS/TF_PYRO.PCX
+-rw-rw-r--  0 0      0       31515 22 Dec  1996 SKINS/TF_SCOUT.PCX
+-rw-rw-r--  0 0      0       28098 22 Dec  1996 SKINS/TF_SNIPE.PCX
+-rw-rw-r--  0 0      0       30579 22 Dec  1996 SKINS/TF_SOLD.PCX
+-rw-rw-r--  0 0      0        7482 12 Sep  1996 SOUND/MISC/VAPEUR2.WAV
+-rw-rw-r--  0 0      0       21286  8 Jul  1994 SOUND/WEAPONS/FLMFIRE.WAV
+-rw-rw-r--  0 0      0        7508 25 Sep  1996 SOUND/WEAPONS/FLMFIRE2.WAV
+-rw-rw-r--  0 0      0        7710 25 Sep  1996 SOUND/WEAPONS/FLMGREXP.WAV
+-rw-rw-r--  0 0      0        5124  7 Sep  1996 SOUND/WEAPONS/HIS.WAV
+-rw-rw-r--  0 0      0        3262 10 Aug  1996 SOUND/WEAPONS/SNIPER.WAV
+-rw-rw-r--  0 0      0        2714 16 Oct  1996 SOUND/WEAPONS/SNIPRLD2.WAV
+```
+
+Content of `qwtf2nnf.zip`
+
+```text
+-rw-rw-r--  0 0      0      402792 22 Dec  1996 PROGS.DAT
+-rw-rw-r--  0 0      0       33203 22 Dec  1996 README.TXT
+-rw-rw-r--  0 0      0        6776 22 Dec  1996 SERVER.TXT
+-rw-rw-r--  0 0      0       31503 22 Dec  1996 SKINS/TF_DEMO.PCX
+-rw-rw-r--  0 0      0       33445 22 Dec  1996 SKINS/TF_HWGUY.PCX
+-rw-rw-r--  0 0      0       27813 22 Dec  1996 SKINS/TF_MEDIC.PCX
+-rw-rw-r--  0 0      0       30499 22 Dec  1996 SKINS/TF_PYRO.PCX
+-rw-rw-r--  0 0      0       31515 22 Dec  1996 SKINS/TF_SCOUT.PCX
+-rw-rw-r--  0 0      0       28098 22 Dec  1996 SKINS/TF_SNIPE.PCX
+-rw-rw-r--  0 0      0       30579 22 Dec  1996 SKINS/TF_SOLD.PCX
+```
+
+The file timestamps suggest the archives were created on December 22nd.
+
+This matches the date in the changelog:
+
+```text
+-------------------------------------
+Version 2.0  - Beta Released 22/12/96
+-------------------------------------
+    QUAKEWORLD
+```
+
+-- qwtf2.zip/README.TXT
+
+**Not all files from this release have been acquired for this archive.**
+
+# v2.01
+
+todo
+
+# v2.03
+
+todo
+
+# v2.1
+
+todo
+
+# v2.11
+
+todo
+
+# v2.12
+
+todo
+
+# v2.13
+
+todo
+
+# v2.14
+
+todo
+
+# v2.15
+
+todo
+
+## v2.5 Beta G
+
+todo
+
+Announced on Jord's News:
+
+> Team Fortress 17:58 EST\
+> Version 2.5 beta G is now out. Changes, and bug fixes include a frag for killing enemy sentry guns. That one has been over due. Several other things have been changed some of which I don't like but then when the final release is out with the source I'll fix for my server. <evil grin>
+>
+> tf25btg.zip (www.planetquake.com) - server files
+>
+> 25files.zip (www.planetquake.com) - client and server files
+>
+> Team Fortress
+
+-- [http://jord.sbc.edu/main.htm](https://web.archive.org/web/19980111035532/http://jord.sbc.edu/main.htm)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/tf25btg.zip
+* http://www.planetquake.com/teamfortress/files/25files.zip
+* http://www.planetquake.com/teamfortress/
 
 ## v2.5
 
+todo
 
 ```text
 tf25rel.txt            06-Jul-97 18:02    44k
@@ -836,6 +1613,8 @@ tf25rel.zip            06-Jul-97 18:02   3.1M
 
 
 ## v2.6
+
+todo
 
 ```text
 tf26fb.txt             14-Aug-97 15:14     1k
