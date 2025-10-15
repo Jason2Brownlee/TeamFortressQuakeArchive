@@ -8,6 +8,8 @@ Description of TeamFortress from the release readme file:
 
 > TeamFortress is a new QuakeC patch which radically changes team games. It provides far more incentive for teams to actually work as a team. Each member of the team has unique weapons, items, and abilities.
 
+* [Release History](research/release_history.md)
+
 ## TeamFortress Releases
 
 Chronological list of official releases in [bin/](bin/) including date, filename link, and description.
