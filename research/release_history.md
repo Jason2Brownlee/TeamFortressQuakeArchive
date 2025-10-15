@@ -4,32 +4,7 @@ Reconstructed chronology and content of TeamFortress Quake releases.
 
 The goal is ascertain exactly what was released and when.
 
-## Homepages
-
-List of main homepages over the years.
-
-1. http://minyos.its.rmit.edu.au/~cookj (some archived)
-    * https://web.archive.org/web/*/http://minyos.its.rmit.edu.au/~cookj*
-    * https://web.archive.org/web/19970121054942/http://minyos.its.rmit.edu.au/~cookj/
-    * https://web.archive.org/web/19970120230320/http://minyos.its.rmit.edu.au:80/~cookj/index.htm
-    * https://web.archive.org/web/19970121054832/http://minyos.its.rmit.edu.au:80/~cookj/pages/download.htm
-    * https://web.archive.org/web/19970121054840/http://minyos.its.rmit.edu.au:80/~cookj/pages/working.htm
-    * https://web.archive.org/web/19970121054854/http://minyos.its.rmit.edu.au:80/~cookj/pages/version.htm
-    * https://web.archive.org/web/19970121054908/http://minyos.its.rmit.edu.au:80/~cookj/faq.html
-    * https://web.archive.org/web/19970121054921/http://minyos.its.rmit.edu.au:80/~cookj/rifle.htm
-    * ...
-2. http://yallara.cs.rmit.edu.au/~cookj (some archived)
-    * https://web.archive.org/web/*/yallara.cs.rmit.edu.au/~cookj*
-    * https://web.archive.org/web/19970411000000*/http://yallara.cs.rmit.edu.au:80/~cookj/index.html
-3. http://www.telefragged.com/teamfortress (not archived)
-    * https://web.archive.org/web/*/http://telefragged.com/teamfortress*
-4. http://www.planetquake.com/teamfortress (archived)
-    * https://web.archive.org/web/*/http://www.planetquake.com/teamfortress/*
-    * https://web.archive.org/web/19970414103937/http://www.planetquake.com/teamfortress/
-5. http://www.teamfortress.com (archived)
-    * https://web.archive.org/web/*/http://www.teamfortress.com/*
-    * https://web.archive.org/web/19970601183652/http://www.teamfortress.com/
-
+Related: see [releases on cds](research_cds.txt), [homepages](research_homepages.md), [resources](resources.md)
 
 ## v1.0
 
@@ -1574,13 +1549,163 @@ Version 2.0  - Beta Released 22/12/96
 
 ## v2.01
 
-todo
+The filename for this release is not known.
+
+This version does not appear in the changelog for v2.1.
+
+**A copy of this release has not yet been acquired for this archive.**
 
 ## v2.03
 
-todo
+This version appears in the changelog for v2.1:
+
+```text
+-------------------------------------
+Version 2.03  - Beta Released 28/12/96
+-------------------------------------
+Bugs Fixed:
+    - Items falling through world
+    - Burning players not being able to move
+    - Teamplay settings fixed
+    - Quake Triggers activating TF Goals fixed
+    - Level Cycling fixed
+```
+
+-- tf21_cl.zip/README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
+
 
 ## v2.1
+
+Released as `tf21_cl.zip`.
+
+This version is mentioned in a message signature by Robin Walker on USNET:
+
+```text
+...
+Robin.
+
+------
+wal...@netspace.net.au
+TeamFortress Version 2.12 is out.
+Download it from the WWW page: http://www.telefragged.com/teamfortress
+```
+
+-- [rec.games.computer.quake.misc](https://groups.google.com/g/rec.games.computer.quake.misc/c/16b42SBX5uI/m/6Iotij72U6oJ)
+
+
+This release was reviewed on QCArchive:
+
+> The Team Fortress patch is a team based mod that lets you choose from 8 different charecter types. The object of this mod is to kick the other teams ass into the next time zone by killing them the ol fassion way or capturing the other teams key. Even though you try to capture the other team's key TeamFortress is not a lame CTF rippoff. It has totally new gameplay with the character classes, this patch rivals ctf. This mod work on both normal quake servers and QuakeWorld servers. This is an awsome mod and everyone should get it.
+
+-- [http://www.planetquake.com/qca/patch131.htm](https://web.archive.org/web/19970611065419/http://www.planetquake.com/qca/patch131.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/qca/patch131.txt
+* http://www.planetquake.com/qca/files/tf21_cl.zip
+
+
+Content of `tf21_cl.zip`:
+
+```text
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0       14225 23 Jan  1997 FORTRESS.TXT
+-rw-rw-r--  0 0      0     1594438 23 Jan  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      662032 23 Jan  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       40935 23 Jan  1997 README.TXT
+-rw-rw-r--  0 0      0       33188 23 Jan  1997 TFMAPS.TXT
+-rw-rw-r--  0 0      0       59176 23 Jan  1997 TFORTMAP.TXT
+```
+
+The file timestamps suggest a release on January 23rd 1998.
+
+This is close to the date in the changelog:
+
+```text
+-------------------------------------
+Version 2.1  - Released 22/1/97
+-------------------------------------
+Features Added:
+    - "maphelp" alias which gives you a short description of the
+      map you're playing, if it's a TF map and a description has
+      been supplied by the map creator.
+    - "flaginfo" alias which gives you a display of the status
+      of the flags on any map which the map creator provides a
+      flag info section in the Detection entity.
+      Works for all CTF maps as well.
+    - Civilian Class. Sorry, you can't play this one by choice. It is
+      only used on special maps.
+
+Bugs Fixed:
+    - Quake Plats and Doors AP checking fixed
+    - Quake Trigger reverse-AP-criteria fixed
+    - Spawncode fixed and enhanced
+    - Level Cycling removed, rewritten, and hopefully fixed!
+      N.B. You can't use nextlevel anymore to pick your next level.
+           Instead, the server admin chooses the levels he/she wants
+           the patch to cycle through.
+
+Changes:
+    - Speed Cheat Checking has been updated, so those cheating soldiers
+      out there won't be moving so fast.
+    - Finally updated this doc!
+
+Map Code Enhancements:
+    - Goals can specify a team they belong to
+    - Goals can specify a starting state
+    - Activation Criteria can check other Goal's states
+    - Can Centerprint to members on/not-on AP's team
+    - Detection entity can specify a custom Team Menu message
+    - Detection entity can specify a Map Help message
+    - Entities can specify whether they exist for different "skill" settings
+    - TeamSpawn points can remove themselves after being spawned on
+    - GoalItems can glow when not being carried
+    - Detection entity can restrict available classes for each team
+    - All Goals can specify an 'else' goal, which is activated if this isn't
+    - Detection entity can now specify a maximum number of players in each team
+    - All Goals can display the status of upto 2 GoalItems when activated
+    - GoalItems can centerprint messages to players when they return
+    - Detection entity can restrict teams to the Civilian class for fancy maps
+    - Can Centerprint to owners of a Goal/Item when it's activated
+    - Any Goal/Item can force an item to return
+    - Any Goal check whether any GoalItem is at its origin in it's Criteria
+    - Goals that give out GoalItems can specify whether they want to the Item
+      itself to apply results.
+    - Detection entity can specify that the Grappling Hook cannot be used
+    - Any Goal can remove/restore Team Spawnpoints
+    - GoalItems can specify console item's they'd like to light up when carried
+
+Map Code Changes:
+    - "Personal Message" is now centerprinted to AP
+    - "Broadcast Message" is now centerprinted to everyone else
+    - Goals activated by others now check their Criteria before activating
+    - GoalItems don't restore a goal when they return, now they activate it
+
+Map Code breakages (Old maps won't work if you used these)
+    - Detection entity can now make Pyro class illegal.
+      It replaces the Random PC prevention.
+      This will only cause a problem if you have a map which
+      prevented players from playing Random PC.
+    - GoalItems don't restore a goal when they return, now they activate it.
+      If you had any GoalItems using the "impulse" variable to restore a Goal
+      when the GoalItem returns, you'll need to redo the Goalwork.
+      My suggestion: Say a GoalItem was restoring Goal A when it returned.
+                     Make a Goal B. Make the GoalItem activate Goal B when
+                     it returns. Make Goal B restore Goal A.
+      If you're wondering why I did this, it's because an activating goal
+      can restore a goal, and do much more. This way, you're not limited in
+      what you want to do when a GoalItem is returned.
+```
+
+-- tf21_cl.zip/README.TXT
+
+## v2.11
+
+todo
+
+## v2.12
 
 todo
 
@@ -1599,17 +1724,44 @@ Download it from the WWW page: http://www.telefragged.com/teamfortress
 -- [rec.games.computer.quake.misc](https://groups.google.com/g/rec.games.computer.quake.misc/c/16b42SBX5uI/m/6Iotij72U6oJ)
 
 
-## v2.11
+This version is mentioned as being installed on a server on USENET (translated):
 
-todo
+```text
+Team Fortress v. 2.12 juz jest!
+KraQs
+13 Feb 1997
 
-## v2.12
+Hey.
 
-todo
+I installed version 2.12 of the Team Fortress server on VAVEL – the latest version currently available. It doesn't require installing a new client (2.11 works correctly). Several bugs have been fixed, mainly related to color changes, the grappling hook, and the sniper's shotgun. Version 2.2 with bots is coming! By the way – a day earlier than I announced – I've added the Cascade and Hedge 5 maps to the game.
+```
+
+-- [pl.rec.gry.komputerowe](https://groups.google.com/g/pl.rec.gry.komputerowe/c/_DoaAF1R8S4/m/mvu_RlfBcvgJ)
 
 ## v2.13
 
 todo
+
+This version is mentioned on USENET:
+
+```text
+...
+Starting with TF 2.13, mouse movement was disabled at the server level.
+There's nothing you can do on the Client to get around it.
+Unfortunately it was necessary in order to fix a sometimes-intentional,
+sometimes-not "cheating" problem. By using the mouse, the HWGuy and
+Soldier were able to run practically as fast as the Scout. That
+defeated one of the main balancing features between the various
+different player classes.
+
+We play a lot of LAN games of TF on Saturday nights, and we had a friend
+figure this out back with version 2.12. We didn't bother to mention it
+to the TF guys, but they apparently discovered it themselves. Only
+about a week or two later, version 2.13 was out with the fix.
+...
+```
+
+-- [rec.games.computer.quake.misc](https://groups.google.com/g/rec.games.computer.quake.misc/c/F7XDBOUCmA0/m/qY0flW5tOW4J)
 
 ## v2.14
 
@@ -1646,12 +1798,45 @@ Links:
 
 todo
 
+This version was uploaded to `cdrom.com`:
+
 ```text
 tf25rel.txt            06-Jul-97 18:02    44k
 tf25rel.zip            06-Jul-97 18:02   3.1M
 ```
 
 -- [http://www.cdrom.com/pub/idgames2/quakec/teamplay/](https://web.archive.org/web/19980210220428/http://www.cdrom.com:80/pub/idgames2/quakec/teamplay/) (archived)
+
+This version was reviewed on QCArchive:
+
+> One feature that I thoroughly enjoyed was the demo that came with TF 2.5. It's practically an opera. The demo really shows off the features found in TF. The demo has a fantastic finale which ends with a BOOM literally. This demo puts the great Ranger Gone Bad 2 to shame. That's how good it is.
+
+-- [http://www.planetquake.com:80/qca/patch182.htm](https://web.archive.org/web/19970719012544/http://www.planetquake.com:80/qca/patch182.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+* http://www.planetquake.com/qca/patch182.txt
+* ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25rel.zip
+* ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25fix.zip
+
+
+
+## v2.6 Final Beta (FB)
+
+todo
+
+This release was reviewed on QCArchive:
+
+> Update: Recently Team Fortress 2.6 came out. This is the last version of TF that will be coming out. The Team Fortress team has started to focus their attention on Team Fortress for Quake 2. Team Fortress 2.6 was released and basically does one thing. TF 2.6 speeds up QuakeWorld games and works with GLQWCL. ...
+
+-- [http://www.planetquake.com/qca/reviews/patch81.htm](https://web.archive.org/web/20000522141708/http://www.planetquake.com:80/qca/reviews/patch81.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/qca/reviews/patch81.txt
+* ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf26fb.zip
+
 
 
 ## v2.6
