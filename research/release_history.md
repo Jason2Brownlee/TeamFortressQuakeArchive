@@ -2289,6 +2289,34 @@ Bug Fixes:
 
 Released as `qwwf215.zip`.
 
+Mentioned on BluesNews:
+
+> April 7, 1997
+>
+> QW TeamFortress\
+> TeamFortress Server 2.15, essentially a QW 1.5 port, is out on the TeamFortress page. Thanks to [UN]Falc[MOB], who's mail contained this amusing message:
+>
+>> NO new features are included (yes, we're still waiting on the spy, and hallucination grenades, and backstabbing, etc...<g>). Now that we'll be getting our servers back, those of us in the TF community would like to invite all you death matchers to drop by for your very own personal head wound. <g> (yes, I'm a sniper, and damn proud of it!!)
+
+-- https://www.bluesnews.com/archives/april97-1.html
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+
+Mentioned on Redwood's:
+
+> April 7, 1997
+>
+> Saw on sCary's that QuakeWorld 1.5 TeamFortress (v2.15) is available.
+
+-- [http://redwood.stomped.com/497.html](https://web.archive.org/web/20011031111944/http://redwood.stomped.com/497.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
 Files for this release were listed on the Time2Quake files area:
 
 ```text
@@ -2315,10 +2343,120 @@ The file timestamps suggest a release on April 7th.
 
 The changes and readme files were not updated for the release, suggesting it was a small bug fix release.
 
+## v2.5 Beta A
+
+todo
+
+## v2.5 Beta B
+
+
+Mentioned on Redwoods:
+
+> April 17, 1997
+>
+> The TeamFortress page has v2.5 beta available for download.
+
+-- [http://redwood.stomped.com/497.html](https://web.archive.org/web/20011031111944/http://redwood.stomped.com/497.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+Mentioned on BluesNews:
+
+> April 18, 1997
+>
+> TeamFortress 2.5 Beta Is Available?\
+> I've gotten a lot more email about the TeamFortress beta... apparently there is a 2.5 beta available for download. It's just not marked on the website(?), and the beta running on some test servers.
+
+-- https://www.bluesnews.com/archives/april97-2.html
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+
+
+todo
+
+## v2.5 Beta C
+
+Mentioned on BluesNews:
+
+> April 21, 1997
+>
+> TeamFortress 2.5 Beta C\
+> TeamFortress 2.5 Beta C has been released on the TeamFortress homepage (I saw the link in the news section with my own two eyes--I'm not crazy, I tell you!!) you can download all the mdls/sounds that TF 2.5 beta C needs, but it doesn't contain the source code or the progs.dat. Also, apparently the concept of donateware is off the boards, because id wasn't into it.
+
+-- https://www.bluesnews.com/archives/april97-3.html
+
+
+
+todo
+
+## v2.5 Beta D
+
+todo
+
+Mentioned on BluesNews:
+
+> April 22, 1997
+>
+> TeamFortress 2.5 Beta D\
+> There is an updated Beta of version 2.5 up on the TeamFortress page.
+
+-- https://www.bluesnews.com/archives/april97-3.html
+
+Mentioned on Redwood's:
+
+> April 22, 1997
+>
+> TeamFortress Beta D\
+> The recent trend of releasing slow, agonizing beta releases continues its legacy, TeamFortress has gone to beta D.
+
+-- [http://redwood.stomped.com/497.html](https://web.archive.org/web/20011031111944/http://redwood.stomped.com/497.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+## v2.5 Beta E
+
+Mentioned on BluesNews:
+
+> April 25, 1997
+>
+> TeamFortress Beta E\
+> TeamFortress Beta E has been released on the TeamFortress page. Contrary to previous reports, this is the first actual publicly available beta of version 2.5. It is, as pointed out, useless to you unless you can run a QuakeWorld TeamFortress server. Thanks Pat Mccomack.
+
+-- https://www.bluesnews.com/archives/april97-3.html
+
+
+todo
+
+## v2.5 Beta F
+
+Mentioned on BluesNews:
+
+> Saturday, May 17, 1997
+>
+> TeamFortress 2.5 Beta F\
+> Thanks to my pal SirLiam for the word that TeamFortress 2.5 Beta F has been released on the TeamFortress Page (and very easy to find on the page this time around, I might add).
+
+-- https://www.bluesnews.com/archives/may97-3.html
+
+todo
 
 ## v2.5 Beta G
 
-todo
+Mentioned on BluesNews:
+
+> Wednesday, May 21, 1997
+>
+> TeamFortress 2.5 Beta G\
+> TeamFortress 2.5 Beta G is available on the TeamFortress page. Thanks Klerck.
+
+-- https://www.bluesnews.com/archives/may97-3.html
 
 Announced on Jord's News:
 
@@ -2339,10 +2477,131 @@ Links:
 * http://www.planetquake.com/teamfortress/files/25files.zip
 * http://www.planetquake.com/teamfortress/
 
+## v2.5 Beta H
+
+Released as `tf25bth.zip`.
+
+Mentioned on BluesNews:
+
+> Tuesday, May 27, 1997
+>
+> TeamFortress Beta H\
+> Thanks Bethune for word that TeamFortress Beta H is out. Speaking of TeamFortress, Falconeer's Sniper Tactics can teach budding Lee Harveys what's up with "that darn sniper rifle".
+
+-- https://www.bluesnews.com/archives/may97-4.html
+
+Listed on Time2Quake:
+
+```text
+tf25bth.zip            26-May-97 23:56   427k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Content of `tf25bth.zip`:
+
+```text
+-rw-rw-r--  0 0      0        2669 27 May  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0      660920 27 May  1997 PROGS.DAT
+-rw-rw-r--  0 0      0        5892 27 May  1997 QW.TXT
+-rw-rw-r--  0 0      0      669284 27 May  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0         199 27 May  1997 SERVER.CFG
+-rw-rw-r--  0 0      0          13 17 May  1997 QWMCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          15 18 May  1997 QWMCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          36 17 May  1997 QWMCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          27 17 May  1997 QWMCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          15 27 May  1997 QWMCYCLE/MAP5.CFG
+```
+
+The file timestamps suggest a release on May 27th.
+
+This matches the date in the changelog:
+
+```text
+--------------------------------------
+Version 2.5 Beta H  - Released 27/5/97
+--------------------------------------
+Features Added:
+    - Demomen can select pipebomb launcher with impulse 7, and 6
+      always selects normal grenades.
+
+Changes:
+    - Medic's now heal teammates fully in one hit with the medikit, and
+      it doesn't use any medikit ammo.
+    - If a Medic hits a teammate with the medikit, and the teammate is already
+      fully healed, then the Medic will add 5 megahealth to the teammate,
+      upto 50 megahealth over the teammates max health. This uses up 1 medikit
+      ammo per 5 megahealth.
+    - Medic's now use 1 medikit ammo per 1 health regenerated.
+    - Engineer's repair 4 armor for every 1 metal now.
+    - New Dispenser mdl by Jim Kaufman. It's now smaller, and can be jumped.
+    - Players can't shoot for 0.4s after spawning, to prevent ppl dying in a
+      fight from accidently shooting teammates.
+    - The use of "samelevel" restored, and we now use the serverinfo key "n"
+      to store the current level number in the cycle. Read the qw.txt file
+      for full details.
+
+Bugs Fixed:
+    - Demomen "bouncing" as they set detpacks.
+    - "trigger_hurt" entities only gibbing a player once.
+    - Engineer's building cleaned up. No more build-sentry-change-class,
+      or build-sentry-reconnect.
+
+Map Code Changes:
+    - Goals that injure players they affect never gib the player. This should
+      stop Jim Kaufman's Rock map crashing.
+
+Map Code Enhancements:
+    - There are now abbreviations for many of the mapcode entity's strings.
+      This should help for those of you having trouble with Quake's limit on
+      a map's entity details.
+      The Abbreviations are as follows:
+        Classnames
+            "i_p_t"   for   "info_player_teamspawn"
+            "i_t_g"   for   "info_tfgoal"
+            "i_t_t"   for   "info_tfgoal_timer"
+
+        Common Variables
+            "g_a"     for   "goal_activation"
+            "g_e"     for   "goal_effects"
+
+        String Variables
+            "t_s_h"   for   "team_str_home"
+            "t_s_m"   for   "team_str_moved"
+            "t_s_c"   for   "team_str_carried"
+            "n_s_h"   for   "non_team_str_home"
+            "n_s_m"   for   "non_team_str_moved"
+            "n_s_c"   for   "non_team_str_carried"
+
+            "b_b"     for   "broadcast"
+            "b_t"     for   "team_broadcast"
+            "b_n"     for   "non_team_broadcast"
+            "b_o"     for   "owners_team_broadcast"
+            "n_b"     for   "netname_broadcast"
+            "n_t"     for   "netname_team_broadcast"
+            "n_n"     for   "netname_non_team_broadcast"
+            "n_o"     for   "netname_owners_team_broadcast"
+
+            "d_t"     for   "team_drop"
+            "d_n"     for   "non_team_drop"
+            "d_n_t"   for   "netname_team_drop"
+            "d_n_n"   for   "netname_non_team_drop"
+```
+
+-- tf25bth.zip/CHANGES.TXT
 
 ## v2.5 Beta I
 
-todo
+Released as `tf25bti.zip`
+
+Mentioned on BluesNews:
+
+> Tuesday, June 3, 1997
+>
+> New TeamFortress\
+> Beta I of TeamFortress 2.5 is now available on the TeamFortress Page (thanks SirLiam).
+
+-- https://www.bluesnews.com/archives/may97-5.html
 
 Mentioned on Time2Quake:
 
@@ -2357,11 +2616,225 @@ Links:
 
 * http://www.planetquake.com/teamfortress/
 
+Listed on Time2Quake:
 
+```text
+tf25bti.zip            03-Jun-97 15:12   435k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Content of `tf25bti.zip`:
+
+```text
+-rw-rw-r--  0 0      0        3363  4 Jun  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0      665764  4 Jun  1997 PROGS.DAT
+-rw-rw-r--  0 0      0      674532  4 Jun  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0        7517  3 Jun  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0         201  4 Jun  1997 SERVER.CFG
+-rw-rw-r--  0 0      0        4910  3 Jun  1997 SERVER.TXT
+-rw-rw-r--  0 0      0          21  4 Jun  1997 MCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          23  4 Jun  1997 MCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          44  4 Jun  1997 MCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          35  4 Jun  1997 MCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          12  4 Jun  1997 MCYCLE/MAP5.CFG
+-rw-rw-r--  0 0      0          13 17 May  1997 QWMCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          15 18 May  1997 QWMCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          36 17 May  1997 QWMCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          27 17 May  1997 QWMCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          15 27 May  1997 QWMCYCLE/MAP5.CFG
+```
+
+The timestamps suggest a release on June 4th.
+
+This is close to the date in the changelog:
+
+```text
+--------------------------------------
+Version 2.5 Beta I  - Released  3/6/97
+--------------------------------------
+Features Added:
+    - Respawn Delay code fixed. QW servers can set a respawn delay by
+      using the serverinfo key "respawn_delay" to set a time in seconds.
+      LAN servers have a set Respawn Delay of 5 seconds by using the
+      "temp1" variable.
+      Suiciding players cannot respawn for an extra 5 seconds.
+    - EMP Grenades detonate pipebombs and ammoboxes/discard-backpacks.
+    - Forced Reloading time is now proportional to the number of empty
+      spaces in the clip.
+    - Dispensers create ammo inside themselves at a rate of
+      20 shells, 30 nails, 15 rockets, 20 cells, & 25 armor every 10 seconds.
+    - Player suiciding or killing themselves while infected now
+      give the medic a frag.
+    - IDing sentries/dispensers tells you who built them.
+    - Direct selection impulse for Axe added. The impulse is 40.
+      It will select the axe equivalent for your current class.
+      e.g. Knife for Spy, Spanner for Engineer, BioWeapon for Medic,
+           Axe for everyone else.
+
+Changes:
+    - When a player gets ammo/armor from a dispenser, he/she attempts to
+      get as much as they can carry in one go.
+    - Drop Ammo amount and Dispenser Ammo Retrieval amount doubled.
+    - Detpacks can't be set with fuses shorter than 5 seconds.
+    - Nail Grenade's nails don't knock players around.
+    - Nail Grenade's nails damage decrease to by a 1/3.
+    - Heavy Weapons Man is not knocked around by the damage he takes.
+    - Tweaked Soldier and Medic.
+
+Bug Fixes:
+    - Bug in alias creation fixed. ZMalloc should occur less frequently now.
+    - Pyro rockets/flames hurting teammates fixed.
+    - Demomen retrieving detpacks being unable to move fixed.
+    - Sentry Gun's not using rocket ammo fixed.
+    - Sentry Gun's taking double damage from explosions fixed.
+    - Sentry Gun's not shooting anyone in DM fixed.
+    - Team Centerprinting in DM fixed.
+    - Detpack blocking fixed.
+    - Engineer getting other class's weapons fixed. Sorry ;)
+    - Railgun weapon selection fixed.
+    - Detpack countdown being removed if setter dies fixed.
+    - Armor picture being incorrectly updated fixed.
+    - Status Bar crashing in Size 3 (No Console) fixed.
+      There is only two Statusbar sizes now: Full Console and Half Console.
+
+Map Code Changes:
+    - "armortype" variable for Goals used to be added to player's current
+      armortype. Now, the player's armortype is set to the Goals "armortype".
+      Armortypes are:
+            0.3 : Green
+            0.6 : Yellow
+            0.8 : Red
+
+Map Code Bug Fixes:
+    - Illegal Classes handling for Spy, Engineer, and RandomPC fixed.
+    - Goals starting in Removed state being visible fixed.
+    - GoalItem's Reverse activation bit working now.
+    - Timer Goals not checking criteria properly fixed.
+    - Abbreviations for "info_tfdetect" entities fixed.
+    - Goal's giving armor not updating the picture fixed.
+
+Map Code Enhancements:
+    - A new bit (32) was added to the "goal_effects".
+        32  :   If a player who fits one of the other "goal_effects" variables
+                is not in the same environment as the Goal, don't affect him.
+                Environments are air, water, slime, lava.
+                e.g. If a Goal is above some water, and does a radius effect
+                     with "t_length", and a player in the water is within the
+                     radius, he won't be affected if this bit is set.
+```
+
+-- tf25bti.zip/CHANGES.TXT
+
+## v2.5 Beta J
+
+Released as `tf25btj.zip`
+
+Mentioned on BluesNews:
+
+> Tuesday, June 10, 1997
+>
+> TeamFortress Quake\
+> The new beta of TeamFortress 2.5 that has been posted on the TeamFortress page, is promised to be the last beta before the final release of version 2.5. I received a well done demo that was kind of like a music video, to promote TF 2.5. The demo was pretty nifty, I presume it will be made publicly available eventually.
+
+-- https://www.bluesnews.com/archives/june97-1.html
+
+Listed on Time2Quake:
+
+```text
+TF25BTJ.ZIP            10-Jun-97 12:52   208k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Contents of `tf25btj.zip`:
+
+```text
+-rw-rw-r--  0 0      0        1187 11 Jun  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0      665828 11 Jun  1997 PROGS.DAT
+```
+
+The file timestamps suggest a release on June 11th.
+
+This is close to the date in the changelog:
+
+```text
+-----------------------------------------
+Version 2.5 Final Beta - Released 10/6/97
+-----------------------------------------
+Changes:
+    - Added support for QW "rj" key to allow RocketJump customisation.
+    - Soldiers Rocket damage increased to 92 direct, 92+rnd(20) splash.
+    - Demoman starts with Blast resistant armor.
+    - Detpacks are removed if the demoman who set them disconnects.
+    - Map Code mdl setting cleaned up.
+    - Players in Observer mode have their skin set to base.
+    - CTF support now uses the tf_flag.mdl
+    - Decapitation removed in QW version, since we were exceeding QW's
+      16 meg RAM limit.
+
+Bugs Fixed:
+    - Engineer out of shells being unable to select railgun fixed.
+    - Special Armor types not updating correctly fixed.
+    - Incendiary Rockets injuring teammates fixed.
+
+Map Code Enhancements:
+    - A new bit (64) was added to the "goal_effects".
+        64 : If this bit is set, then instead of just applying this Goal's
+             results to the group of players specified by the other
+             "goal_effects" variable, this Goal checks it's criteria for
+             each player in the group and then applies it's results
+             invididually to any of them that pass.
+```
+
+-- tf25btj.zip/CHANGES.TXT
+
+
+## v2.5 Final Beta
+
+The filename for this release is not yet known.
+
+Mentioned on BluesNews:
+
+> Friday, June 13, 1997
+>
+> TeamFortress 2.5 Final Beta\
+> The final beta of TeamFortress 2.5 has been released on the TeamFortress Page (thanks orangE-[CE]). The cool TF promo was supposed to be released simultaneously, but I can't find it posted yet.
+
+-- https://www.bluesnews.com/archives/june97-1.html
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5
 
-todo
+Mentioned on BluesNews:
+
+> Friday, June 13, 1997
+>
+> TeamFortress 2.5 Final!\
+> Well that was a short beta period (see below). The final version of TeamFortress version 2.5 (3 MB) has been released. The package contains the whole deal: a normal and QuakeWorld version (both client and server), and the cool TF 2.5 promo. The new release is also (obviously) available on the newly redesigned TeamFortress page which looks great. There is also a description there of a TF demo competition, as well as the news that they have been allowed by id Software to accept donations (so all you TF fans, get your checkbooks ready...). Thanks for word on this from Rooks, who has revamped his TF Strategy Guide for the occasion.
+
+-- https://www.bluesnews.com/archives/june97-1.html
+
+Links:
+
+* https://www.bluesnews.com/files/patches/teamfortress/tf25rel.zip
+
+Mentioned on Telefragged:
+
+> Fri Jun 13 17:28:34 CDT 1997
+>
+> TeamFortress\
+> If you go to the awesomely remodeled TeamFortress Page, you will find that the final version of 2.5 has been released. Get both the server/client combined pack. Also, they have started a demo competition. Also, they are accepting donations from TeamFortress players, details are here.
+
+-- [http://www.telefragged.com/oldnews/june.shtml](https://web.archive.org/web/19980114112029/http://www.telefragged.com/oldnews/june.shtml) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress
+* ftp://ftp.telefragged.com/pub/quake/quakec/tf/tf25rel.zip
+* http://www.teamfortress.com/democomp/
+* http://www.teamfortress.com/register.html
 
 This version was uploaded to `cdrom.com`:
 
@@ -2385,6 +2858,41 @@ Links:
 * ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25rel.zip
 * ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25fix.zip
 
+## v2.5 QuakeWorld Fix
+
+Released as `tf25fix.zip`.
+
+Mentioned on Redwoods:
+
+> June 15, 1997
+>
+> TeamFortress Fix for QW 1.64\
+Some of you may have noticed that TeamFortress 2.5 does not work correctly with the new QuakeWorld client. Here is the fix which will make it run properly, and also replaces the current flag with the correct one.
+
+-- [http://redwood.stomped.com/697.html](https://web.archive.org/web/20010830150348/http://redwood.stomped.com/697.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/news.html
+* http://redwood.stomped.com/files2/tf25fix.zip
+
+Mentioned on BluesNews:
+
+> Monday, June 16, 1997
+>
+> GL TeamFortress Fix\
+> There is a fix for using GL Quake with TeamFortress on the TeamFortress Page. Thanks MJollnir.
+
+-- https://www.bluesnews.com/archives/june97-2.html
+
+Mentioned on Telefragged:
+
+> Sun Jun 15 20:52:31 CDT 1997
+>
+> TeamFortress\
+> TeamFortress 2.5 doesn't work with the new version of QuakeWorld. You have to get a fix available on their page.
+
+-- [http://www.telefragged.com/oldnews/june.shtml](https://web.archive.org/web/19980114112029/http://www.telefragged.com/oldnews/june.shtml) (archived)
 
 
 ## v2.6 Final Beta (FB)
