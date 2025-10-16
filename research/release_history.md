@@ -934,6 +934,14 @@ Links:
 
 * http://minyos.its.rmit.edu.au/~cookj/
 
+This release was also mentioned on Telefragged:
+
+> 11/30/96
+>
+> There's a new TeamFortress patch out. It now has menus to pick your class. If you don't know what TeamFortress is or you want the file go to minyos.its.rmit. edu.au/~cookj.
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
 
 Content of `v1_35pak.zip`:
 
@@ -1179,6 +1187,18 @@ Links:
 
 * http://minyos.its.rmit.edu.au/~cookj/
 
+Beta testing was mentioned on Telefragged:
+
+> 12/7/96
+>
+> They are beta testing a new version of TeamFortress. It is suppose to have a grappling hook and stuff.
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+Links:
+
+* http://minyos.its.rmit.edu.au/~cookj/
+
 It does not appear in the changelog in version 1.37.
 
 This may have been another internal release like v1.24 or a minor release like 1.22.
@@ -1279,6 +1299,14 @@ Links:
 
 * http://www.bluesnews.com/files/tf137cl.zip
 * http://yallara.cs.rmit.edu.au/~cookj/
+
+This release was mentioned on Telefragged:
+
+> 12/17/96 6:50 a.m.
+>
+> * A new team fortress patch is out. A link is on my links page. See ya. Got to go to school quick.
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
 
 The release was uploaded to `cdrom.com`:
 
@@ -1490,6 +1518,15 @@ Links:
 * http://bluesnews.com/files/qwtf2nnf.zip
 * http://bluesnews.com/files/qwtf2.zip
 
+This version was mentioned on Telefragged:
+
+> 12/22/96 11:00 a.m.\
+> ...\
+> Also, I learned from Blue's that TeamFortress 2 is out for QuakeWorld and that they are looking for some QW servers now. Also they have a new address which is http://yallara.cs.rmit.edu.au/~cookj/.
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+
 Content of `qwtf2.zip`:
 
 ```text
@@ -1551,11 +1588,41 @@ Version 2.0  - Beta Released 22/12/96
 
 The filename for this release is not known.
 
+This release was mentioned on Telefragged:
+
+> 12/24/96 10:51 a.m.\
+> ...\
+> Wait, just saw that there is a new version of TeamFortress for QW out. Version 2.01 just for QW. Go play it. Gotta go shovel snow
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+This version does not appear in the changelog for v2.1.
+
+**A copy of this release has not yet been acquired for this archive.**
+
+
+## v2.02
+
+The filename for this release is not known.
+
+This release may have been mentioned on Telefragged:
+
+> Fri Dec 27 08:35:53 CST 1996\
+> ...\
+> There is also a new beta of QW Team Fortress out. Go to the TeamFortress HomePage
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+Links:
+
+* http://yallara.cs.rmit.edu.au/~cookj/
+
 This version does not appear in the changelog for v2.1.
 
 **A copy of this release has not yet been acquired for this archive.**
 
 ## v2.03
+
 
 This version appears in the changelog for v2.1:
 
@@ -1579,6 +1646,19 @@ Bugs Fixed:
 ## v2.1
 
 Released as `tf21_cl.zip`.
+
+This version was mentioned on BluesBews as well as the moved website:
+
+> January 23, 1997
+>
+> TeamFortress\
+> TeamFortress has moved (thanks sbloyd), to http://www.telefragged.com/teamfortress/ where they have, as promised, made version 2.1 of the TF patch available.
+
+-- [https://www.bluesnews.com/archives/jan97-3.html](https://www.bluesnews.com/archives/jan97-3.html)
+
+Links:
+
+* http://www.telefragged.com/teamfortress/
 
 This version is mentioned in a message signature by Robin Walker on USNET:
 
@@ -1704,6 +1784,19 @@ Map Code breakages (Old maps won't work if you used these)
 ## v2.11
 
 todo
+
+This version is mentioned BluesNews:
+
+> January 28, 1997
+>
+> TeamFortress\
+> There are two new patches on the TeamFortress page (thanks DiabloZ). Also, there's info on a workaround for a bug in version 2.11 of TeamFortress on Jord's Quake World.
+
+-- [https://www.bluesnews.com/archives/jan97-4.html](https://www.bluesnews.com/archives/jan97-4.html)
+
+Links:
+
+* http://www.telefragged.com/teamfortress/
 
 ## v2.12
 
