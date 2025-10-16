@@ -2289,6 +2289,18 @@ Bug Fixes:
 
 Released as `qwwf215.zip`.
 
+Mentioned on the TeamFortress homepage:
+
+> 8-4-97\
+> Well, you can get version 2.15 from the Downloads section. This version is a simple port of 2.14 for QuakeWorld 1.5. It has NO new features, so unless you want to run a QW 1.5 TF server, don't bother downloading it. Sorry it took so long... we lost our net access for 2 days because we moved houses, which made it fairly difficult to upload the patch. Please Note : This version has 1 or 2 known bugs in it... they're non-fatal, but we wanted to get this version out ASAP. It only has to last for 5 days... we're still committed to getting a beta of 2.5 out by the end of this week.
+>
+> If you're going to run 2.15, be careful about the map you use. QuakeWorld 1.5 seems to have a lower maximum entity/static count than the previous version, so maps with too many of them will crash the server when it tries to load them. At the moment, I know that 2fort4 has too many, and other TF maps may. To fix it, edit the .bsp file and change all "light_torch_small_walltorch" entities to "light", and then qbsp it with the -onlyent parameter. That should lower the entity count.
+>
+> We'd like to wave farewell to Nate and Thank him for all he did for TF... he'll be missed.
+At the same time, we'd like to welcome Tyr to the TF group. He's working on a revamped version of 2fort, which is looking fantastic.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw_/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
 Mentioned on BluesNews:
 
 > April 7, 1997
@@ -2303,7 +2315,6 @@ Mentioned on BluesNews:
 Links:
 
 * http://www.planetquake.com/teamfortress/
-
 
 Mentioned on Redwood's:
 
@@ -2345,10 +2356,34 @@ The changes and readme files were not updated for the release, suggesting it was
 
 ## v2.5 Beta A
 
-todo
+Released as `25betaf.zip`.
+
+Mentioned on the TeamFortress homepage:
+
+> Last Updated 15/4/97\
+> Current version: TF v2.5 Beta A, 15/4/97
+
+-- [http://www.planetquake.com/teamfortress/](https://web.archive.org/web/19970414103937/http://www.planetquake.com/teamfortress/) (archived)
+
+And:
+
+14-4-97
+> Yes, finally, we've released the first beta of TeamFortress Version 2.5. It's NOT a public beta... for a couple of reasons. We don't want 500 people mailing us a report of the same bug, and since we'll quite likely be releasing a few new versions over the next few days, it makes it easier for us if its in a controlled environment.
+The beta is currently running on all the servers in CTSnet. Just connect to one and you'll d/l all the relevant files. We don't have a client pak here because it isn't assembled yet... we'll be adding in a few new files over the next couple of days. You can download a zip containing the current models/sounds being used right here. Unzip them in your quake\qw directory, and make sure you keep the directory structure.
+>
+> ...
+>
+> Well, there's lots more in there than that, but you'll just have to find out for yourself. We'll keep running it like this until we're happy with it's stability, and then we'll release it here, along with the client pak.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw_/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/25betaf.zip
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta B
-
 
 Mentioned on Redwoods:
 
@@ -2594,6 +2629,14 @@ Map Code Enhancements:
 
 Released as `tf25bti.zip`
 
+Mentioned on the TeamFortress homepage:
+
+> Last Updated 3/6/97\
+> Current version: TF v2.5 Beta I, 3/6/97
+
+-- [http://www.planetquake.com:80/teamfortress](https://web.archive.org/web/19970607133107/http://www.planetquake.com:80/teamfortress/) (archived)
+
+
 Mentioned on BluesNews:
 
 > Tuesday, June 3, 1997
@@ -2793,6 +2836,13 @@ Map Code Enhancements:
 ## v2.5 Final Beta
 
 The filename for this release is not yet known.
+
+Mentioned on the TeamFortress homepage:
+
+> Last Updated 10/6/97\
+> Current version: TF v2.5 Final Beta, 10/6/97
+
+-- [http://www.planetquake.com:80/teamfortress](https://web.archive.org/web/19970611032547/http://www.planetquake.com:80/teamfortress/) (archived)
 
 Mentioned on BluesNews:
 
