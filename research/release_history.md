@@ -1698,6 +1698,14 @@ Links:
 
 * http://yallara.cs.rmit.edu.au/~cookj/
 
+And again later:
+
+> Wendsday January 1, 1997
+>
+> Team Fortress 2.03 Beta is running at 198.28.62.30:27501
+
+-- [http://jord.sbc.edu/archives/news/0101_0107.htm](https://web.archive.org/web/19980216153158/http://jord.sbc.edu/archives/news/0101_0107.htm) (archived)
+
 It was also linked on Jord's Files page:
 
 > tf203src.zip  The latest version of the TF source code.
@@ -1777,6 +1785,20 @@ Links:
 
 * http://www.planetquake.com/qca/patch131.txt
 * http://www.planetquake.com/qca/files/tf21_cl.zip
+
+The release was mentioned on Jord's:
+
+> Thursday January 23, 1997 01:49 PM
+>
+> New Version 11:26 AM\
+> Well the guys down at Team Fortress have released version 2.1.
+It includes new maps and options such as redone 2fort and havoc maps and 3 team CTF.
+I can't wait to get a look at this but I'm at work now. :-(
+>
+> Move 11:31 AM\
+> Well they did get around to moving. Team Fortress is now located at http://www.telefragged.com/teamfortress/
+
+-- [http://jord.sbc.edu/archives/news/011797_012397.htm](https://web.archive.org/web/19980216153314/http://jord.sbc.edu/archives/news/011797_012397.htm) (archived)
 
 
 Content of `tf21_cl.zip`:
@@ -1875,7 +1897,19 @@ Map Code breakages (Old maps won't work if you used these)
 
 ## v2.11
 
+
 todo
+
+A bug is mentioned in this version on Jord's:
+
+> Tuesday January 28, 1997 04:50 PM
+>
+> TeamFortress 03:35 PM\
+> Class Changing Bug 03:26 PM\
+> OK version 2.11 of TeamFortress has a bug in it. The cheat checking has been improved greatly but as a side effect of this there are times when the TF server to which you are connected sends the command to the master to change your skin and because of the load on the masters some times they don't get the command instantly. Next time the cheat check looks at you you have the wrong skin and get kicked off the server (they don't actually log twenty frags against you)
+> I talked to the guys at TF and they are going to have the cheat checking just reset your skin to what it should be instead of kicking players. In the mean time they sent me these instructions on how to recompile your server without skin checking
+
+-- [http://jord.sbc.edu/archives/news/012497_013097.htm](https://web.archive.org/web/19980216153351/http://jord.sbc.edu/archives/news/012497_013097.htm) (archived)
 
 This version is mentioned BluesNews:
 
@@ -1890,9 +1924,59 @@ Links:
 
 * http://www.telefragged.com/teamfortress/
 
+The changelog from version 2.14 suggests a release on January 27th.
+
+```text
+-------------------------------------
+Version 2.11  - Released 27/1/97
+-------------------------------------
+Features Added:
+    - Speed checking is now much more efficient, and will catch
+      them everytime.
+    - Suiciders now have a respawn delay, and cannot re-suicide for 10
+      seconds. This prevents them from crashing servers.
+    - Skin and color checking has been fixed, and players who are
+      caught are kicked.
+
+Changes:
+    - Teamfrags option changed. Servers now have the option to
+      never use teamfrags. This is now the default.
+```
+
+-- qwwf214.zip/README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
+
 ## v2.12
 
 todo
+
+This version is mentioned on BluesNews:
+
+> February 4, 1997
+>
+> New TeamFortress\
+> Version 2.12 of the TeamFortress patch is out, featuring a few bug fixes. Thanks DiabloZ.
+
+-- https://www.bluesnews.com/archives/feb97-1.html
+
+Links:
+
+* http://www.telefragged.com/teamfortress/
+
+This version is mentioned on Jord's:
+
+> Tuesday February 04, 1997 07:49 PM
+>
+> Version 2.12 12:23 PM\
+> Well here it is. The guys down at TeamFortress have finally gotten version 2.12 out.
+Improvements and bug fixes include.
+> Map Code Enhancements\
+> Skin checking no longer disconnects the player, just sets the skin back.\
+> Sniper laser sight and autozoom changed.\
+> CHEAT_WARNINGS option that you can use to turn off the cheat display and have the checking run only in the background.
+
+-- [http://jord.sbc.edu/archives/news/013197_020697.htm](https://web.archive.org/web/19980216153427/http://jord.sbc.edu/archives/news/013197_020697.htm) (archived)
 
 This version is mentioned in a message signature by Robin Walker on USNET:
 
@@ -1923,9 +2007,50 @@ I installed version 2.12 of the Team Fortress server on VAVEL – the latest ver
 
 -- [pl.rec.gry.komputerowe](https://groups.google.com/g/pl.rec.gry.komputerowe/c/_DoaAF1R8S4/m/mvu_RlfBcvgJ)
 
+The changelog from version 2.14 suggests a release on February 4th.
+
+```text
+-------------------------------------
+Version 2.12  - Released 4/2/97
+-------------------------------------
+Map Code Enhancements:
+    - Goals can do more intelligent broadcasting with netname.(Happy Network? ;)
+
+Changes:
+    - Skin checking no longer disconnects the player, just sets the skin back.
+    - Sniper laser sight and autozoom.
+```
+
+-- qwwf214.zip/README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
+
 ## v2.13
 
-todo
+Released as `qwwf213.zip`.
+
+This version is mentioned on Jord's:
+
+> Monday February 17, 1997 11:59 PM EST
+>
+> Team Fortress 11:32 PM\
+> The guys on the TF team have yet another update to the popular TeamFortress mod. Version 2.13 is now out.
+> Changes include
+> Better prevention of cheating with mouse movement.\
+> Medic gets a frag for curing infection and concussion.\
+> Level cycling is now sensitive to the number of Players in the game.\
+> Sniper Reload time #defined for accessibility. (Heh I had already done that on my server)\
+> Medic max_armor and max_nails lowered.\
+> Assault Cannon's damage increased. (evil grin, this could be fun)\
+> Flame-thrower and Incendiary Cannon damage increased in the net version. This is because the Pyro is a weaker character on net, due to the fact he cannot spread fires. (Its about time)\
+> All damage done by players is now reduced by 10%. (Probably not a bad idea)\
+> The TF people are also planing to have an new full version out soon. With new classes and other improvements.
+
+-- [http://jord.sbc.edu/archives/news/021697_021897.htm](https://web.archive.org/web/19980216153555/http://jord.sbc.edu/archives/news/021697_021897.htm) (archived)
+
+Links:
+
+* http://www.telefragged.com/teamfortress/
 
 This version is mentioned on USENET:
 
@@ -1948,13 +2073,248 @@ about a week or two later, version 2.13 was out with the fix.
 
 -- [rec.games.computer.quake.misc](https://groups.google.com/g/rec.games.computer.quake.misc/c/F7XDBOUCmA0/m/qY0flW5tOW4J)
 
+This version is listed on QUTA:
+
+> Quakeworld Team Fortress Server files (687k) These do not require the client side files, so if you can use TCP/IP, this is for you
+
+-- [http://web.ukonline.co.uk/Members/dr.stebbings/clubshop.htm](https://web.archive.org/web/19970615012732/http://web.ukonline.co.uk:80/Members/dr.stebbings/clubshop.htm) (archived)
+
+Links:
+
+* http://web.ukonline.co.uk/Members/dr.stebbings/ZIPFILES/qwwf213.zip
+
+The changelog from version 2.14 suggests a release on February 17th.
+
+```text
+-------------------------------------
+Version 2.13  - Released 17/02/97
+-------------------------------------
+Features Added:
+    - Better prevention of cheating with mouse movement.
+    - Medic gets a frag for curing infection and concussion.
+    - Level cycling is now sensitive to the number of Players in the game.
+
+Map Code Enhancements:
+    - GoalItems can centerprint messages to players when they're dropped by
+      a dying player.
+
+Changes:
+    - Method of counting players adjusted so we count people with a fancy
+      character as the first letter in their name. This will fix team
+      imbalances in the autoteam assignment.
+    - Sniper Reload time #defined for accessability.
+    - Medic max_armor and max_nails lowered.
+    - Assault Cannon's damage increased.
+    - Flamethrower and Incendiary Cannon damage increased in the net version.
+      This is because the Pyro is a weaker character on net, due to the fact
+      he cannot spread fires.
+    - All damage done by players is now reduced by 10%.
+
+Bug Fixes:
+    - Fixed a killtarget problem which prevented TF Goals from using
+      killtarget and target effectively (Thanks Jeremy!)
+    - Fixed a problem with the Class-Persistence in non-Coop Mode play.
+```
+
+-- qwwf214.zip/README.TXT
+
+**A copy of this release has not yet been acquired for this archive.**
+
 ## v2.14
 
-todo
+Released as five files:
+
+* `lanwf214.zip`
+* `netnf214.zip`
+* `netwf214.zip`
+* `qwwf214.zip`
+* `tf214src.zip`
+
+Files for this release were listed on the Time2Quake files area:
+
+```text
+lanwf214.zip           03-Apr-97 22:09   686k
+netnf214.zip           03-Apr-97 22:09   183k
+netwf214.zip           03-Apr-97 22:10   686k
+qwwf214.zip            03-Apr-97 22:11   686k
+tf214src.zip           03-Apr-97 22:12   328k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Content of `lanwf214.zip`:
+
+```text
+-rw-rw-r--  0 0      0         215 23 Jan  1997 AUTOEXEC.CFG
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0     1594438 23 Jan  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      436092 11 Mar  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+```
+
+Content of `netnf214.zip`:
+
+```text
+-rw-rw-r--  0 0      0         232 23 Jan  1997 AUTOEXEC.CFG
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0      436408 11 Mar  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+```
+
+Content of `netwf214.zip`:
+
+```text
+-rw-rw-r--  0 0      0         232 23 Jan  1997 AUTOEXEC.CFG
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0     1594438 23 Jan  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      436748 11 Mar  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+```
+
+Content of `qwwf214.zip`:
+
+```text
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0     1594438 23 Jan  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      438328 11 Mar  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0         160 23 Jan  1997 SERVER.CFG
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+```
+
+Content of `tf214src.zip`:
+
+```text
+-rw-rw-r--  0 0      0       12676 14 Feb  1997 ADMIN.QC
+-rw-rw-r--  0 0      0       15150 29 Dec  1996 AI.QC
+-rw-rw-r--  0 0      0       77312 22 Oct  1996 ALEXQCC.EXE
+-rw-rw-r--  0 0      0        1833 29 Dec  1996 AMTEST.QC
+-rw-rw-r--  0 0      0       12936 29 Dec  1996 BOSS.QC
+-rw-rw-r--  0 0      0        2202  6 Dec  1996 BOT.QC
+-rw-rw-r--  0 0      0       15307 20 Dec  1996 BOTAI.QC
+-rw-rw-r--  0 0      0         166  3 Dec  1996 BOTS.QC
+-rw-rw-r--  0 0      0        3875  5 Mar  1997 BUTTONS.QC
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0       62326 17 Feb  1997 CLIENT.QC
+-rw-rw-r--  0 0      0       15083 17 Feb  1997 COMBAT.QC
+-rw-rw-r--  0 0      0         874 20 Dec  1996 COMBOT.QC
+-rw-rw-r--  0 0      0        2739 24 Dec  1996 COOP.QC
+-rw-rw-r--  0 0      0        3326 23 Jan  1997 CTF.QC
+-rw-rw-r--  0 0      0        1072 23 Jan  1997 DEBUG.QC
+-rw-rw-r--  0 0      0       54513 11 Mar  1997 DEFS.QC
+-rw-rw-r--  0 0      0       11297 29 Dec  1996 DEMON.QC
+-rw-rw-r--  0 0      0       10545 29 Dec  1996 DOG.QC
+-rw-rw-r--  0 0      0       20211 21 Feb  1997 DOORS.QC
+-rw-rw-r--  0 0      0       12159 29 Dec  1996 ENFORCER.QC
+-rw-rw-r--  0 0      0        7199 20 Nov  1996 FIGHT.QC
+-rw-rw-r--  0 0      0        8025 29 Dec  1996 FISH.QC
+-rw-rw-r--  0 0      0        1739 29 Dec  1996 FLARE.QC
+-rw-rw-r--  0 0      0       19772 29 Dec  1996 HKNIGHT.QC
+-rw-rw-r--  0 0      0       18918 23 Jan  1997 HOOK.QC
+-rw-rw-r--  0 0      0       37812 29 Dec  1996 ITEMS.QC
+-rw-rw-r--  0 0      0         290 29 Dec  1996 JCTEST.QC
+-rw-rw-r--  0 0      0       10968 29 Dec  1996 KNIGHT.QC
+-rw-rw-r--  0 0      0        2456 17 Feb  1997 LEVELS.QC
+-rw-rw-r--  0 0      0          61 11 Mar  1997 MAKE.BAT
+-rw-rw-r--  0 0      0       15722 23 Jan  1997 MENU.QC
+-rw-rw-r--  0 0      0         950 11 Mar  1997 MESSAGES.QC
+-rw-rw-r--  0 0      0       19738 29 Dec  1996 MISC.QC
+-rw-rw-r--  0 0      0        9788 25 Jul  1996 MODELS.QC
+-rw-rw-r--  0 0      0       10851 23 Jan  1997 MONSTERS.QC
+-rw-rw-r--  0 0      0        1518 23 Jan  1997 MSKIN.QC
+-rw-rw-r--  0 0      0       16116 29 Dec  1996 OGRE.QC
+-rw-rw-r--  0 0      0       11561 30 Oct  1996 OLDBOT.QC
+-rw-rw-r--  0 0      0        9776 29 Dec  1996 OLDONE.QC
+-rw-rw-r--  0 0      0        3169 11 Mar  1997 OPTIONS.QC
+-rw-rw-r--  0 0      0        9984 29 Dec  1996 PLATS.QC
+-rw-rw-r--  0 0      0       28952 25 Jan  1997 PLAYER.QC
+-rw-rw-r--  0 0      0         915  7 Dec  1996 PREOPDEF.QC
+-rw-rw-r--  0 0      0         426 27 Dec  1996 PREPROGS.SRC
+-rw-rw-r--  0 0      0       93649 19 Dec  1996 PREQCC.EXE
+-rw-rw-r--  0 0      0        2598 27 Aug  1996 PROGDEFS.QC
+-rw-rw-r--  0 0      0       20782 10 Feb  1997 PYRO.QC
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0        9106 29 Dec  1996 SHALRATH.QC
+-rw-rw-r--  0 0      0       14030 29 Dec  1996 SHAMBLER.QC
+-rw-rw-r--  0 0      0       11255 29 Dec  1996 SOLDIER.QC
+-rw-rw-r--  0 0      0         486 25 Jul  1996 SPRITES.QC
+-rw-rw-r--  0 0      0        6746 28 Dec  1996 SUBS.QC
+-rw-rw-r--  0 0      0        7498 29 Dec  1996 TARBABY.QC
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0      101560 10 Feb  1997 TFORT.QC
+-rw-rw-r--  0 0      0       15322 11 Mar  1997 TFORTHLP.QC
+-rw-rw-r--  0 0      0       70371 21 Feb  1997 TFORTMAP.QC
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       21952 17 Feb  1997 TFORTTM.QC
+-rw-rw-r--  0 0      0       19235 21 Jan  1997 TRIGGERS.QC
+-rw-rw-r--  0 0      0        3057 20 Dec  1996 TURRET.QC
+-rw-rw-r--  0 0      0       73467 14 Feb  1997 WEAPONS.QC
+-rw-rw-r--  0 0      0       12077 29 Dec  1996 WIZARD.QC
+-rw-rw-r--  0 0      0       11928 24 Dec  1996 WORLD.QC
+-rw-rw-r--  0 0      0       20747 29 Dec  1996 ZOMBIE.QC
+```
+
+The file timestamps suggest a release on March 11th 1997.
+
+This matches the date in the changelog:
+
+```text
+-------------------------------------
+Version 2.14  - Released 11/03/97
+-------------------------------------
+Bug Fixes:
+    - Various small bugs in the map code fixed.
+```
+
+-- qwwf214.zip/README.TXT
+
 
 ## v2.15
 
-todo
+Released as `qwwf215.zip`.
+
+Files for this release were listed on the Time2Quake files area:
+
+```text
+qwwf215.zip            07-Apr-97 11:29   685k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Content of `qwwf215.zip`:
+
+```text
+-rw-rw-r--  0 0      0         175 11 Mar  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0         416 23 Jan  1997 CTF.TXT
+-rw-rw-r--  0 0      0     1594438 23 Jan  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      440096  7 Apr  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       43235 11 Mar  1997 README.TXT
+-rw-rw-r--  0 0      0         160 23 Jan  1997 SERVER.CFG
+-rw-rw-r--  0 0      0        7121 11 Mar  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       19092 21 Feb  1997 TFENTREF.TXT
+-rw-rw-r--  0 0      0       61103 11 Mar  1997 TFORTMAP.TXT
+```
+
+The file timestamps suggest a release on April 7th.
+
+The changes and readme files were not updated for the release, suggesting it was a small bug fix release.
+
 
 ## v2.5 Beta G
 
@@ -1978,6 +2338,26 @@ Links:
 * http://www.planetquake.com/teamfortress/files/tf25btg.zip
 * http://www.planetquake.com/teamfortress/files/25files.zip
 * http://www.planetquake.com/teamfortress/
+
+
+## v2.5 Beta I
+
+todo
+
+Mentioned on Time2Quake:
+
+> June 03, 1997
+>
+> TeamFortress Beta I\
+>Team Fortress Beta 1 is out so go the Team Fortress home page and get news/info/download.
+
+-- [http://www.time2quake.com/scarecrow/scqold.htm](https://web.archive.org/web/19970706050533/http://www.time2quake.com/scarecrow/scqold.htm) (archive)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+
 
 ## v2.5
 
