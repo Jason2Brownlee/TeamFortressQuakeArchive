@@ -42,8 +42,6 @@ tf1_36.zip
 tf1_38.zip
 tf1_39.zip
 tf201src.zip
-tf201src.zip
-tf202src.zip
 tf202src.zip
 tf211_cl.zip
 tf211cl.zip

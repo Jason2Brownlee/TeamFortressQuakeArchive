@@ -1498,10 +1498,13 @@ This version does not appear in the changelog for the next release, e.g. v2.0.
 
 Released as:
 
-* `tf2files.zip`
-* `tf2src.zip`
 * `qwtf2.zip`
 * `qwtf2nnf.zip`
+
+Two additional files were distributed for this release that may or may not be official (from [Jord's Files page](https://web.archive.org/web/19980111040233/http://jord.sbc.edu/files.htm) circa December 1996):
+
+* `tf2files.zip`
+* `tf2src.zip`
 
 This version was announced on BluesNews:
 
@@ -1525,6 +1528,24 @@ This version was mentioned on Telefragged:
 > Also, I learned from Blue's that TeamFortress 2 is out for QuakeWorld and that they are looking for some QW servers now. Also they have a new address which is http://yallara.cs.rmit.edu.au/~cookj/.
 
 -- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+This version was mentioned on Jord's:
+
+> Sunday December 22, 1996
+>
+> Team Fortress update 07:49 PM\
+> Started work on setting up a TF server. I'm building the machine from the ground up so I'm waiting for Windows 95 to install. (I tend to do this to computers alot, reformat them that is, makes em run better) So I went to read the documentation on TF.
+> YOU DO NOT NEED TO DOWNLOAD THE CLIENT SIDE FOR TF! This is great news. According to the guys at TF the dynamic download from a Quake server is a heck of a lot simpler and it takes about the same amount of time. Plus you don't have to start QWCL with any paramiters. VERY COOL
+> You can now move as an observer. Its slow but its better than being stuck like you were in the regular Quake version
+If you are getting random "ACK" messages from the master not to worry its the server trying to get some info about you and can't be helped.
+> The "serverinfo" command doesn't work from within a TF server.
+> And over all. I just can't wait to get this thing running!
+> Please remember this is still a beta version so their are likely to be bugs.
+>
+> Team Fortress Quake World mod goes into beta! 04:03 PM\
+> Oh cool man! I love this mod to begin with. Been working on getting each sequential update working for quite some time. Now I can carry it with me to Quake World.
+
+-- [http://jord.sbc.edu/archives/news/dec18th.htm](https://web.archive.org/web/19980216153039/http://jord.sbc.edu/archives/news/dec18th.htm) (archived)
 
 
 Content of `qwtf2.zip`:
@@ -1586,7 +1607,7 @@ Version 2.0  - Beta Released 22/12/96
 
 ## v2.01
 
-The filename for this release is not known.
+The filename for this release is not known, although it was probably `tf201src.zip`
 
 This release was mentioned on Telefragged:
 
@@ -1596,6 +1617,15 @@ This release was mentioned on Telefragged:
 
 -- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
 
+This release is mentioned on Jord's:
+
+> Tuesday December 24, 1996
+>
+> TF update 10:01 AM\
+> Looks like the guys at TF have a bug fix version out for QW TF. I'll Check it out.
+
+-- [http://jord.sbc.edu/archives/news/dec18th.htm](https://web.archive.org/web/19980216153039/http://jord.sbc.edu/archives/news/dec18th.htm) (archived)
+
 This version does not appear in the changelog for v2.1.
 
 **A copy of this release has not yet been acquired for this archive.**
@@ -1603,7 +1633,7 @@ This version does not appear in the changelog for v2.1.
 
 ## v2.02
 
-The filename for this release is not known.
+The filename for this release is not known, although it was probably `tf202src.zip`
 
 This release may have been mentioned on Telefragged:
 
@@ -1617,12 +1647,74 @@ Links:
 
 * http://yallara.cs.rmit.edu.au/~cookj/
 
+This release is mentioned on Jord's:
+
+> Friday December 27, 1996
+>
+> Team Fortress updates 05:33 AM\
+> There is a new beta of the TF source for both Quake and Quake World. You can compile it for each by changing one line in the options.qc file.\
+> It look pretty good. I've had the server running for over an hour now and none of the problems that we were seeing before have cropped up.\
+> I seem to have developed a cult following on that server. No sooner do I start it up than I have at least three people connected. Its pretty impressive.
+
+-- [http://jord.sbc.edu/archives/news/dec27.htm](https://web.archive.org/web/19980216153116/http://jord.sbc.edu/archives/news/dec27.htm) (archived)
+
+This suggests it was just a source code release.
+
 This version does not appear in the changelog for v2.1.
 
 **A copy of this release has not yet been acquired for this archive.**
 
 ## v2.03
 
+Released as `tf203src.zip`.
+
+This release is mentioned on Jord's:
+
+> Saturday December 28, 1996
+>
+> Team Fortress Update 03:37 PM\
+> There is another version of the Team Fortress server. Here is the word straight from the team.
+>
+>> Ok guys, here's the beta release for version 2.03\
+>> It's getting pretty stable now, since we've got hold
+of a master server which runs on a LAN.
+>> We can now test the code a lot more extensively
+>> before we release it, which is good news for you
+>> and good news for us.
+>> This version has the following fixes:
+>>
+>> - Items falling through world\
+>> - Burning players not being able to move\
+>> - Teamplay settings fixed\
+>> - Quake Triggers activating TF Goals fixed\
+>> - Level Cycling fixed
+>
+> Thanks to Robin for sending that along.
+> I'm going to go compile it now and should be running it on my TF server within the hour.
+
+-- [http://jord.sbc.edu/archives/news/dec27.htm](https://web.archive.org/web/19980216153116/http://jord.sbc.edu/archives/news/dec27.htm) (archived)
+
+Links:
+
+* http://yallara.cs.rmit.edu.au/~cookj/
+
+It was also linked on Jord's Files page:
+
+> tf203src.zip  The latest version of the TF source code.
+
+-- [http://jord.sbc.edu/files.htm](https://web.archive.org/web/19980111040233/http://jord.sbc.edu/files.htm) (archived)
+
+This release may have been mentioned on Telefragged:
+
+> Sat Dec 28 11:28:34 CST 1996
+>
+> TeamFortress for QW 2.03 beta is out. It is suppose to be the last beta till the official release is out. Go check it out.
+
+-- [http://www.telefragged.com/oldnews/old1.shtml](https://web.archive.org/web/19980114112105/http://www.telefragged.com/oldnews/old1.shtml) (archived)
+
+Links:
+
+* http://yallara.cs.rmit.edu.au/~cookj/
 
 This version appears in the changelog for v2.1:
 
