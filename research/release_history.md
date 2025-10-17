@@ -2688,6 +2688,28 @@ Bugs Fixed:
 
 ## v2.5 Beta E
 
+Released as `qw25bte.zip`.
+
+Mentioned on the TeamFortress homepage:
+
+> 25-4-97\
+> Ok, I've released Beta E. It is the first public release of 2.5. IT IS QW ONLY. If you can't run a QW TF server, then this is useless to you. It contains the qwprogs.dat, a sample server.cfg file, and a txt file explaining the new server keys. You can download it here.
+It simply fixes a couple of bugs and cleans up some other stuff. Read the full details in the version info.
+> We're finally reaching what looks like a fairly stable version, so the full release shouldn't be too far away. In terms of additions, there's still a few more to go in yet. Some of these are:
+>
+> - A Discard alias to drop all unneeded ammo.\
+> - Something extra for the Pyro class.\
+> - A voting system, for various things (Exit, etc).\
+> - Some more models.\
+> None of these are promised... they're simply ones we'd like to get done. And there'll be some more custom stuff... graphics, maps, etc.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/qw25bte.zip
+* http://www.planetquake.com/teamfortress/version.htm
+
 Mentioned on BluesNews:
 
 > April 25, 1997
@@ -2697,10 +2719,91 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/april97-3.html
 
+The changelog is listed on the TeamFortress homepage:
 
-todo
+```text
+--------------------------------------
+Version 2.5 Beta E  - Released 25/4/97
+--------------------------------------
+Features Added:
+    - Spy disguising is more user-friendly.
+
+Bugs Fixed:
+    - Engineers can't build more than one of each building by suiciding.
+    - Scouts getting removed fixed.
+    - Spy disguise being removed by enemies is better.
+```
+
+-- [http://www.planetquake.com/teamfortress/version.htm](https://web.archive.org/web/19970607150255fw/http://www.planetquake.com/teamfortress/version.htm) (archived)
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta F
+
+Released as:
+
+* `qw25btf.zip`
+* `nq25btf.zip`
+* `newfiles.zip`
+* `25files.zip`
+
+Mentioned on the TeamFortress homepage:
+
+> 17-5-97\
+> Ok, Beta F is done.
+> You can download the QW Version or the Normal Quake Version.
+> Note that the Normal Quake Versions has been compiled for LAN... you can run it on a net server, but it'll be badly lagged by pyros and demomen.
+> It's got the usual bug fixes, and a few new features, which you can read about in the version info.
+Also, player's should know about the following:
+>
+>> STATUS BAR
+>> There's now a status bar which displays various player details, such as the team scores and the number of shots left in your clip, as well as specific class details, such as your current skin/color if you're a spy.
+It works much like CTF's status bar, with a few refinements. The commands to use it are:
+>>
+>> sbar_on
+>> This turns the status bar on. If it's already on, it cycles the status bar through three positions. The three positions are designed to put the status bar at the very bottom of your screen. If you play with no console, you want position 3, half console position 2, and full console position 1.
+>> sbar_off
+>> Turns the status bar off.
+>>
+>> sbar_200 sbar_240 sbar_300 sbar_350 sbar_384 sbar_400 sbar_480 sbar_600 sbar_768
+>> These commands tell the status bar which screen resolution you're running in, so it knows where to put itself. The res you want to use is the one that corresponds to the Y value in the res you run quake in.
+e.g. if you run quake in 320x200, use sbar_200
+>>
+>> But, there's a much better way to set your status bar position. Edit the config.cfg file in your quake\fortress directory and put in the following lines:
+>> setinfo sbar_size position
+>> setinfo sbar_res resolution
+>> Where:
+>> position is either 1, 2, or 3. The position you should use depends on how much of a console you use:
+>> 1 : Full Console
+>> 2 : Half Console
+>> 3 : No Console
+>> resolution is either 200, 240, 300, 350, 384, 400, 480, 600, or 768. It should correspond to the Y value of the res you run quake in.
+Then, whenever you connect to a TF server, it'll automatically turn on the status bar with these settings.
+>>
+>> For example, I run quake in 320x240, with half the console up. In my config.cfg, I've got these two lines:
+>>
+>> setinfo sbar_size 2
+>> setinfo sbar_res 240
+>> DISCARD
+>> This command drops a single backpack containing all the ammo your class cannot use. Great for helping teammates.
+>>
+>> FLASH GRENADE
+>> Replaces the scouts normal grenades. It works exactly like you'd expect one to work. :)
+>>
+>> SPY DISABLING
+>> QW Servers can now elect to disable the spy class completely. Do this by setting the "spy" infokey to "off".
+>> e.g. setinfo spy off
+>
+>The new version also contains some new models. You can get these in two ways. The easiest way is to simply connect to a server running Beta F, and it will promptly send them to you. The faster way is to download just the new models from here. If you haven't got any of the TF 2.5 files, you can download all the TF 2.5 files.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/qw25btf.zip
+* http://www.planetquake.com/teamfortress/files/nq25btf.zip
+* http://www.planetquake.com/teamfortress/files/newfiles.zip
+* http://www.planetquake.com/teamfortress/files/25files.zip
 
 Mentioned on BluesNews:
 
@@ -2711,7 +2814,154 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/may97-3.html
 
-todo
+Some of these files are listed on Time2Quake:
+
+```text
+25files.zip            03-Jun-97 11:43   787k
+newfiles.zip           03-Jun-97 11:44   223k
+nq25btf.zip            17-May-97 10:13   209k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
+Contents of `nq25btf.zip`:
+
+```text
+-rw-rw-r--  0 0      0        2453 17 May  1997 CHANGES.TXT
+-rw-rw-r--  0 0      0      653600 17 May  1997 PROGS.DAT
+-rw-rw-r--  0 0      0         170 17 May  1997 SERVER.CFG
+```
+
+Contents of `25files.zip`:
+
+```text
+-rw-rw-r--  0 0      0       59200 29 Nov  1996 PROGS/AMMOBOX.MDL
+-rw-rw-r--  0 0      0      162084 23 Mar  1997 PROGS/BIGGREN.MDL
+-rw-rw-r--  0 0      0       49560 19 Sep  1996 PROGS/CROSS1.MDL
+-rw-rw-r--  0 0      0       52196 30 Mar  1997 PROGS/DETPACK.MDL
+-rw-rw-r--  0 0      0       12845 26 May  1997 PROGS/DGIB1.MDL
+-rw-rw-r--  0 0      0        4533 26 May  1997 PROGS/DGIB2.MDL
+-rw-rw-r--  0 0      0        4869 26 May  1997 PROGS/DGIB3.MDL
+-rw-rw-r--  0 0      0       59089 26 May  1997 PROGS/DISP.MDL
+-rw-rw-r--  0 0      0        1967 22 Mar  1997 PROGS/E_SPIKE1.MDL
+-rw-rw-r--  0 0      0        1967 22 Mar  1997 PROGS/E_SPIKE2.MDL
+-rw-rw-r--  0 0      0       22264  9 Nov  1996 PROGS/FLARE.MDL
+-rw-rw-r--  0 0      0        9627 12 Apr  1997 PROGS/GRENADE2.MDL
+-rw-rw-r--  0 0      0      611926 17 May  1997 PROGS/HEADLESS.MDL
+-rw-rw-r--  0 0      0      116992 21 Mar  1997 PROGS/HGREN2.MDL
+-rw-rw-r--  0 0      0       37912 17 May  1997 PROGS/HOOK.MDL
+-rw-rw-r--  0 0      0         312  5 Mar  1997 PROGS/SIGHT.SPR
+-rw-rw-r--  0 0      0       12131 24 Mar  1997 PROGS/TGIB1.MDL
+-rw-rw-r--  0 0      0       10491 24 Mar  1997 PROGS/TGIB2.MDL
+-rw-rw-r--  0 0      0       14655 24 Mar  1997 PROGS/TGIB3.MDL
+-rw-rw-r--  0 0      0       54408 26 Mar  1997 PROGS/TURRBASE.MDL
+-rw-rw-r--  0 0      0       84224 28 Mar  1997 PROGS/TURRGUN.MDL
+-rw-rw-r--  0 0      0       64760 29 Mar  1997 PROGS/V_ASSCAN.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_BIO.MDL
+-rw-rw-r--  0 0      0      104349  9 May  1997 PROGS/V_GRAP.MDL
+-rw-rw-r--  0 0      0       62015 21 Apr  1997 PROGS/V_KNIFE.MDL
+-rw-rw-r--  0 0      0       62015 21 Apr  1997 PROGS/V_KNIFE2.MDL
+-rw-rw-r--  0 0      0       57908 24 Oct  1996 PROGS/V_MEDI.MDL
+-rw-rw-r--  0 0      0      160272 13 Apr  1997 PROGS/V_RAIL.MDL
+-rw-rw-r--  0 0      0       58735  3 Apr  1997 PROGS/V_SPAN.MDL
+-rw-rw-r--  0 0      0       47071 29 Mar  1997 PROGS/V_SRIFLE.MDL
+-rw-rw-r--  0 0      0       31503 22 Dec  1996 SKINS/TF_DEMO.PCX
+-rw-rw-r--  0 0      0       26073 13 Apr  1997 SKINS/TF_ENG.PCX
+-rw-rw-r--  0 0      0       33445 22 Dec  1996 SKINS/TF_HWGUY.PCX
+-rw-rw-r--  0 0      0       27813 22 Dec  1996 SKINS/TF_MEDIC.PCX
+-rw-rw-r--  0 0      0       30499 22 Dec  1996 SKINS/TF_PYRO.PCX
+-rw-rw-r--  0 0      0       31515 22 Dec  1996 SKINS/TF_SCOUT.PCX
+-rw-rw-r--  0 0      0       28098 22 Dec  1996 SKINS/TF_SNIPE.PCX
+-rw-rw-r--  0 0      0       30579 22 Dec  1996 SKINS/TF_SOLD.PCX
+-rw-rw-r--  0 0      0       27211 13 Apr  1997 SKINS/TF_SPY.PCX
+-rw-rw-r--  0 0      0        7482 12 Sep  1996 SOUND/MISC/VAPEUR2.WAV
+-rw-rw-r--  0 0      0        6100 21 May  1997 SOUND/SPEECH/SAVEME1.WAV
+-rw-rw-r--  0 0      0       23194 21 May  1997 SOUND/SPEECH/SAVEME2.WAV
+-rw-rw-r--  0 0      0       11108 31 Mar  1997 SOUND/WEAPONS/ASSCAN1.WAV
+-rw-rw-r--  0 0      0        4558 31 Mar  1997 SOUND/WEAPONS/ASSCAN2.WAV
+-rw-rw-r--  0 0      0       28090 31 Mar  1997 SOUND/WEAPONS/ASSCAN3.WAV
+-rw-rw-r--  0 0      0        2638 13 Apr  1997 SOUND/WEAPONS/DARTGUN.WAV
+-rw-rw-r--  0 0      0       27970  3 Apr  1997 SOUND/WEAPONS/DETPACK.WAV
+-rw-rw-r--  0 0      0        7508 25 Sep  1996 SOUND/WEAPONS/FLMFIRE2.WAV
+-rw-rw-r--  0 0      0        7710 25 Sep  1996 SOUND/WEAPONS/FLMGREXP.WAV
+-rw-rw-r--  0 0      0       13338 12 Apr  1997 SOUND/WEAPONS/RAILGUN.WAV
+-rw-rw-r--  0 0      0        3262 10 Aug  1996 SOUND/WEAPONS/SNIPER.WAV
+-rw-rw-r--  0 0      0       32866 26 Mar  1997 SOUND/WEAPONS/TURRIDLE.WAV
+-rw-rw-r--  0 0      0       18330 26 Mar  1997 SOUND/WEAPONS/TURRSET.WAV
+-rw-rw-r--  0 0      0        5802 26 Mar  1997 SOUND/WEAPONS/TURRSPOT.WAV
+```
+
+Contents of `newfiles.zip`:
+
+```text
+-rw-rw-r--  0 0      0      708704  5 Apr  1997 PROGS/PLAYER.MDL
+```
+
+The file timestamps suggest a release on May 17th, at least for the server release. Perhaps a May 26th release for the additional client files.
+
+The release date matches the date in the changelog:
+
+```text
+--------------------------------------
+Version 2.5 Beta F  - Released 17/5/97
+--------------------------------------
+Features Added:
+    - Much more powerful and admin-friendly map cycling method.
+    - Decapitation.
+    - Status Bar, showing team scores, as well as various details
+      depending on the class you're playing.
+    - Engineer is alerted when his/her sentry is destroyed.
+    - Completely new user-friendly map cycling method.
+    - Scout now has a flash grenade.
+    - "fortress" gamedir is enforced.
+    - "discard" alias, which drops all ammo your carrying that
+      can't be used by your class in a single backpack.
+    - Some new models, including a new grapple-gun, hook, and
+      a headless player.
+
+Changes:
+    - Assault Cannon's damage increased.
+    - Gas Grenades that explode underwater don't make gas.
+    - Sniper's cannot jump and fire the sniper rifle.
+
+Bugs Fixed:
+    - Engineers can't build more than one of each building.
+    - Kicked for color cheating in co-op fixed.
+    - Class help corrected.
+    - Engineers can't repair armor on players with no armor.
+    - Spies can't feign on top of other spies.
+    - Illegal Classes & Deathmatch 3 fixed.
+    - Shub death by gunfire fixed.
+
+Map Code Enhancements:
+    - Buttons can use bit 4(8) of the "goal_activation" variable
+      to make them only activated when hit by an engineer's spanner.
+
+Map Code Bug Fixes:
+    - Various centerprinted messages have been fixed.
+
+Map Code Changes:
+    - "delay" variable used for delaying goal results has been changed
+      to "delay_time", to allow for better backwards compatability.
+
+Map Code breakages (Old maps won't work if you used these)
+    - Way back in version 1.3 the "goal_effects" variable was introduced,
+      to allow goals to affect more than one player. In version 1.21 you
+      didn't have to specify a "goal_effects" variable... instead, any
+      goal simply affected it's AP. To allow for backwards compatability,
+      in all versions since 1.3, any Goal that did not specify a "goal_effects"
+      field automatically had it's "goal_effects" set to 1, which is affect
+      AP only. This has become a problem now, since it prevents map-makers
+      from having goals that have a "goal_effects" of 0.
+      From this version onwards, the "goal_effects" variable will be left
+      as it is in the .map file. So, if you have a map which contains any
+      Goals/Items that do _not_ have a "goal_effects" variable specified,
+      add it in and set it to 1.
+```
+
+-- nq25btf.zip/CHANGES.TXT
+
+**The file `qw25btf.zip` has not yet been acquired.**
 
 ## v2.5 Beta G
 
