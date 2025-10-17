@@ -2381,9 +2381,103 @@ Links:
 
 * http://www.planetquake.com/teamfortress/files/25betaf.zip
 
+A changelog is listed on the TeamFortress homepage:
+
+```text
+--------------------------------------
+Version 2.5 Beta A  - Released 13/4/97
+--------------------------------------
+Classes: Scout, Sniper, Soldier, Demolitions Man, Combat Medic,
+         Heavy Weapons Guy, Spy, Engineer.
+
+Features Added:
+    - New, improved, and just plain nastier cheat checking.
+    - Concussed ppl make bubbles.
+    - Sniper rifle now has locational damage, like TF-Sniper.
+    - Support for skins for each class for each team. Good for Clan battles.
+    - A new alias called "special", which does the primary
+      ability of your class.
+
+Models/Sounds:
+    - Assault Cannon redone with no cooling. Looks and sounds fantastic now.
+    - Grenade models for all types.
+    - Detpack model.
+    - Ammobox model.
+
+Quakeworld Additions:
+    - QuakeWorld servers can use various Keys to set options. Keys are:
+      "autoteam", "grapple", "teamfrags", etc. See QW.TXT for details.
+
+Changes:
+    - Major code cleanup. A lot of redundant code/features removed.
+    - Demomen can't fire while setting detpacks.
+    - Demomen can't set detpacks while in the air or hanging from a hook.
+    - Scout scanner is more user friendly now.
+    - Coop Mode Door/Key behaviour is much more user friendly now.
+    - Assault Cannon doesn't need cooling after really short bursts.
+    - Grapple cannot hurt players.
+    - Snipers have flare grenades.
+    - All lasting effects (concussion/hallucination/tranquilisation) can
+      affect team members, but Medics only get frags for curing effects
+      caused by enemy teams.
+
+Bug Fixes:
+    - Fixed a loophole in the non_team and owners_team Goal Broadcasting.
+    - Fixed a bug in the map code governing items given by goals.
+    - Powerups don't remove Dimlight caused by GoalItems, and vice versa.
+    - Detpacks exploding outside maps.
+    - Some Weapons not "kicking" your view fixed.
+    - Ammoboxes are counted like pipebombs now. e.g. limited number of
+      them in existence at any one time.
+    - Fixed bug in pipebomb counting in deathmatch.
+
+Map Code Enhancements:
+    - Goals can use the "delay" variable now to delay their activation for a
+      specific amount of time.
+    - Goals can check to see if the player is carrying any items from
+      a particular group in it's criteria using "has_item_from_group".
+    - Goals can use the "remove_item_group" to remove all the items
+      in a particular group from any player affected by its activation.
+    - A new Bit was added to the "goal_results" variable for Goals/Items
+      which allows them to remove a Spy's disguise.
+    - A new Bit was added to the "goal_activation" of GoalItems.
+      See the tfortmap.txt for details.
+    - Team Spawnpoints can now use Criteria exactly the same as Goals.
+      Players can only spawn at spawnpoints that they match the Criteria of.
+    - Team Spawnpoints can activate a goal when someone spawns on them,
+      using the "activate_goal_no" variable.
+
+Map Code Changes:
+    - Items given by Goals are not set to Active state anymore, so they
+      can be given out multiple times.
+
+Map Code Bug Fixes (Thanks Jim!) :
+    - Goal/Groups being removed/returned fixed.
+    - Fixed Goals applying bonuses to players through other Goals.
+    - Use of the "all_active" and "last_impulse" variables is now fixed.
+    - Fixed a bug with the "t_length" variable.
+    - Fixed the problem of Goals using the "wait" variable never inactivating.
+    - Fixed the behaviour of the "wait" variable in Goals. It used to
+      remove Goals for the period of time in the "wait" variable. Now
+      they stay active for that time... like the readme says they do.
+```
+
+-- [http://www.planetquake.com/teamfortress/version.htm](https://web.archive.org/web/19970607150255fw/http://www.planetquake.com/teamfortress/version.htm) (archived)
+
 **A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta B
+
+Mentioned on the TeamFortress homepage:
+
+> 16-4-97\
+> Ok, Beta B of version 2.5 has just been mailed to CTSnet. I also sent it to Kinlord and Gudlyf, who run the BraveHeart server. It fixes various bugs, including the Spy's color changing ability, so hopefully we'll see a server or two running in that mode... personally, I find invisibility boring compared to color/skin changing :)
+> If you're bored, read the version info.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+This suggests it is a private beta.
+
 
 Mentioned on Redwoods:
 
@@ -2410,11 +2504,88 @@ Links:
 
 * http://www.planetquake.com/teamfortress/
 
+A changelog is listed on the TeamFortress homepage:
 
+```text
+--------------------------------------
+Version 2.5 Beta B  - Released 16/4/97
+--------------------------------------
+Changes:
+    - Engineers can only have 1 dispenser at a time.
+    - Dispenser health lowered.
+    - SentryGuns can only be activated by their owners.
+    - Player's can't hurt turrets/dispensers made by their teammembers.
 
-todo
+Bugs Fixed:
+    - CycleWeapon crashing servers fixed.
+    - Spy Color changing fixed.
+    - Building/Stop-Building/Build loophole fixed.
+    - Buildings are destroyed if the Engineer who built them changes class.
+```
+
+-- [http://www.planetquake.com/teamfortress/version.htm](https://web.archive.org/web/19970607150255fw/http://www.planetquake.com/teamfortress/version.htm) (archived)
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta C
+
+Mentioned on the TeamFortress homepage:
+
+> 21-4-97\
+> Ok, big update now to clear some more confusion.
+> First, we're releasing beta C now. It wasn't released 2 days ago, like we hoped. Basically, we decided it wasn't ready, so we went back at kept working on it. And it was worth it.
+>
+>>    Features Added:
+>>        - "Help!!!" impulse implemented. Any player can do issue just do it
+>>          using the "saveme" command. Any medic/engineer on the same team as
+>>          that person will see a lightning bolt effect around that player.
+>>          Use it to signal you need help.
+>>          Spy's can see anyone of any team doing it.
+>>        - Spies and Scouts who touch any undercover enemy Spy remove the
+>>          enemy's disguise.
+>>        - Spy now has a knife model.
+>>        - Engineers can remotely detonate their buildings.
+>>
+>>    Changes:
+>>        - QW Serverinfo keys shortened to fit 256 char keyspace.
+>>        - QW "temp1" key can be used like the temp1 var in normal quake.
+>>        - Assault Cannon winds up in 1/2 the time.
+>>        - Since the new cheat checking is tougher, moving with the mouse
+>>          has been allowed again.
+>>
+>>    Bugs Fixed:
+>>        - Snipers changing weapons while aiming fixed.
+>>        - Sentries won't shoot at feigning spies now.
+>>        - Healing infection from your team fixed.
+>>        - Building code rewritten. It should be more robust now.
+>>        - Players being unable to respawn fixed.
+>>        - Color/Skin cheat checking shouldn't kick non-cheaters now.
+>>        - Players with no weapon being hit by an EMP grenade won't cause problems now.
+>>        - Players being prevented from moving shouldn't be kicked for speed
+>>          cheating straight away.
+>
+> It should be on various servers soon. Unless some major bugs are found, this will probably be the last private beta. The source will then be released, etc.
+> Second, just a note on the Engineer's building problems. We rewrote 90% of the code, so that it now operates in a quite different manner. It's a lot more robust in this version, but it's still not 100% perfect. We will probably try a clean it up a bit more... but basically we're resigned to the fact that we may never be able to ahve it completely foolproof.
+> One of the main reasons for this is simply that Quake was not designed with this in mind. Quake rarely (if ever?) spawns a new solid entity anywhere. Instead, it teleports them in from hidden sections in the map, and it teleports them to specific places on the map, that were created with the knowledge that something would be teleported there.
+> There are many traps and pitfalls that you run across when you're trying to spawn a solid entity somewhere while making sure it doesn't end up inside something else.
+> We've done the best we can.
+>
+> Third, it seems id is not happy with the concept of us accepting donations. So, unless something changes, do not send us any money. (We will bill you ;)
+This is disappointing... but thanks to all of you who mailed us to say they would have.
+>
+> Fourth, people have been getting confused, and leading poor Blue astray ;). The 2.5 beta F is not available on our site. You can download all the mdls/sounds that TF 2.5 beta C needs right here, but it doesn't contain the source code or the progs.dat.
+We will release the source code, but not until we're happy with it's stability.
+>
+> Finally, some troubleshooting.
+> If you get a "HunkAlloc" error when trying to connect to a TF server, then you've somehow managed to get an invalid TF mdl. I'm not sure how this happens... perhaps if the server crashes/changes-level while you're downloading it. You can fix it by downloading all the mdls & sounds here. Unzip the files into the directory where you've stored TF, or quake\qw if you haven't created a TF directory.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/25betaf.zip
+
+This suggests that it is a private beta.
 
 Mentioned on BluesNews:
 
@@ -2425,13 +2596,57 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/april97-3.html
 
+The changelog is listed on the TeamFortress homepage:
 
+```text
+--------------------------------------
+Version 2.5 Beta C  - Released 21/4/87
+--------------------------------------
+Features Added:
+    - "Help!!!" impulse implemented. Any player can do issue just do it
+      using the "saveme" command. Any medic/engineer on the same team as
+      that person will see a lightning bolt effect around that player.
+      Use it to signal you need help.
+      Spy's can see anyone of any team doing it.
+    - Spies and Scouts who touch any undercover enemy Spy remove the
+      enemy's disguise.
+    - Spy now has a knife model.
+    - Demomen can remotely detonate their buildings.
 
-todo
+Changes:
+    - QW Serverinfo keys shortened to fit 256 char keyspace.
+    - QW "temp1" key can be used like the temp1 var in normal quake.
+    - Assault Cannon winds up in 1/2 the time.
+    - Since the new cheat checking is tougher, moving with the mouse
+      has been allowed again.
+
+Bugs Fixed:
+    - Snipers changing weapons while aiming fixed.
+    - Sentries won't shoot at feigning spies now.
+    - Healing infection from your team fixed.
+    - Building code rewritten. It should be more robust now.
+    - Players being unable to respawn fixed.
+    - Color/Skin cheat checking shouldn't kick non-cheaters now.
+    - Players with no weapon being hit by an EMP grenade won't cause problems now.
+    - Players being prevented from moving shouldn't be kicked for speed
+      cheating straight away.
+```
+
+-- [http://www.planetquake.com/teamfortress/version.htm](https://web.archive.org/web/19970607150255fw/http://www.planetquake.com/teamfortress/version.htm) (archived)
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta D
 
-todo
+Mentioned on the TeamFortress homepage:
+
+> 22-4-97\
+> Ok, I've released beta D, which should be up on servers soon. It fixes the sentrygun bug, the serverinfo problems, and should kill the spy's skin/color kicking bug once and for all... (touch wood;)
+Oh, btw, the Demoman doesn't have the ability to remotely detonate his buildings... it's the Engineer who can. After you've built something, just use the "build" alias to bring up the menu again, and you'll see you have the option to do it there.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+This suggests that it is a private beta.
 
 Mentioned on BluesNews:
 
@@ -2454,6 +2669,22 @@ Mentioned on Redwood's:
 Links:
 
 * http://www.planetquake.com/teamfortress/
+
+The changelog is listed on the TeamFortress homepage:
+
+```text
+--------------------------------------
+Version 2.5 Beta D  - Released 22/4/87
+--------------------------------------
+Bugs Fixed:
+    - Sentryguns not targeting the right people. And they
+      target faster now.
+    - Toggleflag defines fixed, so serverinfo keys are working again.
+```
+
+-- [http://www.planetquake.com/teamfortress/version.htm](https://web.archive.org/web/19970607150255fw/http://www.planetquake.com/teamfortress/version.htm) (archived)
+
+**A copy of this release has not yet been acquired.**
 
 ## v2.5 Beta E
 

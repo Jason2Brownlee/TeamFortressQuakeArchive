@@ -43,8 +43,8 @@ Release Date | File | Description
 1997-04-07 | [qwwf215.zip](bin/qwwf215.zip) | TeamFortress v2.15
 1997-04-14 | 25betaf.zip | TeamFortress v2.5 Beta A
 1997-04-16 | (internal) | TeamFortress v2.5 Beta B
-1997-04-21 | ? | TeamFortress v2.5 Beta C
-1997-04-22 | ? | TeamFortress v2.5 Beta D
+1997-04-21 | (internal) | TeamFortress v2.5 Beta C
+1997-04-22 | (internal) | TeamFortress v2.5 Beta D
 1997-04-25 | qw25bte.zip | TeamFortress v2.5 Beta E
 1997-05-17 | qw25btf.zip<br>[nq25btf.zip](bin/nq25btf.zip)<br>[newfiles.zip](bin/newfiles.zip)<br>[25files.zip](bin/25files.zip) | TeamFortress v2.5 Beta F
 1997-05-21 | tf25btg.zip | TeamFortress v2.5 Beta G
