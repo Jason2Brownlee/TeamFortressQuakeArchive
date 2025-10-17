@@ -46,10 +46,10 @@ Release Date | File | Description
 1997-04-21 | (internal) | TeamFortress v2.5 Beta C
 1997-04-22 | (internal) | TeamFortress v2.5 Beta D
 1997-04-25 | qw25bte.zip | TeamFortress v2.5 Beta E
-1997-05-17 | qw25btf.zip<br>[nq25btf.zip](bin/nq25btf.zip)<br>[newfiles.zip](bin/newfiles.zip)<br>[25files.zip](bin/25files.zip) | TeamFortress v2.5 Beta F
-1997-05-21 | tf25btg.zip | TeamFortress v2.5 Beta G
-1997-05-27 | [tf25bth.zip](bin/tf25bth.zip) | TeamFortress v2.5 Beta H
-1997-06-03 | [tf25bti.zip](bin/tf25bti.zip) | TeamFortress v2.5 Beta I
+1997-05-17 | qw25btf.zip<br>[nq25btf.zip](bin/nq25btf.zip)<br>[newfiles.zip](bin/newfiles.zip)<br>25files.zip | TeamFortress v2.5 Beta F
+1997-05-21 | tf25btg.zip<br>25files.zip | TeamFortress v2.5 Beta G
+1997-05-27 | [tf25bth.zip](bin/tf25bth.zip)<br>[25files.zip](bin/25files_h.zip) | TeamFortress v2.5 Beta H
+1997-06-03 | [tf25bti.zip](bin/tf25bti.zip)<br>[25files.zip](bin/25files_i.zip) | TeamFortress v2.5 Beta I
 1997-06-10 | [tf25btj.zip](bin/tf25btj.zip) | TeamFortress v2.5 Beta J (Final Beta)
 1997-06-13 | [tf25rel.zip](bin/tf25rel.zip) ([txt](bin/tf25rel.txt))<br>[tf25src.zip](bin/tf25src.zip) | TeamFortress v2.5 Final Release
 1997-06-15 | [tf25fix.zip](bin/tf25fix.zip) | Team Fortress v2.5 GLQuakeWorld Fix
