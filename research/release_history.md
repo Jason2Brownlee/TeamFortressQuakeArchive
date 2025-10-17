@@ -2965,6 +2965,50 @@ Map Code breakages (Old maps won't work if you used these)
 
 ## v2.5 Beta G
 
+Released as `tf25btg.zip` and an updated `25files.zip`.
+
+Mentioned on the TeamFortress homepage:
+
+> 21-5-97
+> Beta G\
+> Ok, Beta G is finished. You can download the QW And Lan Version, the New Files needed for it, or all the TF 2.5 files.
+> The patch is now in the one zip, since QW uses qwprogs.dat and LAN uses progs.dat.
+> This version is simply a bunch of bug fixes and tweaks, as follows:
+>
+>> Features Added:
+>>     - Players using the "saveme" impulse now yell "Medic!"
+>>
+>> Changes:
+>>     - Detpack's explosion size lowered.
+>>     - Frag for killing an enemy sentry gun.
+>>     - Engineer's Railgun used nails instead of metal.
+>>
+>> Bugs Fixed:
+>>     - Detpacks exploding outside the map in QW fixed.
+>>     - Number of Special Grenades limited to 4 of each type.
+>>     - Number of Detpacks limited to 1.
+>>     - Napalm grenades not removing themselves underwater.
+>>     - Pipebomb counting tweaked.
+>>     - Server's not being able to enable the grapple with the
+>>       "serverinfo g on" method fixed.
+>>     - Grenades exploding in player's hands hurting teammates
+>>       when teamplay is on.
+>>
+>> Map Code Bug Fixes:
+>>     - Dead Players getting GoalItems fixed.
+>>
+>> Map Code Changes:
+>>     - Goals can now affects players who are dead, allowing dead players
+>>       to get teamscores when their team captures flags, etc.
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/tf25btg.zip
+* http://www.planetquake.com/teamfortress/files/newfiles.zip
+* http://www.planetquake.com/teamfortress/files/25files.zip
+
 Mentioned on BluesNews:
 
 > Wednesday, May 21, 1997
@@ -2993,9 +3037,26 @@ Links:
 * http://www.planetquake.com/teamfortress/files/25files.zip
 * http://www.planetquake.com/teamfortress/
 
+**A copy if this release has not yet been acquired.**
+
 ## v2.5 Beta H
 
 Released as `tf25bth.zip`.
+
+Mentioned on the TeamFortress homepage:
+
+> 22-5-97\
+> Ok, Beta H is finished. You can download the QW And Lan Version, the New Files needed for it, or all the TF 2.5 files.\
+> There's no new files essentially, but the dispenser's size has been changed, and we've got a new mdl to suit it. If you don't get the new model, you'll still be able to play, but dispenser's won't look quite right.\
+> ...
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bth.zip
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/newfiles.zip
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/25files.zip
 
 Mentioned on BluesNews:
 
@@ -3117,6 +3178,22 @@ Mentioned on the TeamFortress homepage:
 
 -- [http://www.planetquake.com:80/teamfortress](https://web.archive.org/web/19970607133107/http://www.planetquake.com:80/teamfortress/) (archived)
 
+And:
+
+> 3-6-97\
+> Beta I\
+> Ok, here at Betas-R-Us we've released Beta I. Thanks must go to GudlyF for his beta testing help, and thanks to everyone on the BraveHeart servers who put up with the constant server crashes while we searched for the problem.
+> You can download the QW And Lan Version, the New Files needed for it, or all the TF 2.5 files.
+> The only new file is the player.mdl with the Spy and Engineer skins, which is useless if you play QW only. If you play Normal/Lan TF, then you want this.
+> ...
+
+-- [http://www.planetquake.com/teamfortress/working.htm](https://web.archive.org/web/19970607150217fw/http://www.planetquake.com/teamfortress/working.htm) (archived)
+
+Links:
+
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf25bti.zip
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/newfiles.zip
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/25files.zip
 
 Mentioned on BluesNews:
 
@@ -3318,6 +3395,8 @@ Map Code Enhancements:
 
 The filename for this release is not yet known.
 
+This "final beta" may be one and the same as "v2.5 Beta J". I suspect this is the case, but the post on BluesNews make this confusing.
+
 Mentioned on the TeamFortress homepage:
 
 > Last Updated 10/6/97\
@@ -3334,9 +3413,51 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/june97-1.html
 
+This release is not mentioned in the changelog for the final v2.5 release.
+
 **A copy of this release has not yet been acquired.**
 
 ## v2.5
+
+Released as:
+
+* `tf25rel.zip`
+* `tf25src.zip`
+
+Mentioned on the TeamFortress News page:
+
+> 13.06.1997\
+> Team Fortress Version 2.5 Final Release\
+> Yes, it's finally here. Download TF 2.5.\
+> The zip file contains all versions, normal and QW, client and server. And the promo.
+>
+> Well, we're going out to get absolutely legless, and we're not going to be back for 2 days.
+> So if you find a bug, tell it to someone who cares.
+
+-- [http://www.planetquake.com/teamfortress/news.html](https://web.archive.org/web/19970617153959/http://www.planetquake.com/teamfortress/news.html) (archived)
+
+Links:
+
+* ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25rel.zip
+
+Listed on the TeamFortress Downloads page:
+
+> TF 2.5    \
+> Team Fortress Version 2.5 Final Release  \
+> Download TF 2.5\
+> Contains all versions, normal and QW, client and server. And the promo.
+>
+> Download TF 2.5 Source Code\
+> The code and everything needed to compile it.
+>
+> BTW, Team Fortress 2.5 is now donateware. Feel free to download it without donating, but if you would like to contribute, the details are here.
+
+-- [http://www.planetquake.com/teamfortress/download.html](https://web.archive.org/web/19970617154012/http://www.planetquake.com/teamfortress/download.html) (archived)
+
+Links:
+
+* ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25rel.zip
+* http://www.teamfortress.com/files/teamfortress/tf25src.zip
 
 Mentioned on BluesNews:
 
@@ -3389,9 +3510,180 @@ Links:
 * ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25rel.zip
 * ftp://ftp.cts.com/software/games/quakeworld/fortress/tf25fix.zip
 
+This release may have been renamed `tf25_cl.zip` and redistributed with this name.
+
+> Serwer oparty na Team Fortress 2.5. Pliki niezbędne do poprawnego działania to tf25_cl.zip i v-maps11.zip, dostępne oczywiście w QuakeToys, sekcja teamfort.
+
+-- [http://riad.usk.pk.edu.pl/~pmj/quake/servers.shtml](https://web.archive.org/web/20040121081623/http://riad.usk.pk.edu.pl/~pmj/quake/servers.shtml) (archived)
+
+Links:
+
+* ftp://ftp.pk.edu.pl/pub/games/id/quaketoys/teamfort/tf25_cl.zip
+
+Contents of `tf25rel.zip`:
+
+```text
+-rw-rw-r--  0 0      0     6965596 13 Jun  1997 PAK0.PAK
+-rw-rw-r--  0 0      0      897292 13 Jun  1997 PROGS.DAT
+-rw-rw-r--  0 0      0      690980 13 Jun  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0        8863 13 Jun  1997 QWSERVER.HTM
+-rw-rw-r--  0 0      0        7606 13 Jun  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       47041 13 Jun  1997 README.HTM
+-rw-rw-r--  0 0      0       45264 13 Jun  1997 README.TXT
+-rw-rw-r--  0 0      0        1972 13 Jun  1997 REGISTER.TXT
+-rw-rw-r--  0 0      0         198 13 Jun  1997 SERVER.CFG
+-rw-rw-r--  0 0      0        5771 13 Jun  1997 SERVER.HTM
+-rw-rw-r--  0 0      0        4893 13 Jun  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       68779 13 Jun  1997 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       31543 13 Jun  1997 VERSIONS.HTM
+-rw-rw-r--  0 0      0       31666 13 Jun  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0      682260 13 Jun  1997 ALTPROGS/PROGS.DAT
+-rw-rw-r--  0 0      0      690332 13 Jun  1997 ALTPROGS/QWPROGS.DAT
+-rw-rw-r--  0 0      0       64008  2 Jun  1997 GFX/CONBACK.LMP
+-rw-rw-r--  0 0      0          21  4 Jun  1997 MCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          23  4 Jun  1997 MCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          44  4 Jun  1997 MCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          35  4 Jun  1997 MCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          12  4 Jun  1997 MCYCLE/MAP5.CFG
+-rw-rw-r--  0 0      0          13 17 May  1997 QWMCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          15 18 May  1997 QWMCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          36 17 May  1997 QWMCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          27 17 May  1997 QWMCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          15 27 May  1997 QWMCYCLE/MAP5.CFG
+```
+
+Content of `tf25src.zip`:
+
+```text
+-rw-rw-r--  0 0      0       13796  4 Jun  1997 ACTIONS.QC
+-rw-rw-r--  0 0      0         162 10 May  1997 ADMIN.QC
+-rw-rw-r--  0 0      0       15150 21 Mar  1997 AI.QC
+-rw-rw-r--  0 0      0       77312 22 Oct  1996 ALEXQCC.EXE
+-rw-rw-r--  0 0      0        1833 29 Dec  1996 AMTEST.QC
+-rw-rw-r--  0 0      0       12930 12 Jun  1997 BOSS.QC
+-rw-rw-r--  0 0      0        2202  6 Dec  1996 BOT.QC
+-rw-rw-r--  0 0      0       15340 13 Apr  1997 BOTAI.QC
+-rw-rw-r--  0 0      0         166  3 Dec  1996 BOTS.QC
+-rw-rw-r--  0 0      0        3845 13 Jun  1997 BUTTONS.QC
+-rw-rw-r--  0 0      0       10722 13 May  1997 CAMERA.QC
+-rw-rw-r--  0 0      0       73973 12 Jun  1997 CLIENT.QC
+-rw-rw-r--  0 0      0       15857 10 Jun  1997 COMBAT.QC
+-rw-rw-r--  0 0      0         887 21 Mar  1997 COMBOT.QC
+-rw-rw-r--  0 0      0        3731 21 Mar  1997 COOP.QC
+-rw-rw-r--  0 0      0        1961 18 Apr  1997 CTF.QC
+-rw-rw-r--  0 0      0        1099 18 Apr  1997 DEBUG.QC
+-rw-rw-r--  0 0      0       66209 13 Jun  1997 DEFS.QC
+-rw-rw-r--  0 0      0       11855 12 Jun  1997 DEMOMAN.QC
+-rw-rw-r--  0 0      0       11297 29 Dec  1996 DEMON.QC
+-rw-rw-r--  0 0      0       10545 29 Dec  1996 DOG.QC
+-rw-rw-r--  0 0      0       19655 13 Jun  1997 DOORS.QC
+-rw-rw-r--  0 0      0       12140 10 Apr  1997 ENFORCER.QC
+-rw-rw-r--  0 0      0       24724 12 Jun  1997 ENGINEER.QC
+-rw-rw-r--  0 0      0        7199 20 Nov  1996 FIGHT.QC
+-rw-rw-r--  0 0      0        8025 29 Dec  1996 FISH.QC
+-rw-rw-r--  0 0      0        1622  9 May  1997 FLARE.QC
+-rw-rw-r--  0 0      0       19766 21 Feb  1997 HKNIGHT.QC
+-rw-rw-r--  0 0      0       12101 17 May  1997 HOOK.QC
+-rw-rw-r--  0 0      0       38815  3 Jun  1997 ITEMS.QC
+-rw-rw-r--  0 0      0         290 29 Dec  1996 JCTEST.QC
+-rw-rw-r--  0 0      0       10968 29 Dec  1996 KNIGHT.QC
+-rw-rw-r--  0 0      0          11 10 May  1997 LEVELS.QC
+-rw-rw-r--  0 0      0          61  7 Mar  1997 MAKE.BAT
+-rw-rw-r--  0 0      0       39331 12 Jun  1997 MENU.QC
+-rw-rw-r--  0 0      0         949 13 Jun  1997 MESSAGES.QC
+-rw-rw-r--  0 0      0       19844 26 May  1997 MISC.QC
+-rw-rw-r--  0 0      0        9788 25 Jul  1996 MODELS.QC
+-rw-rw-r--  0 0      0       10793 12 Jun  1997 MONSTERS.QC
+-rw-rw-r--  0 0      0        1376 18 Apr  1997 MSKIN.QC
+-rw-rw-r--  0 0      0       16116 13 Apr  1997 OGRE.QC
+-rw-rw-r--  0 0      0       11562 19 Mar  1997 OLDBOT.QC
+-rw-rw-r--  0 0      0        9777 16 May  1997 OLDONE.QC
+-rw-rw-r--  0 0      0        4246 13 Jun  1997 OPTIONS.QC
+-rw-rw-r--  0 0      0        9620 12 Apr  1997 PLATS.QC
+-rw-rw-r--  0 0      0       33687 12 Jun  1997 PLAYER.QC
+-rw-rw-r--  0 0      0         997 21 May  1997 PREOPDEF.QC
+-rw-rw-r--  0 0      0         558 12 Jun  1997 PREPROGS.SRC
+-rw-rw-r--  0 0      0       93649 19 Dec  1996 PREQCC.EXE
+-rw-rw-r--  0 0      0        2598 27 Aug  1996 PROGDEFS.QC
+-rw-rw-r--  0 0      0       21469 10 Jun  1997 PYRO.QC
+-rw-rw-r--  0 0      0        2581 10 May  1997 QW.QC
+-rw-rw-r--  0 0      0        7606 13 Jun  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       45447 13 Jun  1997 README.TXT
+-rw-rw-r--  0 0      0       14765 12 Jun  1997 SCOUT.QC
+-rw-rw-r--  0 0      0        8953  4 Jun  1997 SENTRY.QC
+-rw-rw-r--  0 0      0        4893 13 Jun  1997 SERVER.TXT
+-rw-rw-r--  0 0      0        9106 29 Dec  1996 SHALRATH.QC
+-rw-rw-r--  0 0      0       14030 29 Dec  1996 SHAMBLER.QC
+-rw-rw-r--  0 0      0        1880 10 Apr  1997 SKINS.QC
+-rw-rw-r--  0 0      0        3275 12 May  1997 SNIPER.QC
+-rw-rw-r--  0 0      0       11256 25 Mar  1997 SOLDIER.QC
+-rw-rw-r--  0 0      0         486 25 Jul  1996 SPRITES.QC
+-rw-rw-r--  0 0      0       28349 21 May  1997 SPY.QC
+-rw-rw-r--  0 0      0       83482  4 Jun  1997 STATUS.QC
+-rw-rw-r--  0 0      0        6947 17 May  1997 SUBS.QC
+-rw-rw-r--  0 0      0        7610 11 May  1997 TARBABY.QC
+-rw-rw-r--  0 0      0       84592 12 Jun  1997 TFORT.QC
+-rw-rw-r--  0 0      0        7118 13 Jun  1997 TFORTHLP.QC
+-rw-rw-r--  0 0      0       78911 13 Jun  1997 TFORTMAP.QC
+-rw-rw-r--  0 0      0       26167  4 Jun  1997 TFORTTM.QC
+-rw-rw-r--  0 0      0       18147 13 Jun  1997 TRIGGERS.QC
+-rw-rw-r--  0 0      0        2428 21 May  1997 TSOLDIER.QC
+-rw-rw-r--  0 0      0        3057 20 Dec  1996 TURRET.QC
+-rw-rw-r--  0 0      0       31666 13 Jun  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0       86236 13 Jun  1997 WEAPONS.QC
+-rw-rw-r--  0 0      0       12071 21 Feb  1997 WIZARD.QC
+-rw-rw-r--  0 0      0       14109 12 Jun  1997 WORLD.QC
+-rw-rw-r--  0 0      0       20747 29 Dec  1996 ZOMBIE.QC
+```
+
+The file timestamps suggest a release on June 13th.
+
+This matches the date in the changelog.
+
+```text
+--------------------------------------------
+Version 2.5 Final Release - Released 13/6/97
+--------------------------------------------
+Bugs Fixed:
+    - Detpack countdown's being removed when an EMP grenade destroys the pack.
+    - CTF emulation being broken by the tf_flag.mdl fixed.
+    - Abbreviations not working for Quake Triggers fixed.
+    - Button/Door handling with Engineer spanner fixed.
+```
+
+-- tf25rel.zip/VERSIONS.TXT
+
+
 ## v2.5 QuakeWorld Fix
 
 Released as `tf25fix.zip`.
+
+Mentioned on the TeamFortress News page:
+
+> 15.06.1997\
+> GLQuakeWorld fix for TF 2.5\
+> Thanks to Jack "Morbid" Mathews, we've found the problems with the 2.5 mdls that caused GLQW to crash. We've fixed that, and also replaced the tf_flag.mdl with the correct one, so even if you don't run GLQW, it's worth downloading it anyway\
+> You can download the fix here (33k)\
+>
+> Unzip the zip into your fortress directory, and you're ready to go.\
+
+-- [http://www.planetquake.com/teamfortress/news.html](https://web.archive.org/web/19970617153959/http://www.planetquake.com/teamfortress/news.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/tf25fix.zip
+
+Listed on the TeamFortress Downloads page:
+
+> Team Fortress 2.5 Fix\
+> Download Fix (33k)\
+> Fixes the GLQW crash problem, and the tf_flag.mdl having the wrong skins. Just unzip it into your fortress directory.
+
+-- [http://www.planetquake.com/teamfortress/download.html](https://web.archive.org/web/19970617154012/http://www.planetquake.com/teamfortress/download.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/teamfortress/files/tf25fix.zip
 
 Mentioned on Redwoods:
 
@@ -3424,6 +3716,28 @@ Mentioned on Telefragged:
 > TeamFortress 2.5 doesn't work with the new version of QuakeWorld. You have to get a fix available on their page.
 
 -- [http://www.telefragged.com/oldnews/june.shtml](https://web.archive.org/web/19980114112029/http://www.telefragged.com/oldnews/june.shtml) (archived)
+
+Content of `tf25fix.zip`:
+
+```text
+-rw-rw-r--  0 0      0      335155 15 Jun  1997 PAK1.PAK
+-rw-rw-r--  0 0      0         920 15 Jun  1997 README.TXT
+```
+
+The file timestamps suggest a release on June 15th.
+
+This matches the date in the release notes:
+
+```text
+=------------------------------------------------------=
+    TeamFortress v2.5 Fix       15/6/97
+=------------------------------------------------------=
+
+This is a quick fix to solve a couple of problems
+in the TeamFortress 2.5 pak file.
+```
+
+-- tf25fix.zip/README.TXT
 
 
 ## v2.6 Final Beta (FB)
