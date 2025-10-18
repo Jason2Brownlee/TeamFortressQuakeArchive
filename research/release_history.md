@@ -3497,6 +3497,14 @@ tf25rel.zip            06-Jul-97 18:02   3.1M
 
 -- [http://www.cdrom.com/pub/idgames2/quakec/teamplay/](https://web.archive.org/web/19980210220428/http://www.cdrom.com:80/pub/idgames2/quakec/teamplay/) (archived)
 
+It was listed on Time2Quake:
+
+```text
+tf25rel.zip            13-Jun-97 13:58   3.1M
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
 This version was reviewed on QCArchive:
 
 > One feature that I thoroughly enjoyed was the demo that came with TF 2.5. It's practically an opera. The demo really shows off the features found in TF. The demo has a fantastic finale which ends with a BOOM literally. This demo puts the great Ranger Gone Bad 2 to shame. That's how good it is.
@@ -3717,6 +3725,14 @@ Mentioned on Telefragged:
 
 -- [http://www.telefragged.com/oldnews/june.shtml](https://web.archive.org/web/19980114112029/http://www.telefragged.com/oldnews/june.shtml) (archived)
 
+It was listed on Time2Quake:
+
+```text
+tf25fix.zip            15-Jun-97 14:30    33k
+```
+
+-- [http://www.time2quake.com/filez/teamfortress/](https://web.archive.org/web/19970706053450/http://www.time2quake.com/filez/teamfortress/) (archived)
+
 Content of `tf25fix.zip`:
 
 ```text
@@ -3742,7 +3758,42 @@ in the TeamFortress 2.5 pak file.
 
 ## v2.6 Final Beta (FB)
 
-todo
+Released as:
+
+* `tf26fb.zip`
+* `tf26fb_c.zip`
+
+Mentioned on the TeamFortress News page:
+
+> 13.08.1997
+>
+> TeamFortress 2.6 Final Beta\
+> Ok, the final beta is complete, although there will be a few tweaks, including some new models, in the final release. We've released the server zip and the client zip seperately. You can read the version info, or go straight to the Downloads page.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+
+Mentioned on BluesNews:
+
+> Wednesday, August 13, 1997
+>
+> TeamFortress 2.6 Final Beta\
+> What's described as the final beta of TeamFortress 2.6 has been released on the TeamFortress Page (2.6 requires TF 2.5 installed to work). The new release is designed to take advantage of the new speed functions in QuakeWorld 2.0 to restore individual speeds to the different classes. Thanks [DoS]ForceTen.
+
+-- https://www.bluesnews.com/archives/aug97-2.html
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+
+Mentioned on Redwoods:
+
+> August 14, 1997
+>
+> TeamFortress 2.6 Final Beta\
+> The TeamFortress page has the 2.6 final beta available. Thanks V|LE.
+
+-- [http://redwood.stomped.com/897.html](https://web.archive.org/web/20011125200502/http://redwood.stomped.com/897.html) (archived)
 
 This release was reviewed on QCArchive:
 
@@ -3755,11 +3806,7 @@ Links:
 * http://www.planetquake.com/qca/reviews/patch81.txt
 * ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf26fb.zip
 
-
-
-## v2.6
-
-todo
+Listed on cdrom.com:
 
 ```text
 tf26fb.txt             14-Aug-97 15:14     1k
@@ -3768,6 +3815,382 @@ tf26fb.zip             14-Aug-97 15:22   1.1M
 
 -- [http://www.cdrom.com/pub/idgames2/quakec/teamplay/](https://web.archive.org/web/19980210220428/http://www.cdrom.com:80/pub/idgames2/quakec/teamplay/) (archived)
 
+Content of `tf26fb.zip`:
+
+```text
+-rw-rw-r--  0 0      0        9894 13 Aug  1997 CLAN.TXT
+-rw-rw-r--  0 0      0      363595 13 Aug  1997 PAK1.PAK
+-rw-rw-r--  0 0      0      946124 14 Aug  1997 PROGS.DAT
+-rw-rw-r--  0 0      0      751152 14 Aug  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0       13059 13 Aug  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       51609 13 Aug  1997 README.TXT
+-rw-rw-r--  0 0      0        6641 13 Aug  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       42291 13 Aug  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0      724628 14 Aug  1997 ALTPROGS/PROGS.DAT
+-rw-rw-r--  0 0      0      750308 14 Aug  1997 ALTPROGS/QWPROGS.DAT
+```
+
+Content of `tf26fb_c.zip`:
+
+```text
+-rw-rw-r--  0 0      0        9894 13 Aug  1997 CLAN.TXT
+-rw-rw-r--  0 0      0      363595 13 Aug  1997 PAK1.PAK
+-rw-rw-r--  0 0      0       13059 13 Aug  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       51609 13 Aug  1997 README.TXT
+-rw-rw-r--  0 0      0        6641 13 Aug  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       42291 13 Aug  1997 VERSIONS.TXT
+```
+
+Content of changelog:
+
+```text
+--------------------------------------------
+Version 2.6 - Released
+--------------------------------------------
+Features Added:
+    - Full Team Score
+        A third scoring system, which is a combination of TeamFrags and
+        Normal. Each player's frags are equal to the Team's frags + the
+        Team's score for map related goals.
+    - PreMatch Mode
+        Servers operating in Clan Battle Mode can set a PreMatch time period,
+        in which Players can run around and shoot, but do nothing else.
+        Once the PreMatch time is over, players are respawned.
+    - Cease Fire Time
+        Servers operating in Clan Battle Mode can set a Cease Fire time
+        period at the beginning of the Match, in which Players can't move
+        or shoot.
+    - Class Restrictions
+        Servers can limit the number of players, in the same team, able to play
+        the same class. This can also be used to prevent any classes from being
+        played at all.
+    - Player Substitutions
+        During Clan Battles, players who drop off and rejoin are automatically
+        put in the same team they were in, and their Class, frags, etc are
+        restored. Players can also sub in for another player in this way.
+    - Locked Games
+        Servers can prevent anyone joining games after the PreMatch time
+        is over, except for substitutions for disconnected players.
+    - Flag Emulation
+        When turned on for the old maps which use keys for Flags, this
+        feature will change the key to the new TF Flag.
+    - Admin Capabilities
+        Servers can have "admin" players who don't know the rcon password,
+        but still have the ability to kick players and force cease-fires.
+    - AutoKick
+        Servers can enable an Autokicker which kicks players who kill
+        a set number of their teammates over a set time period.
+    - Anyone can tell the server they don't want to see the Classhelp
+      by setting their infokey "classhelp" (or "ch") to "off".
+    - Engineers can use the "detdispenser", "detsentry", "detentrance",
+      and "detexit" commands to detonate their buildings without using
+      the menus.
+    - Engineer buildings now explode when killed, with a blast radius
+      dependant on the amount of explosive ammo they had in them.
+    - Engineers can now build Teleporter Pads. He can only have one
+      entrance and one exit in existence at the one time, but either
+      can be dismantled and built elsewhere without affecting the other.
+      Teammates can use the teleporter by running onto it and stopping.
+    - Engineers can rotate their sentries by hitting them with the spanner
+      to bring up the menu, and then each spanner hit after that rotates
+      the sentry by 45 degrees.
+    - Sentry Guns now attack monsters in Co-Op mode.
+    - More realistic falling damage.
+    - Players can use impulse 69 to change to the previously selecter weapon.
+    - QW Servers can specify an alternative directory to "qwmcycle"
+      using the "mapdir" serverinfo key, and the server will use the
+      mapX.cfg files in that directory instead.
+    - QW Servers can now store TF in any directory, but the "sv_gamedir"
+      key must still be "fortress".
+    - Players can now change classes using the "changeclass" command,
+      if the server allows it. This will bring up the normal class menu.
+    - Players can set the "take_sshot" infokey to "on", which will make
+      TF automatically take a screenshot of the end game scores for you.
+    - Players can set the "exec_class" infokey to "on", which will make
+      TF automatically exec the "class".cfg file whenever you change
+      classes. (e.g. it'll exec scout.cfg if you're a scout)
+    - Thanks to the QW Team's addition of player maxspeeds, and the increase
+      of the QW speed limit, all classes now move at their correct speeds,
+      and speed cheating is impossible, even wall-strafing.
+    - 4 More Teamplay bits which work as follows:
+        Bit 128:   Team-members only lose 1/2 armor from direct fire.
+        Bit 256:   Team-members lose no armor from direct fire.
+        Bit 512:   Team-members only lose 1/2 armor from area-affect weaponry.
+        Bit 1024:  Team-members lose no armor from area-affect weaponry.
+        Bit 2048:  Team-members take 1/2 mirror damage from direct fire.
+        Bit 4096:  Team-members take full mirror damage from direct fire.
+        Bit 8192:  Team-members take 1/2 mirror damage from area-affect weaponry.
+        Bit 16384: Team-members take full mirror damage from area-affect weaponry.
+
+Changes:
+    - Demoman don't start with Blast armor. Their max armor was increased by 20.
+    - Demoman speed dropped by 20.
+    - The Detpack drastically changed. It now affects a much smaller
+      area, but does a lot of damage to all in it. Time taken to set it
+      reduced to 3 seconds.
+    - Scouts get a frag for disarming a detpack.
+    - Scouts/Spies get a frag for unmasking enemy spies.
+    - Scout's bounding box restored to the normal player size.
+    - Scout's scanner cost nothing to use now.
+    - Heavy Weapons Guy's Assault Cannon damage increased.
+    - Heavy Weapons Guy max armor increased.
+    - Snipers now "shoot" flares, allowing them to fire them much further.
+    - Sniper rifle targeter is back to being a sprite again. This will make
+      it more visible in GLQuake and GLQWCL.
+    - Pyro flames on players now replace older ones.
+    - Pyro "special" command now swaps between Flamethrower and Incendiary Cannon.
+    - Pyro indendiary rockets set players alight through walls as they
+      used to do, but only if they're within 1/2 the rocket's blast radius.
+      Effectively, it'll only set alight players who're very close to the wall.
+    - Pyro napalm grenades in the net version are now actually dangerous.
+    - Engineer detonates buildings with 7 & 8 now, instead of 1 & 2,
+      hopefully preventing ppl from accidently detonating their buildings.
+    - Sentries damage increased due to their loss of quad.
+    - Sentries lock onto targets faster now.
+    - Medic bioinfections are airborn now... they infect ppl much more.
+    - Medic gets the kills for all players killed by his/her infection.
+    - Discard Backpacks tell you who dropped them when picked up.
+    - Players can't injure their own team's dispensers.
+    - Concussion gren's mess with your fov now too.
+    - Proxy spruced up the menus.
+
+Bugs Fixed:
+    - Fixed CTF emulation again.
+    - Spies feigning on top of other spies fixed.
+    - Spies being able to shoot and stay disguised fixed.
+    - Spies disguise handles non-standard skins correctly.
+    - Spies start with ammo for their nailgun now.
+    - Engineers getting frags for their Sentries killing teammates fixed.
+    - Engineers being able to kill teammates with teamkills off fixed.
+    - Engineers being able to build sentries in the air fixed.
+    - Sentries getting quad every 3 seconds fixed.
+    - Sentries lock onto enemy spies who've only changed their skin now.
+    - Sentries targeting from their base fixed.
+    - Sentries not firing rockets when out of shells fixed.
+    - Sentries making firing noises and not actually firing fixed.
+    - Sentries not rotating around the 0 degree mark fixed.
+    - Pyro flamethrower setting flames underwater fixed.
+    - Pyro flames on the ground in QW being "sticky".
+    - Heavy Weapon Guy's shell ammo not being updated correctly fixed.
+    - Detpack's blocking lifts are now removed.
+    - Nail ammo being destroyed by EMP grenades fixed.
+    - Players joining teams in a server with TeamFrags on now have their
+      frags set to the team's score straight away.
+
+Map Code Bug Fixes:
+    - Else Goals using the wrong Activating Goal when checking for
+      whether they should apply results fixed.
+    - Non-TF ents activating Else Goals without checking their
+      criteria first fixed.
+    - Goal Items staying active after they killed a player in the process
+      of retrieving it fixed.
+    - Skill Existence Behaviour now works correctly.
+
+Map Code Enhancements:
+    - Map Debug cleaned up a lot.
+    - Showloc debug dumps the current angle too.
+    - A new bit (32) was added to "goal_result" for Goals/etc which forces
+      anyone affected by the goal to simply respawn. The player doesn't
+      die... just respawns.
+    - A new bit (2048) was added to "goal_activation" for Goals and GoalItems.
+        2048: If this bit is set, the Goal/Item drops to the ground when it
+              first spawns.
+    - Another new bit (4096) was added to "goal_result" for GoalItems.
+        4096: If this bit is set, any player carrying this item can drop
+              it using the "dropitems" command.
+    - Yet another bit (8192) was added to "goal_activation" for GoalItems.
+        8192: If this bit is set, the GoalItem is Solid while not
+              being carried by a player. This means it blocks bullets,
+              grenades.
+              N.B. It will also block any players that don't pass it's
+                   criteria. Players that do pass the criteria will
+                   simply pick it up.
+    - The size of a Goal or GoalItem can now be set using the "goal_min"
+      and "goal_max" variables to set the min and max bounding box.
+      If not set, they default to:
+        "goal_min"       "-16 -16 -24"
+        "goal_max"       "16 16 32"
+    - More Abbreviations, as follows:
+        Floats
+            "h_i_g"     for     "has_item_from_group"
+            "r_i_g"     for     "remove_item_group"
+
+            "a_s"       for     "ammo_shells"
+            "a_n"       for     "ammo_nails"
+            "a_r"       for     "ammo_rockets"
+            "a_c"       for     "ammo_cells"
+
+            "rv_s_h"    for     "remove_spawngroup"
+            "rs_s_h"    for     "restore_spawngroup"
+            "rv_gr"     for     "remove_group_no"
+            "rs_gr"     for     "restore_group_no"
+            "rv_g"      for     "remove_goal_no"
+            "rs_g"      for     "restore_goal_no"
+    - The "ex_skill_min" and "ex_skill_max" variables can now
+      use "-1" to mean 0. This is needed because specifying either
+      as 0 is the same as not specifying it at all.
+      E.g. An entity with:
+                "ex_skill_min" "-1"
+                "ex_skill_max" "-1"
+           Would only exist at skill 0.
+            An entity with:
+                "ex_skill_min" "-1"
+                "ex_skill_max" "2"
+           Would only exist at skill 0, 1, or 2.
+```
+
+-- tf26fb.zip/VERSIONS.TXT
+
+## v2.6
+
+Released as :
+
+* `tf26crel.zip`
+* `tf26inst.exe`
+* `tf26rel.zip`
+
+Listed on the Team Fortress News page:
+
+> 23.08.1997
+>
+> TeamFortress 2.6 Final Release\
+> Ok, the TF 2.6 Final Release has been finished, so unless there's horrendous bugs in it, this will be the last version you'll see from us for a while. We'll give out some info on what we're working on over the next couple of months.
+> You can read the version info, or go straight to the Downloads page to get it.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+And on the TeamFortress Downloads page:
+
+> TF 2.6\
+> Team Fortress Version 2.6 Final Release\
+> NEW: Team Fortress 2.6 Install (4.8 meg)
+
+> This wizard, written by by John Machin(XP-Tritech), will fully install Team Fortress 2.6 onto your system (Windows Only).
+> You do not need any previous versions of Team Fortress to use this install.
+> If you already have TF 2.5, or you don't use Win95, you should use the patch below.
+> Alternative download site here.
+>
+> TF 2.6 patch - requires TF 2.5\
+> Download TF 2.6 Final Client and Server Pak (1.1 meg)\
+> Contains all 4 versions, normal and QW, LAN and net, and the client files.
+> Read the readme.txt file included in the zip for installation instructions.
+> Alternative download site here.
+>
+> Download TF 2.6 Final Client Pak (166k)\
+> Contains the client files needed for the 2.6 Final Beta, but no server files.
+> Read the readme.txt file included in the zip for installation instructions.
+> Alternative download site here.
+>
+> Note:
+> You must get these files to play TF 2.6 Final Release, even if you've already downloaded the TF 2.6 Final Beta files.
+
+-- [http://www.planetquake.com:80/teamfortress/download.html](https://web.archive.org/web/19971211223204/http://www.planetquake.com:80/teamfortress/download.html) (archived)
+
+Links:
+
+* https://web.archive.org/web/19971211223204/http://www.teamfortress.com/files/teamfortress/tf26inst.exe
+* https://web.archive.org/web/19971211223204/http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf26inst.exe
+* https://web.archive.org/web/19971211223204/http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf26rel.zip
+* https://web.archive.org/web/19971211223204/http://www.teamfortress.com/files/teamfortress/tf26rel.zip
+* https://web.archive.org/web/19971211223204/http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf26crel.zip
+* https://web.archive.org/web/19971211223204/http://www.teamfortress.com/files/teamfortress/tf26crel.zip
+
+Mentioned on BluesNews:
+
+> Sunday, August 24, 1997
+>
+> TeamFortress 2.6\
+> The final release of TeamFortress 2.6 is out on the Teamfortress page. Thanks INTIMIDATOR. Also, happy first anniversary to TeamFortress, which is one year old today. Sgt.CoolGuy (who informed me of the occasion) has posted a copy of TeamFortress 1.0 on his site, Sgt.CoolGuy's Detail Duty to commemorate the occasion.
+
+-- https://www.bluesnews.com/archives/aug97-4.html
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+* http://coolguy.lockandload.com/
+
+Mentioned on Redwoods:
+
+> August 24, 1997
+>
+> TeamFortress 2.6 FINAL\
+> The FINAL (and I do mean final, at least for Quake 1) Team Fortress has been released, version 2.6.
+> Quake.Fame - INTIMIDATOR.
+
+-- [http://redwood.stomped.com/897.html](https://web.archive.org/web/20011125200502/http://redwood.stomped.com/897.html) (archived)
 
 
+Contents of `tf26crel.zip`:
 
+```text
+-rw-rw-r--  0 0      0       11114 20 Aug  1997 CLAN.TXT
+-rw-rw-r--  0 0      0      567702 23 Aug  1997 PAK1.PAK
+-rw-rw-r--  0 0      0       12997 19 Aug  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       51780 23 Aug  1997 README.TXT
+-rw-rw-r--  0 0      0        6641 23 Aug  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       71808 23 Aug  1997 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       43495 23 Aug  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0       64008 20 Aug  1997 GFX/CONBACK.LMP
+```
+
+Contents of `tf26rel.zip`:
+
+```text
+-rw-rw-r--  0 0      0       11114 20 Aug  1997 CLAN.TXT
+-rw-rw-r--  0 0      0      567702 23 Aug  1997 PAK1.PAK
+-rw-rw-r--  0 0      0      929260 23 Aug  1997 PROGS.DAT
+-rw-rw-r--  0 0      0      764392 23 Aug  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0       12997 19 Aug  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       51780 23 Aug  1997 README.TXT
+-rw-rw-r--  0 0      0        6641 23 Aug  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       71808 23 Aug  1997 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       43495 23 Aug  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0      714736 23 Aug  1997 ALTPROGS/PROGS.DAT
+-rw-rw-r--  0 0      0      763548 23 Aug  1997 ALTPROGS/QWPROGS.DAT
+-rw-rw-r--  0 0      0       64008 20 Aug  1997 GFX/CONBACK.LMP
+```
+
+Contents of `tf26inst.exe`:
+
+```text
+-rw-rw-r--  0 0      0      208556  3 Oct  1997 _setup.lib
+```
+
+he timestamps suggest a release on August 23.
+
+The executable release suggests a later release or perhaps an update.
+
+The changelog may have the wrong month:
+
+```text
+--------------------------------------------
+Version 2.6 Final Release - Released 22/7/97
+--------------------------------------------
+Changes:
+    - Teleporters removed.
+    - Server Admin password moved to localinfo.
+    - Clan skins moved to localinfo.
+    - Detpacks blocking lifts or doors are removed.
+    - Detpacks pumped upto 700 radius.
+    - All class speeds reevaluated.
+    - Buildings add towards AutoKick Teamkill tally now.
+    - Net Napalm Grenade weakened slightly.
+    - Sentry Rotation moved to the menu.
+    - Sentry Targeting range reduced. Still better than
+      the 2.5 targeting system.
+
+Bugs Fixed:
+    - Scout flash grenade crashing the server.
+    - Scout concussion grenade not restoring fov correctly.
+    - Speed limitations not working for spy feigning fixed.
+    - Detpack noise not being precached.
+    - Disease re-infecting immediately after heal fixed.
+    - Invulnerability trick now thwarted.
+    - Admin commands not working fixed.
+    - Gas Gren hurting teammates fixed. It still messes with their vision.
+    - Observers being able to suicide fixed.
+    - Observers being able to push buttons fixed.
+    - Flares sticking to sky.
+```
+
+-- tf26crel.zip/VERSIONS.TXT
