@@ -4224,17 +4224,57 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/oct97-2.html
 
+Mention on the ClanMegadeath news page:
+
+> 10/13
+>
+> TeamFortress 2.65 BugFix!!!\
+> Hooray!!!! The Clan [M]egadeath server is now utilizing this great feature! Got this from the TeamFortress Home page.
+>
+> The TF 2.65 BugFix is in testing and you'll probably see it running on various servers within the hour. It fixes most, if not all, of the known cheats in TF. It is not an official release yet... and won't be until we're sure it fixes all the cheats. You can do your bit by playing on BugFix servers and keeping an eye out for anyone cheating. Please don't mail us reports of people cheating on non 2.65 Bugfix servers... we know it's possible, and we know how it's done. Official release should be within the next couple of days.
+>
+> Only certain servers have this, as it is being tested right now, I'm sure they won't release the code ever because punks like that one Johnny kid will try and hack it, so it might just be distributed through email.
+
+-- [http://www.clanmegadeath.com/fanon/10_97.html](https://web.archive.org/web/19980112191020fw/http://www.clanmegadeath.com/fanon/10_97.html) (archived)
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.65 Bug Fix A
+--------------------------------------------
+Features Added:
+    - MOTD localinfo for servers.
+    - Support for the QW 2.01's method of map cycling.
+    - QW TF Map cyling now has extra added tang.
+      See qwserver.txt for full info.
+
+Changes:
+    - Dispenser death message tells you who's dispenser it was.
+    - Cheat checking's a little nastier now.
+
+Bugs Fixed:
+    - Disappearing flags bug fixed.
+    - Dispensers shouldn't drop thru floors anymore.
+    - Dropitems won't allow you to throw items out of the world anymore.
+    - HWGuys picking up ammobox/discards while firing cannon fixed.
+    - Pipebombs/Detpacks/etc left by disconnecting players don't explode.
+    - EMP Grenades not affecting players fixed.
+    - Spectators passing on Bio-infections fixed.
+    - Scores changing after the match is over fixed.
+    - "serverinfo n" being used instead of "localinfo n". This will fix
+      the server cfg problem.
+
+Map Code Bug Fixes:
+    - All abbreviations working correctly now.
+    - Grenade removal goals remove primed grenades as well.
+```
+
+-- tf2666.zip/VERSIONS.TXT
 
 ## v2.65b (Bug Fix)
 
 Released as `tf265b.zip`.
-
-Probably a private beta.
-
-
-## v2.65c (Bug Fix)
-
-Probably released as `tf265c.zip`.
 
 This link was found:
 
@@ -4242,6 +4282,62 @@ This link was found:
 
 Probably a private beta.
 
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.65 Bug Fix B
+--------------------------------------------
+Changes:
+    - Nobody should be able to get in using the "skins"
+      command hack ever again.
+    - Servers running in Clan Mode should be secure again.
+    - Map Code cycling with QW2.01's method will work
+      now even if the serverinfo/localinfo key "n" is set.
+    - Map cycling key "n" moved back to serverinfo.
+
+Map Code Enhancements:
+    - GoalItems dropped by living or dead players now
+      don't return immediately if they fall out of the world.
+      Instead, they "retry" the drop 3 times. If all fail,
+      then they return.
+
+Map Code Bug Fixes:
+    - Activating Goals remove their model correctly again.
+```
+
+-- tf2666.zip/VERSIONS.TXT
+
+## v2.65c (Bug Fix)
+
+Probably released as `tf265c.zip`.
+
+Probably a private beta.
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.65 Bug Fix C
+--------------------------------------------
+Changes:
+    - Soldier can only carry 2 nail grenades at a time.
+    - Engineer Build area-checking is a little tougher now, and
+      should prevent you building in corners where the building
+      will fall out.
+
+Bug Fixes:
+    - Spawnpoints not working correctly fixed.
+    - Glow not being removed from players with quad and flag.
+    - Friendly Sentry IDs sometimes reporting as enemies fixed.
+    - Admins can toggle ceasefire while dead.
+    - Players cannot be killed during ceasefire.
+
+Map Code Bug Fixes:
+    - Criteria for Spawnpoints working correctly now.
+```
+
+-- tf2666.zip/VERSIONS.TXT
 
 ## v2.65d (Bug Fix)
 
@@ -4254,6 +4350,47 @@ These links were found:
 
 Probably a private beta.
 
+This version is listed on the ClanMegadeath downloads page:
+
+> TF 2.65 Beta D Cheat Fix Server Pak
+
+-- [http://www.clanmegadeath.com:80/fanon/files.html](https://web.archive.org/web/19980112190720/http://www.clanmegadeath.com:80/fanon/files.html) (archived)
+
+Links:
+
+* https://web.archive.org/web/19980112190720/http://www.clanmegadeath.com:80/fanon/files/tf265d.zip
+
+
+
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.65 Bug Fix D
+--------------------------------------------
+Changes:
+    - Buildings check the area under themselves and fall they're in the air.
+    - No Bioinfections during Prematch mode.
+    - In LAN version, Cheat Checking is now off by default, and can be
+      turned on using the "temp1" var. Read the server.txt file for info.
+    - Soldiers can only have 2 nail grenades active at once now.
+
+Bug Fixes:
+    - Bioinfections during prematch mode removed.
+    - Loophole in reloading fixed.
+    - Scouts killed while disarming in QW don't continue to disarm.
+    - Player frame cycling loophole in Axe/Hook use fixed.
+
+Map Code Bug Fixes:
+    - GoalItem return messages appearing when Goal's
+      force returns. Will fix "flag has returned" when
+      capturing a flag.
+    - GoalItem Drop initial origin changed.
+```
+
+-- tf2666.zip/VERSIONS.TXT
+
 ## v2.65e (Bug Fix)
 
 Probably released as `tf265e.zip`.
@@ -4265,6 +4402,71 @@ These links were found:
 * http://www.teamfortress.com/files/teamfortress/tf265e.zip
 
 Probably a private beta.
+
+Mentioned on the HyperDeath news page:
+
+> Saturday December 6
+>
+> New TF Version:
+>
+> Well this doesn't really pertain to most of us, but I'll post it anyways.  There is a new  Server Patch so all you Server Admins grab it.  Here is what it has fixed:
+>
+>> --------------------------------------------
+>> Version 2.65 Bug Fix E
+>> --------------------------------------------
+>> Features Added:
+>> - Serverinfo key "exec_map_cfgs". If set to "on", then whenever the map changes, the server will automatically exec "qwmcycle/.cfg"
+>>
+>> Changes:
+>> - Nailgun and Supernailgun's now use double the ammo, fire at half the rate, and do double the damage they used to. Should reduce lag.
+>> - Net Napalm grenade light shrunk.
+>>
+>> Bugs Fixed:
+>> - Telefrag problems with Team 1 Spawnpoints fixed.
+>> - Security loophole with player's names fixed.
+>> - Spy skins not being reset correctly when custom skins were being used.
+>> - Exploding Sentrys/Dispensers producing the wrong death messages fixed.
+>> - Red GL Glow not being removed from players with pent and flag.
+>>
+>> Map Code Changes:
+>> - Flaginfo now allows you to specify only some of the flaginfo strings.
+
+> Well that is it for now, talk at ya all later :)
+
+-- [http://hyperdeath.com/news/index.html](https://web.archive.org/web/19971224104900fw/http://hyperdeath.com/news/index.html) (archived)
+
+Links:
+
+* http://hyperdeath.com/news/tf265e.zip
+
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.65 Bug Fix E
+--------------------------------------------
+Features Added:
+    - Serverinfo key "exec_map_cfgs". If set to "on", then whenever the
+      map changes, the server will automatically exec "qwmcycle/<mapname>.cfg"
+
+Changes:
+    - Nailgun and Supernailgun's now use double the ammo, fire at half
+      the rate, and do double the damage they used to. Should reduce lag.
+    - Net Napalm grenade light shrunk.
+
+Bugs Fixed:
+    - Telefrag problems with Team 1 Spawnpoints fixed.
+    - Security loophole with player's names fixed.
+    - Spy skins not being reset correctly when custom skins were being used.
+    - Exploding Sentrys/Dispensers producing the wrong death messages fixed.
+    - Red GL Glow not being removed from players with pent and flag.
+
+Map Code Changes:
+    - Flaginfo now allows you to specify only some of the flaginfo strings.
+```
+
+-- tf2666.zip/VERSIONS.TXT
 
 ## v2.666
 
@@ -4298,6 +4500,19 @@ Mentioned on Redwoods:
 
 -- [http://redwood.stomped.com/1297.html](https://web.archive.org/web/20011121170145/http://redwood.stomped.com/1297.html) (archived)
 
+Mentioned on the ClanMegadeath's news page:
+
+> 12/19
+>
+> Final TF Server patch\
+> Quite a few sites have mentioned this, but yet I still see many servers that are running TF 2.6 E or even D. This is the last, and most stable of the bug fixes, it stops all the cheating (ie. name spoofing and such). SO I implore all server admins to pick the patch up. Get the TeamFortress 2.666 patch here.
+
+-- [http://www.clanmegadeath.com/fanon/12_97.html](https://web.archive.org/web/19980112191034fw/http://www.clanmegadeath.com/fanon/12_97.html) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf2666.zip
+
 Content of `tf2666.zip`:
 
 ```text
@@ -4313,6 +4528,23 @@ Content of `tf2666.zip`:
 -rw-rw-r--  0 0      0      723168 16 Dec  1997 ALTPROGS/PROGS.DAT
 -rw-rw-r--  0 0      0      755648 16 Dec  1997 ALTPROGS/QWPROGS.DAT
 ```
+
+The file timestamps suggest a December 16 release.
+
+This matches the changelog:
+
+```text
+--------------------------------------------
+Version 2.666              Released 16/12/97
+--------------------------------------------
+Changes:
+    - Demomen can only have 1 detpack active at a time.
+
+Bugs Fixed:
+    - Spy disguise menu is now removed after picking up a flag.
+```
+
+-- tf2666.zip/VERSIONS.TXT
 
 ## v2.666 Christmas Mode
 
