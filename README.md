@@ -55,7 +55,7 @@ Release Date | File | Description
 1997-06-15 | [tf25fix.zip](bin/tf25fix.zip) | Team Fortress v2.5 GLQuakeWorld Fix
 1997-08-13 | [tf26fb_c.zip](bin/tf26fb_c.zip)<br>[tf26fb.zip](bin/tf26fb.zip) ([txt](bin/tf26fb.txt)) | TeamFortress v2.6 Final Beta
 1997-08-23 | [tf26crel.zip](bin/tf26crel.zip)<br>[tf26rel.zip](bin/tf26rel.zip)<br>[tf26inst.exe](bin/tf26inst.exe) | TeamFortress v2.6 Final Release
-1997-??-?? | tf265a.zip | TeamFortress v2.65 Bug Fix A
+1997-10-13 | tf265a.zip | TeamFortress v2.65 Bug Fix A
 1997-??-?? | tf265b.zip | TeamFortress v2.65 Bug Fix B
 1997-??-?? | tf265c.zip | TeamFortress v2.65 Bug Fix C
 1997-11-?? | tf265d.zip | TeamFortress v2.65 Bug Fix D

@@ -4194,3 +4194,157 @@ Bugs Fixed:
 ```
 
 -- tf26crel.zip/VERSIONS.TXT
+
+
+## v2.65a (Bug Fix)
+
+Probably released as `tf265a.zip`.
+
+Probably a private beta.
+
+Maybe mentioned on the TeamFortress News page:
+
+> 13.10.1997
+>
+> TeamFortress 2.65 BugFix\
+> The TF 2.65 BugFix is in testing and you'll probably see it running on various servers within the hour. It fixes most, if not all, of the known cheats in TF. It is not an official release yet... and won't be until we're sure it fixes all the cheats.
+You can do your bit by playing on BugFix servers and keeping an eye out for anyone cheating.
+> Please don't mail us reports of people cheating on non 2.65 Bugfix servers... we know it's possible, and we know how it's done.
+>
+> Official release should be within the next couple of days.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Mentioned on BluesNews:
+
+> Monday, October 13, 1997
+>
+> TeamFortress Cheating Fix?
+> The wires have been running hot around here the last couple of days with angry reports of incidents of blatant cheating in TeamFortress games. Thankfully, word has been posted on the TeamFortress homepage that a bug-fixed (anti-cheat) version 2.65 of TeamFortress is now running on select servers. This will not be an official release until there's been a chance to evaluate its effectiveness at curtailing the cheats, and users are encouraged to try and take note of any abuses on the newer servers (though they need no more reports about cheating on older servers). Thanks Gregg Reno.
+
+-- https://www.bluesnews.com/archives/oct97-2.html
+
+
+## v2.65b (Bug Fix)
+
+Released as `tf265b.zip`.
+
+Probably a private beta.
+
+
+## v2.65c (Bug Fix)
+
+Probably released as `tf265c.zip`.
+
+This link was found:
+
+* http://www.teamfortress.com/files/teamfortress/tf265b.zip
+
+Probably a private beta.
+
+
+## v2.65d (Bug Fix)
+
+Released as `tf265d.zip`.
+
+These links were found:
+
+* http://www.clanmegadeath.com/fanon/files/tf265d.zip
+* http://www.teamfortress.com/files/teamfortress/tf265d.zip
+
+Probably a private beta.
+
+## v2.65e (Bug Fix)
+
+Probably released as `tf265e.zip`.
+
+These links were found:
+
+* ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
+* http://hyperdeath.com/news/tf265e.zip
+* http://www.teamfortress.com/files/teamfortress/tf265e.zip
+
+Probably a private beta.
+
+## v2.666
+
+Released as `tf2666.zip`.
+
+Mentioned on the TeamFortress News page:
+
+> 16.12.1997
+>
+TeamFortress 2.666 Released\
+> TeamFortress 2.666 has been finished. This is a server side only update, so if you don't run your own server, you don't need this.
+You can read the version info, or go straight to the Downloads page to get it.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Mentioned on BluesNews:
+
+> Tuesday, December 16, 1997
+>
+> New TeamFortress Server\
+> Version 2.666 of TeamFortress (a server update only) has been released on the Team Fortress Quake Homepage. Thanks rdwarlock[zzz].
+
+-- https://www.bluesnews.com/archives/dec97-2.html
+
+Mentioned on Redwoods:
+
+> December 16, 1997
+>
+> New TeamFortress Server\
+> The TeamFortress server has been updated to the final version, 2.666. Thanks DarkBlade
+
+-- [http://redwood.stomped.com/1297.html](https://web.archive.org/web/20011121170145/http://redwood.stomped.com/1297.html) (archived)
+
+Content of `tf2666.zip`:
+
+```text
+-rw-rw-r--  0 0      0        7018 15 Dec  1997 SERVER.TXT
+-rw-rw-r--  0 0      0       11124 15 Dec  1997 CLAN.TXT
+-rw-rw-r--  0 0      0       52647 15 Dec  1997 README.TXT
+-rw-rw-r--  0 0      0      756520 16 Dec  1997 QWPROGS.DAT
+-rw-rw-r--  0 0      0      582356 16 Dec  1997 SERVCFG.ZIP
+-rw-rw-r--  0 0      0       17626 16 Dec  1997 QWSERVER.TXT
+-rw-rw-r--  0 0      0       48264 16 Dec  1997 VERSIONS.TXT
+-rw-rw-r--  0 0      0      937668 16 Dec  1997 PROGS.DAT
+-rw-rw-r--  0 0      0       71709 15 Dec  1997 TFORTMAP.TXT
+-rw-rw-r--  0 0      0      723168 16 Dec  1997 ALTPROGS/PROGS.DAT
+-rw-rw-r--  0 0      0      755648 16 Dec  1997 ALTPROGS/QWPROGS.DAT
+```
+
+## v2.666 Christmas Mode
+
+Released as `tf2666bd.zip`.
+
+Mentioned on the TeamFortress News page:
+
+> 24.12.1997
+>
+> Merry Christmas!!\
+> It's a day early, but since we won't be here for the next couple of days, it's the best we can do.
+>
+> TeamFortress 2.666 Christmas Mode\
+> Since a few people have mailed me asking for it, I've recompiled TF 2.666 with the Birthday options in, slightly tweaked to make it aimed at Christmas instead of the TF Birthday. It's a QuakeWorld server update only... if you don't run QW, you can't use it, and if you don't run a server, you don't need it.
+> If you are a server, download the TF 2.666 Christmas Mode (247K). Unzip it and put the qwprogs.dat in your quake\fortress directory. Then, run your server, and set the localinfo key "birthday" to "on". e.g. localinfo birthday on
+> And restart the map. Birthday/Christmas mode will stay on, unless you kill the server, in which case you might want to add it to your server.cfg.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
+
+Mentioned on BluesNews:
+
+> Wednesday, December 24, 1997
+>
+> TeamFortress 2.666 (server-side only) has been released on the TeamFortress page, featuring a Christmas variation on their Birthday theme. Thanks Prophet.
+
+-- https://www.bluesnews.com/archives/dec97-3.html
+
+
+**A copy of this file has not yet been acquired.**
+
+
