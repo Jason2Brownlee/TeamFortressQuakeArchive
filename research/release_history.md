@@ -4276,9 +4276,18 @@ Map Code Bug Fixes:
 
 Released as `tf265b.zip`.
 
-This link was found:
+Mentioned on the Sycamore Tree:
 
-* http://www.teamfortress.com/files/teamfortress/tf265b.zip
+> Saturday, October 18
+>
+> NICE WAY TO START THE WEEKEND: - Mr.Potato Head\
+> I read over on GibKeeg's Fortress that the latest version of TF has been released. Version 2.65b can be downloaded (by server admins....regular folks don't need it) at:
+>
+> http://www.teamfortress.com/files/teamfortress/tf265b.zip
+>
+> Personally, I'm thrilled that the disappearing flag bug is gone. Now we can start up those matches on 2fort_32 again! Woohoo!
+
+-- [http://www.erinyes.com:80/tf/old/onews5.html](https://web.archive.org/web/20001109062300/http://www.erinyes.com:80/tf/old/onews5.html) (archived)
 
 Probably a private beta.
 
@@ -4312,7 +4321,18 @@ Map Code Bug Fixes:
 
 Probably released as `tf265c.zip`.
 
-Probably a private beta.
+Mentioned on the Sycamore Tree:
+
+> Wednesday, October 29
+>
+> TF VERSION 2.65C: - Mr.Potato Head\
+> There's some great stuff over on the Lock and Load site, including news of the latest server patch for Team Fortress. If you do not run a server you do not need this.You can grab the file from:
+>
+> http://www.teamfortress.com/files/teamfortress/tf265c.zip
+>
+> To read more about the latest changes, etc. head on over to Lock and Load.
+
+-- [http://www.erinyes.com/tf/old/onews6.html](https://web.archive.org/web/20010121055800/http://www.erinyes.com/tf/old/onews6.html) (archived)
 
 Changelog:
 
@@ -4343,12 +4363,49 @@ Map Code Bug Fixes:
 
 Released as `tf265d.zip`.
 
-These links were found:
-
 * http://www.clanmegadeath.com/fanon/files/tf265d.zip
 * http://www.teamfortress.com/files/teamfortress/tf265d.zip
 
-Probably a private beta.
+Mentioned on the Sycamore Tree:
+
+> Monday, November 10
+>
+> TF6.5D - Strato\
+> Saw at TF Newswire who saw at Gibkeegs who saw at......that the lastest version of TF was released. Prolly just server side patch but maybe it's client side. I don't know. =) Anyhoo here's what was released concerning it:
+>
+>> ....it looks like 2.65 is good. Sorry we're not
+>> going to add in all the little extra tweaks
+>> people have suggested... we'd like to get TFII out
+>> asap after Q2 is released, and to help that, we're
+>> working hard to make sure our design is rock-solid
+>> before we begin coding.
+>>
+>> Thanks to everyone for helping us test 2.65.
+>>
+>> Robin.
+>> --------------------------------------------
+>> Version 2.65 Bug Fix D
+>> --------------------------------------------
+>> Changes:
+>> - Buildings check the area under themselves and fall they're in the air.
+>> - No Bioinfections during Prematch mode.
+>> - In LAN version, Cheat Checking is now off by default, and can be
+>> turned on using the "temp1" var. Read the server.txt file for info.
+>> - Soldiers can only have 2 nail grenades active at once now.
+>>
+>> Bug Fixes:
+>> - Bioinfections during prematch mode removed.
+>> - Loophole in reloading fixed.
+>> - Scouts killed while disarming in QW don't continue to disarm.
+>> - Player frame cycling loophole in Axe/Hook use fixed.
+>>
+>> Map Code Bug Fixes:
+>> - GoalItem return messages appearing when Goal's
+>> force returns. Will fix "flag has returned" when
+>> capturing a flag.
+>> - GoalItem Drop initial origin changed.
+
+-- [http://www.erinyes.com/tf/old/onews8.html](https://web.archive.org/web/20010121060700/http://www.erinyes.com/tf/old/onews8.html) (archived)
 
 This version is listed on the ClanMegadeath downloads page:
 

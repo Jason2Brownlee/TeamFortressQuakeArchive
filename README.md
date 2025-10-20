@@ -56,9 +56,9 @@ Release Date | File | Description
 1997-08-13 | [tf26fb_c.zip](bin/tf26fb_c.zip)<br>[tf26fb.zip](bin/tf26fb.zip) ([txt](bin/tf26fb.txt)) | TeamFortress v2.6 Final Beta
 1997-08-23 | [tf26crel.zip](bin/tf26crel.zip)<br>[tf26rel.zip](bin/tf26rel.zip)<br>[tf26inst.exe](bin/tf26inst.exe) | TeamFortress v2.6 Final Release
 1997-10-13 | tf265a.zip | TeamFortress v2.65 Bug Fix A
-1997-??-?? | tf265b.zip | TeamFortress v2.65 Bug Fix B
-1997-??-?? | tf265c.zip | TeamFortress v2.65 Bug Fix C
-1997-11-?? | tf265d.zip | TeamFortress v2.65 Bug Fix D
+1997-10-18 | tf265b.zip | TeamFortress v2.65 Bug Fix B
+1997-10-29 | tf265c.zip | TeamFortress v2.65 Bug Fix C
+1997-11-10 | tf265d.zip | TeamFortress v2.65 Bug Fix D
 1997-12-05 | tf265e.zip | TeamFortress v2.65 Bug Fix E
 1997-12-16 | [tf2666.zip](bin/tf2666.zip) | TeamFortress v2.666
 1997-12-24 | tf2666bd.zip | TeamFortress v2.666 Christmas Mode
