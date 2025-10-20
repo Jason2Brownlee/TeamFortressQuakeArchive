@@ -4439,6 +4439,57 @@ Links:
 
 * http://hyperdeath.com/news/tf265e.zip
 
+Mentioned on Keeg:
+
+> December 5th, 1997
+>
+> Team Fortress 2.65e released -Gibkeeg 9:41pm PST\
+> Version 2.65e of Team Fortress has been released. This is a server side fix, clients to not need to redownload it. Server admins please upgrade.
+>
+>> --------------------------------------------
+>> Version 2.65 Bug Fix E
+>> --------------------------------------------
+>> Features Added:
+>> - Serverinfo key "exec_map_cfgs". If set to "on", then whenever the map changes, the server will automatically exec "qwmcycle/.cfg"
+>>
+>> Changes:
+>> - Nailgun and Supernailgun's now use double the ammo, fire at half the rate, and do double the damage they used to. Should reduce lag.
+>> - Net Napalm grenade light shrunk.
+Bugs Fixed:
+>>
+>> - Telefrag problems with Team 1 Spawnpoints fixed.
+>> - Security loophole with player's names fixed.
+>> - Spy skins not being reset correctly when custom skins were being used.
+>> - Exploding Sentrys/Dispensers producing the wrong death messages fixed.
+>> - Red GL Glow not being removed from players with pent and flag.
+>>
+>> Map Code Changes:
+>> - Flaginfo now allows you to specify only some of the flaginfo strings.
+
+-- [http://www.keeg.com/archive1.htm](https://web.archive.org/web/19980129162207/http://www.keeg.com/archive1.htm) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf265e.zip
+
+
+Mentioned on TFNews:
+
+> Dec. 6 1997
+>
+> TF 2.65E Server update
+>
+> Ok this is another server update released by the TF team to fix up some cheaters and bugs. Well as I was reading through some of the docs I say one thing that I read about five times:
+>
+<< Changes: - Nailgun and Supernailgun's now use double the ammo, fire at half the rate, and do double the damage they used to. Should reduce lag.
+>
+> Thats great!! To get this click here. It should have the docs and tell you other changes. - Ma$e
+
+-- [http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm](https://web.archive.org/web/19980121132030/http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf265e.zip
 
 Changelog:
 
@@ -4513,6 +4564,18 @@ Links:
 
 * http://www.teamfortress.com/files/teamfortress/tf2666.zip
 
+Mentioned on TFNews:
+
+> Dec. 16 1997
+>
+> Hey guess what there is a new TF server update and supposedly the final one. It is TF 2.666 get that mofo now. Makes a great gift for server ops!! :-) - Ma$e
+
+-- [http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm](https://web.archive.org/web/19980121132030/http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf2666.zip
+
 Content of `tf2666.zip`:
 
 ```text
@@ -4576,6 +4639,32 @@ Mentioned on BluesNews:
 
 -- https://www.bluesnews.com/archives/dec97-3.html
 
+Mentioned on Keeg:
+
+> December 24th, 1997
+>
+> Team Fortress Christmas -Gibkeeg 2:44pm PST\
+>TFS software has released a Team Fortress Christmas patch, check it out.
+>
+>> Unzip it and put the qwprogs.dat in your quake\fortress directory. Then, run your server, and set the localinfo key "birthday" to "on". e.g. localinfo birthday on And restart the map. Birthday/Christmas mode will stay on, unless you kill the server, in which case you might want to add it to your server.cfg.
+
+-- [http://www.keeg.com/archive4.htm](https://web.archive.org/web/19980129162401/http://www.keeg.com/archive4.htm) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
+
+Mentioned on TF News:
+
+> Dec. 24 1997
+>
+> The TFS people have decided to release a Christmas edition of TF 2.666. Well isn't life great. Get it here. All the info you need should be inside with the file. - Ma$e
+
+-- [http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm](https://web.archive.org/web/19980121132030/http://quake.execnet.com/Hostings/Lakeside/tfnewsdec97.htm) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
 
 **A copy of this file has not yet been acquired.**
 
