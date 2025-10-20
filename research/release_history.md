@@ -4723,6 +4723,531 @@ Links:
 
 * http://www.teamfortress.com/files/teamfortress/tf2666bd.zip
 
+This version does not appear in the changelog for v2.7.
+
 **A copy of this file has not yet been acquired.**
 
+
+## v2.7
+
+Released as `tf27.zip`.
+
+Mentioned on the Team Fortress News page:
+
+> 29.1.1998
+>
+> TeamFortress 2.7 Server Update\
+> TF 2.7 is now available on the Downloads page.
+> It's a server side only update, so if you don't run your own server, you don't need this.
+> If you're interested, you can check out the version info.
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Mentioned on the Team Fortress Downloads page:
+
+> TF 2.7
+>
+> Team Fortress Version 2.7 Server Update ONLY\
+> Download TF 2.7 (1.6meg)\
+> This is a SERVER ONLY update. You do not need this update if you don't run a server.
+> Contains all versions, normal and QW.
+> Also contains a new server configuration tool written by Erik ">V< SPEEDenator" Selberg, which automatically customises Jim "Sgt Thundercok" Kaufman's Vote40 map.
+> Alternative download site here.
+
+-- [http://planetquake.com:80/teamfortress/download.html](https://web.archive.org/web/19980218113617/http://planetquake.com:80/teamfortress/download.html) (archived)
+
+Links:
+
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf27.zip
+* http://www.teamfortress.com/files/teamfortress/tf27.zip
+
+Mentioned on BluesNews:
+
+> Thursday, January 29, 1998
+>
+> New TeamFortress Server\
+> Version 2.7 of the TeamFortress Quake server (1.6 MB) is now available on the TeamFortress website. The new version fixes a couple of bugs, and eliminates the Sentry cheat which has been a serious problem in TF games lately. Thanks Prophet.
+
+-- https://www.bluesnews.com/archives/jan98-4.html
+
+Links:
+
+* https://www.bluesnews.com/files/patches/teamfortress/tf27.zip
+
+Mentioned on Redwoods:
+
+> January 29, 1998
+>
+> Fortress Server 2.7\
+> Team Fortress has the new files for version 2.7 of the server that fixes some bugs and cheats. I noticed that on Blue's.
+
+-- [http://redwood.stomped.com/198.html](https://web.archive.org/web/20011121172234/http://redwood.stomped.com/198.html) (archived)
+
+Content of `tf27.zip`:
+
+```text
+-rw-rw-r--  0 0      0       11123 29 Jan  1998 CLAN.TXT
+-rw-rw-r--  0 0      0      938080 29 Jan  1998 PROGS.DAT
+-rw-rw-r--  0 0      0      774404 29 Jan  1998 QWPROGS.DAT
+-rw-rw-r--  0 0      0       17850 29 Jan  1998 QWSERVER.TXT
+-rw-rw-r--  0 0      0       52440 29 Jan  1998 README.TXT
+-rw-rw-r--  0 0      0      582356 16 Dec  1997 SERVCFG.ZIP
+-rw-rw-r--  0 0      0        7242 29 Jan  1998 SERVER.TXT
+-rw-rw-r--  0 0      0       71704 29 Jan  1998 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       48653 29 Jan  1998 VERSIONS.TXT
+-rw-rw-r--  0 0      0      723584 29 Jan  1998 ALTPROGS/PROGS.DAT
+-rw-rw-r--  0 0      0      773532 29 Jan  1998 ALTPROGS/QWPROGS.DAT
+```
+
+Content of changelog:
+
+```text
+--------------------------------------------
+Version 2.7                 Released 29/1/98
+--------------------------------------------
+Changes:
+    - Players with NoMove set cannot be moved by damage.
+
+Bugs Fixed:
+    - Finally fixed the pipebomb counting bug. (Thanks dz!)
+    - HWGuy moving at fullspeed while spinning loophole fixed.
+    - That minor sentry cheat/bug fixed.
+```
+
+-- tf27.zip/VERSIONS.TXT
+
+## v2.8
+
+Released as:
+
+* `tf28.zip`
+* `tf28inst.exe`
+* `tf28upgr.zip`
+
+Mentioned on the Team Fortress News page:
+
+> 23.5.1998
+>
+> TeamFortress 2.8 Released\
+> Thanks to the efforts of Gudlyf and various adamant members of the community, TF 2.8 has been finished. Many bugs were fixed, cheats prevented, and controversial decisions made to ensure you can have a cheat-free game of TF.
+> We'd like to thank Gudlyf for his efforts, and for putting up with some of the crap the community threw at him. He undertook a fairly thankless task and came through with the results. Many people are happy to offer suggestion and criticism, but not many want to be the person who has to make the final decisions.
+>
+> Thanks also to John Machin for updating the TF Install program.
+>
+> Head over to the Downloads page to get TF 2.8.
+> If you're interested, you can check out the version info.
+>
+> - Robin
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Mentioned on the Team Fortress Downloads page:
+
+> TF 2.8
+>
+> Team Fortress Version 2.8\
+> Download TF 2.8 Full Installer (5.3meg)\\
+> Contains all versions, normal and QW.
+> Grab this if you don't have TF 2.6 or greater, or you're not sure what version of TF you've got.
+> Alternative download site here.
+>
+> Download TF 2.8 Full Zip (4.1meg)\
+> Contains all versions, normal and QW.
+> Grab this if you're not running Win95/WinNT.
+> Alternative download site here.
+>
+> Download TF 2.8 Upgrade Zip (1.5meg)\
+> Contains all versions, normal and QW.
+> Grab this if you have TF 2.6, 2.666, or 2.7.
+>
+> Alternative download site here.
+
+-- [http://www.planetfortress.com/teamfortress/download.html](https://web.archive.org/web/19981205091313/http://www.planetfortress.com/teamfortress/download.html) (archived)
+
+Links:
+
+* ftp://ftp.cdrom.com/pub/idgames2/planetquake/teamfortress/tf28inst.exe
+* http://www.teamfortress.com/files/teamfortress/tf28inst.exe
+* ftp://ftp.cdrom.com/pub/idgames2/planetquake/teamfortress/tf28.zip
+* http://www.teamfortress.com/files/teamfortress/tf28.zip
+* ftp://ftp.cdrom.com/pub/idgames2/planetquake/teamfortress/tf28upgr.zip
+* http://www.teamfortress.com/files/teamfortress/tf28upgr.zip
+
+Mentioned on BluewsNews:
+
+> Saturday, May 23, 1998
+>
+> TeamFortress 2.8  [6:25 PM EDT]\
+> Version 2.8 of Team Fortress is out as a full installer (5.3 MB) will both Quake and QuakeWorld versions ("Grab this if you don't have TF 2.6 or greater, or you're not sure what version of TF you've got"), a full .zip (4.1 MB), the same as the installer, but in a .zip, and an upgrade .zip (1.5), with both Quake and QuakeWorld versions, if you already have TF 2.6 or later installed. Thanks SirLiam (of Ethereal Team Fortress).
+
+-- https://www.bluesnews.com/archives/may98-4.html
+
+Links:
+
+* http://www.planetquake.com/teamfortress/
+* ftp://ftp.gamesnet.net/pub/bluesnews/quake/teamfortress/tf28inst.exe
+* ftp://ftp.gamesnet.net/pub/bluesnews/quake/teamfortress/tf28.zip
+* ftp://ftp.gamesnet.net/pub/bluesnews/quake/teamfortress/tf28upgr.zip
+* http://tf.ethereal.net/
+
+Mentioned on Redwoods:
+
+> May 23, 1998
+>
+> Team Fortress 2.8 Released\
+> Team Fortress 2.8 has been released. This one is bug fixes. Thanks SirLiam of Ethereal Team Fortress.\
+> Team Fortress 2.8 Full Release Installer (5.3MB - cdrom.com)\
+> Team Fortress 2.8 Full Zip (4.1MB - cdrom.com)
+
+-- [http://redwood.stomped.com/598.html](https://web.archive.org/web/20010128223200/http://redwood.stomped.com/598.html) (archived)
+
+Links:
+
+* ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf28inst.exe
+* http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf28.zip
+* ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf28upgr.exe
+
+Content of `tf28.zip`:
+
+```text
+drwxrwxr-x  0 0      0           0 23 May  1998 FORTRESS/
+-rw-rw-r--  0 0      0       11123 20 May  1998 FORTRESS/CLAN.TXT
+-rw-rw-r--  0 0      0     7774133 20 May  1998 FORTRESS/PAK0.PAK
+-rw-rw-r--  0 0      0      963372 23 May  1998 FORTRESS/progs.dat
+-rw-rw-r--  0 0      0       18001 20 May  1998 FORTRESS/QWSERVER.TXT
+-rw-rw-r--  0 0      0       52728 20 May  1998 FORTRESS/README.TXT
+-rw-rw-r--  0 0      0      582356 16 Dec  1997 FORTRESS/SERVCFG.ZIP
+-rw-rw-r--  0 0      0         198 13 Jun  1997 FORTRESS/SERVER.CFG
+-rw-rw-r--  0 0      0        7242 20 May  1998 FORTRESS/SERVER.TXT
+-rw-rw-r--  0 0      0       71704 20 May  1998 FORTRESS/TFORTMAP.TXT
+-rw-rw-r--  0 0      0       52145 21 May  1998 FORTRESS/VERSIONS.TXT
+drwxrwxr-x  0 0      0           0 23 May  1998 FORTRESS/ALTPROGS/
+-rw-rw-r--  0 0      0      748936 23 May  1998 FORTRESS/ALTPROGS/progs.dat
+-rw-rw-r--  0 0      0      800536 23 May  1998 FORTRESS/ALTPROGS/qwprogs.dat
+drwxrwxr-x  0 0      0           0 23 May  1998 FORTRESS/GFX/
+-rw-rw-r--  0 0      0       64008 19 May  1998 FORTRESS/GFX/CONBACK.LMP
+drwxrwxr-x  0 0      0           0 23 May  1998 FORTRESS/MCYCLE/
+-rw-rw-r--  0 0      0          21  4 Jun  1997 FORTRESS/MCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          23  4 Jun  1997 FORTRESS/MCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          44  4 Jun  1997 FORTRESS/MCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          35  4 Jun  1997 FORTRESS/MCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          12  4 Jun  1997 FORTRESS/MCYCLE/MAP5.CFG
+drwxrwxr-x  0 0      0           0 23 May  1998 FORTRESS/QWMCYCLE/
+-rw-rw-r--  0 0      0          13 17 May  1997 FORTRESS/QWMCYCLE/MAP1.CFG
+-rw-rw-r--  0 0      0          15 18 May  1997 FORTRESS/QWMCYCLE/MAP2.CFG
+-rw-rw-r--  0 0      0          36 17 May  1997 FORTRESS/QWMCYCLE/MAP3.CFG
+-rw-rw-r--  0 0      0          27 17 May  1997 FORTRESS/QWMCYCLE/MAP4.CFG
+-rw-rw-r--  0 0      0          15 27 May  1997 FORTRESS/QWMCYCLE/MAP5.CFG
+-rw-rw-r--  0 0      0      801448 23 May  1998 FORTRESS/qwprogs.dat
+```
+
+Content of `tf28inst.exe`:
+
+```text
+-rw-rw-rw-  0 0      0         417  6 May  1997 /os.dat
+-rw-rw-rw-  0 0      0        8192 17 Dec  1997 /_ISDEL.EXE
+-rw-rw-rw-  0 0      0       59904 17 Dec  1997 /SETUP.EXE
+-rw-rw-rw-  0 0      0        4557 30 May  1997 /lang.dat
+-rw-rw-rw-  0 0      0      285323 17 Dec  1997 /_INST16.EX_
+-rw-rw-rw-  0 0      0      290586 17 Dec  1997 /_INST32I.EX_
+-rw-rw-rw-  0 0      0       11264 17 Dec  1997 /_SETUP.DLL
+-rw-rw-rw-  0 0      0       59622 22 May  1998 /setup.ins
+-rw-rw-rw-  0 0      0      411565 22 May  1998 /_sys1.cab
+-rw-rw-rw-  0 0      0         106 22 May  1998 /DATA.TAG
+-rw-rw-rw-  0 0      0          71 22 May  1998 /SETUP.INI
+-rw-rw-rw-  0 0      0       95680 22 May  1998 /_user1.cab
+-rw-rw-rw-  0 0      0         334 22 May  1998 /layout.bin
+-rw-rw-rw-  0 0      0     4302898 22 May  1998 /data1.cab
+-rw-rw-rw-  0 0      0          49 22 May  1998 /setup.lid
+```
+
+Content of `tf28upgr.zip`:
+
+```text
+drwxrwxr-x  0 0      0           0 23 May  1998 Altprogs/
+-rw-rw-r--  0 0      0      748936 23 May  1998 Altprogs/progs.dat
+-rw-rw-r--  0 0      0      800536 23 May  1998 Altprogs/qwprogs.dat
+drwxrwxr-x  0 0      0           0 23 May  1998 Gfx/
+-rw-rw-r--  0 0      0       64008 19 May  1998 Gfx/CONBACK.LMP
+-rw-rw-r--  0 0      0     1598508 22 May  1998 PakX.pak
+-rw-rw-r--  0 0      0       18001 20 May  1998 QWSERVER.TXT
+-rw-rw-r--  0 0      0       71704 20 May  1998 TFORTMAP.TXT
+-rw-rw-r--  0 0      0       11123 20 May  1998 CLAN.TXT
+-rw-rw-r--  0 0      0       52728 20 May  1998 README.TXT
+-rw-rw-r--  0 0      0        7242 20 May  1998 SERVER.TXT
+-rw-rw-r--  0 0      0       52145 21 May  1998 VERSIONS.TXT
+-rw-rw-r--  0 0      0      963372 23 May  1998 progs.dat
+-rw-rw-r--  0 0      0      801448 23 May  1998 qwprogs.dat
+```
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.8                 Released
+--------------------------------------------
+Changes:
+    - Impulse 100 removed.
+    - Limited # of flares useable at one time to 9 / # of teams.
+    - Scout must be looking directly at a detpack for him to begin disarming.
+    - Made abbreviations for more setinfo commands:
+        bd = birthday
+        sbr = sbar_res
+        sbs = sbar_size
+        apw = adminpwd
+        ec = exec_class
+        ws = use_standard ("War Standard" flags)
+    - EMP grenades now do damage to sentry guns.
+    - New in-game messages for medic healing functions, spy uncovering and
+        "aerial" pipebomb kills.  Made unique death messages for use
+        with statistical programs in distinguishing classes.  Also team messages
+        when engineer buildings are dismantled by other teammates.
+    - Changed concussion grenade effects.  Instead of your "vision" only being
+        impaired, you now stumble around.  The more you try to move, the more
+        you stumble.  If you are against a wall and not moving at all, you can
+        stabalize yourself.
+    - Limited the amount of concussion grenades a medic/scout can carry to 3.
+    - Put back the TF "War Standard" option for maps.
+    - Sentry guns now have a muzzleflash.
+    - Scout's Flash Grenade replaced with the Caltrops Canister. Limited
+        carry amount to 3 of these.  Prime time is 1 second.  When dropped,
+        6 caltrops (spikes) will scatter on the ground at the scout's feet.
+        Hitting a caltrop will cause damage and slow down the player until
+        being healed (by health box or medic).
+    - Server setting available to those who want to use the old effect grenades
+        (i.e., old concussion, gas, and flash grenades): set "old_grens" to "on"
+        (or abbreivated "og").  Default is "off".
+    - If the player has the setinfo string "exec_map" (or "em") set, the file
+        "mapdefault.cfg" will be executed if it exists when the player enters a server
+        or the server map changes. If the player also has a specific .cfg file for the
+        map on the server, that file will also be executed. (i.e., The player enters
+        the game and 2fort5 is playing. The script "mapdefault.cfg" will be executed
+        and then "2fort5.cfg" - if it exists).
+    - New spy gas grenade effects:  No more color changing for affected players.
+        More explosion effects and random pain sounds (but no actual pain except when in
+        the gas cloud itself) and other "illusions".  New effects disabled (like the
+        other new grens) with the "old_grens" server setting.
+    - Sniper sight is now a red dot which is now visible in both GL and non-GL QW 2.2x.
+
+Bugs Fixed:
+    - SpyInvis Only setting on non QW servers fixed.
+    - Removed ability for multiple invincible sentry guns cheat.
+    - Cannot use RandomPC to choose a server restricted class.
+    - Due to stronger kicking, any cheats that were the result of
+        getting "kicked" and staying in the game, such as the Medic/Sniper
+        cheats, are now impossible.
+    - Spy can no longer unfeign when anything at all is on top of him.
+    - Detpacks can no longer hang in the air.
+    - If sentry gun becomes separated (i.e., the gun "head" detaches from
+        the base), it will blow up (i.e., "malfunction").
+    - Fixed some typo's.
+    - Sentry gun will not keep beeping when someone disconnects within its
+        range.
+    - Pyro flames really will go out under water now.
+    - Fixed bug where medic would get multiple frags if infecting a player more
+        than once and them dieing by a means other than the infection.
+```
+
+-- tf28.zip/VERSIONS.TXT
+
+## v2.81
+
+Released as `tf281.zip` or `tf2.8.1.zip`.
+
+This version does not appear on the TeamFortress news or download pages. It may have been an internal/limited release.
+
+This might be an unofficial release.
+
+Mentioned on BluewsNews:
+
+> Tuesday, May 26, 1998
+>
+> New TeamFortress Server  [12:55 PM EDT]\
+> A server side-only TeamFortress 2.81 update is out on the TF Bug Fixing Project page fixing a few problems with the 2.81 release. Thanks SirLiam of Ethereal Team Fortress.
+
+-- https://www.bluesnews.com/archives/may98-4.html
+
+Links:
+
+* http://braveheart.warzone.com/tfbugs/
+* http://tf.ethereal.net/
+
+Content of `tf281.zip`:
+
+```text
+-rw-rw-r--  0 0      0      801488 25 May  1998 qwprogs.dat
+-rw-rw-r--  0 0      0      748028 25 May  1998 progs.dat
+```
+
+Mentioned in the changelog for v2.9:
+
+```text
+--------------------------------------------
+Version 2.81               Released 25/5/98
+--------------------------------------------
+Bugs Fixed:
+    - Caltrops should now hurt the enemy when teamplay is set to not hurt
+        teammates.
+```
+
+-- tf29qw.zip/versions.txt
+
+## v2.9
+
+Released as `tf29qw.zip`.
+
+Mentioned on the Team Fortress News page:
+
+> 20.10.1998
+>
+> TeamFortress 2.9 QW Released\
+> Thanks again to Gudlyf the QuakeWorld version of 2.9 has been finished. This is a QuakeWorld SERVER ONLY Update. If you don't run a QuakeWorld server, you don't need this. Sorry it took so long, but as you well know, we're busily working on Half-Life: TeamFortress.
+> Head over to the Downloads page to get 2.9.
+> If you're interested, you can check out the version info.
+>
+> - Robin
+
+-- [http://planetquake.com/teamfortress/news.html](https://web.archive.org/web/19980218113605/http://planetquake.com:80/teamfortress/news.html) (archived)
+
+Mentioned on the Team Fortress Downloads page:
+
+> TF 2.9
+>
+> Team Fortress Version 2.9\
+> Download TF 2.9 QW Server Upgrade (612k)\
+> Contains the QuakeWorld Only 2.9 Upgrade for SERVERS ONLY.
+
+-- [http://www.planetfortress.com/teamfortress/download.html](https://web.archive.org/web/19981205091313/http://www.planetfortress.com/teamfortress/download.html) (archived)
+
+Links:
+
+* http://www.planetquake.com/dl/dl.asp?teamfortress/tf29qw.zip
+
+Mentioned on Redwoods:
+
+> Wednesday, October 21, 1998
+>
+> TeamFortress 2.9 QW  [9:40 AM EDT]\
+> The newly relocated Team Fortress Home (not to be confused with the TeamFortress Software home) has version 2.9 of TeamFortress for QuakeWorld. The new release if server-only, so client's needn't download anything, but you can check out what's changed in the version info.
+
+-- https://www.bluesnews.com/archives/oct98-3.html
+
+Links:
+
+* http://www.planetfortress.com/teamfortress/
+* http://www.teamfortress.com/
+* http://www.planetfortress.com/teamfortress/versions.html
+
+Mentioned on Redwoods:
+
+> October 21, 1998
+>
+> Team Fortress 2.9 Released\
+> A QUAKEWORLD server side only upgrade version 2.9 for Team Fortress has been released. If you don't run a QW server, you don't need this upgrade.
+
+-- [http://redwood.stomped.com/1098.html](https://web.archive.org/web/20010506231327/http://redwood.stomped.com/1098.html) (archived)
+
+Content of `tf29qw.zip`:
+
+```text
+-rw-rw-r--  0 0      0       71707  3 Sep  1998 TFORTMAP.TXT
+-rw-rw-r--  0 0      0      835756 21 Oct  1998 qwprogs.dat
+-rw-rw-r--  0 0      0      835280 21 Oct  1998 ALTPROGS/qwprogs.dat
+-rw-rw-r--  0 0      0       18136  3 Sep  1998 QWSERVER.TXT
+-rw-rw-r--  0 0      0       53768 20 Oct  1998 README.TXT
+-rw-rw-r--  0 0      0        7242 20 Oct  1998 server.txt
+-rw-rw-r--  0 0      0       19132  3 Sep  1998 tfentref.txt
+-rw-rw-r--  0 0      0       11126  3 Sep  1998 clan.txt
+-rw-rw-r--  0 0      0       57195 20 Oct  1998 versions.txt
+```
+
+Changelog:
+
+```text
+--------------------------------------------
+Version 2.9                Released 23/10/98
+--------------------------------------------
+Features Added:
+    - Put in several QW server defaults due to changes in QW 2.3
+        pausable = 0
+        sv_friction = 6
+        sv_waterfriction = 1
+    - Spys can now silently feign without a death scream with the command "sfeign".
+        The feign command in the spy's "special" menu will only do the default
+        non-silent feign.
+    - Persons in spectator mode can ID players they are looking at
+        (if they are in range).  Also if the spectator has admin privilages, they
+        can use the admin commands (see below).
+
+Changes:
+    - Tweaked concussion effect to take a player's ping into consideration.  Removed
+        snapping the player's view.  Also a jumping player should get some concussion
+        effects now.
+    - HWGuy's are not affected by the concussion grenade's effects only when firing.
+    - HWGuy is thrown slightly less by explosions.
+    - HWGuy's "special" bind now switches between the Assault Cannon and the
+        Super Shotgun.
+    - Medic's "special" bind now switches between the Medikit and the Super
+        Nailgun.
+    - Admin commands have changed:
+        - Instead of using the admin command "kick" to deal with a player, you
+        now use the command "deal".  That command will do the same thing "kick"
+        did, but this time after listing the name of each player in the game
+        there is the option to use the commands "kick" (to simply kick them
+        from the server), "ban" (to add their IP address to be banned from the
+        server), or "next" (to list the next player in the game).
+        When a player is banned with this method, their IP address will be removed
+        from the server banlist if the server is ever restarted.
+        - The command "listips" will show a list of all players in the game, along
+        with their IP address in this format: NAME (IP ADDRESS)
+    - Scout's scanner upgraded and commands changed.  The command has changed now
+        to "autoscan" (you can still use the old commands if you still have them bound
+        and they will execute the "autoscan" command). This command turns
+        on/off the scout scanner. It will keep sending out "bursts" every 2 seconds while
+        it is on. It is defaulted to only scan for enemies (this includes players,
+        sentries and flags/goal items), but can be changed by using the commands "scane"
+        (scan enemies) and "scanf" (scan friendlies). You CAN have both set.  The scanner
+        also now has the ability to play a sound to the player if it detects an enemy.
+        It is off by default but can be switched on/off with the "scansound" command.
+        Also, the statusbar will now report what your scanner has detected (i.e., "Red
+        Soldier", "Blue Sentry", etc.) and it's range from you in approximate meters.
+    - EMP Grenades will not destroy own-team buildings if explosive damage to teammates
+        is turned off on the server.
+    - When medikit is selected, the medikit ammo will be displayed.
+    - When a spy feigns he will now drop all goal items.
+    - Feigning spies are no longer ID-able by enemies.
+    - Spy's backstab ignores armor.
+    - Spy now is allowed to have (and starts with) yellow armor.
+    - New sentry code for finding targets.
+    - Limited number of active napalm grenades and gas grenades per player to 2.
+    - Incresed cell useage for cannon powerup from 4 to 7 to compensate for newly increased
+        damage from bug fix.  Also the Heavy Weapon's guy can no longer move while
+        spinning the Assault Cannon up, down, or while firing.
+    - Thrown grenades now have a "throwing" sound rather than the grenade launcher sound.
+
+Bugs Fixed:
+    - A dead scout can no longer disarm a detpack.
+    - Health boxes will now heal leg damage even if the player's health is
+        >= his class's max health.
+    - HWGuy can shoot while on the ground underwater now.
+    - Demoman help menu fixed to show "[7] Pipebomb launcher".
+    - Napalm Grenade fixed.  Explosions now follow the grenade instead of staying where
+        the initial explosion started.  Also grenade will now properly extinguish if it
+        enters water while exploding.
+    - Fixed invisibility bug with spy (disguise & Ring of Shadows problems).
+    - Removed the stuff regarding "imin1", "imin2", etc. (no longer used).
+    - Fixed the old TF weblink.
+    - Fixed the problem of armor gotten from a goal-item not absorbing damage.
+    - Buildings and detpacks should get telefragged if a player respawns into them.
+    - Fixed a few death message problems.
+    - Multiple concussion grenade hits on a player should now only add on to the time
+        the concussion effects last.
+    - Fixed soldier clip reloading.
+    - Fixed problem with some of the sounds that should play with the spy gas gren
+        hallucinations.
+    - Sentry will no longer fire at feigning spies.
+    - Fixed bug with Assault Cannon damage.
+```
+
+-- tf29qw.zip/versions.txt
 

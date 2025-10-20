@@ -20,7 +20,8 @@ List of main homepages over the years.
 4. http://www.planetquake.com/teamfortress (archived)
     * https://web.archive.org/web/*/http://www.planetquake.com/teamfortress/*
     * https://web.archive.org/web/19970414103937/http://www.planetquake.com/teamfortress/
-5. http://www.teamfortress.com (archived)
+5. http://www.planetfortress.com/teamfortress
+6. http://www.teamfortress.com (archived)
     * https://web.archive.org/web/*/http://www.teamfortress.com/*
     * https://web.archive.org/web/19970601183652/http://www.teamfortress.com/
 

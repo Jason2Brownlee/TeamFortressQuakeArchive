@@ -15,6 +15,7 @@ tf203src.zip
 tf25_cl.zip
 tf25btg.zip
 tf265b.zip
+tf265c.zip
 tf265d.zip
 tf265e.zip
 tf2666bd.zip
@@ -53,7 +54,6 @@ tf213_cl.zip
 tf213cl.zip
 tf213src.zip
 tf265a.zip
-tf265c.zip
 v1_31pak.zip
 v1_32pak.zip
 v1_34pak.zip
