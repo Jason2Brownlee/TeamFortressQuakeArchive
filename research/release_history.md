@@ -1897,9 +1897,6 @@ Map Code breakages (Old maps won't work if you used these)
 
 ## v2.11
 
-
-todo
-
 A bug is mentioned in this version on Jord's:
 
 > Tuesday January 28, 1997 04:50 PM
@@ -3806,6 +3803,24 @@ Links:
 * http://www.planetquake.com/qca/reviews/patch81.txt
 * ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf26fb.zip
 
+Mentioned on Sgt. CoolGuy:
+
+> Wednesday, August 20, 1997\
+> TF v2.6 Final Final Beta\
+> Yup, it's around. God knows where it is though, I can't get the URL I have to work....
+>
+> Thursday, August 21, 1997\
+> TF v2.6 Final final Beta\
+> Get this out guys so we can crush those bugs before the Final release! Here it is!
+
+-- [http://www.planetfortress.com/coolguy/august.html](https://web.archive.org/web/20010509235941fw_/http://www.planetfortress.com/coolguy/august.html) (archived)
+
+Links:
+
+* http://www.teamfortress.com/files/teamfortress/tf26ffbb.zip
+
+(Note, I believe this URL is a typo for the file `tf26ffb.zip`)
+
 Listed on cdrom.com:
 
 ```text
@@ -4119,6 +4134,14 @@ Mentioned on Redwoods:
 
 -- [http://redwood.stomped.com/897.html](https://web.archive.org/web/20011125200502/http://redwood.stomped.com/897.html) (archived)
 
+Mentioned on Sgt. CoolGuy:
+
+> Saturday, August 23, 1997
+>
+> Last TF Release!\
+> It's out there! Go get it from The TF page.
+
+-- [http://www.planetfortress.com/coolguy/august.html](https://web.archive.org/web/20010509235941fw_/http://www.planetfortress.com/coolguy/august.html) (archived)
 
 Contents of `tf26crel.zip`:
 
@@ -4529,7 +4552,6 @@ Links:
 
 * http://www.teamfortress.com/files/teamfortress/tf265e.zip
 
-
 Mentioned on TFNews:
 
 > Dec. 6 1997
@@ -4547,6 +4569,39 @@ Mentioned on TFNews:
 Links:
 
 * http://www.teamfortress.com/files/teamfortress/tf265e.zip
+
+Mentioned on the Sycamore Tree:
+
+> Sat. December 6, 1997:
+>
+> New TF 2.65E released\
+> Ok Server Admin its time once again to update your server's with a new version of TF, TF2.65E heres what they fixed/changed/screwedup..... ;)
+>
+>> --------------------------------------------
+>> Version 2.65 Bug Fix E
+>> --------------------------------------------
+>> Features Added:
+>> - Serverinfo key "exec_map_cfgs". If set to "on", then whenever the map changes, the server will automatically exec "qwmcycle/.cfg"
+>>
+>> Changes:
+>> - Nailgun and Supernailgun's now use double the ammo, fire at half the rate, and do double the damage they used to. Should reduce lag.
+>> - Net Napalm grenade light shrunk.
+>>
+>> Bugs Fixed:
+>> - Telefrag problems with Team 1 Spawnpoints fixed.
+>> - Security loophole with player's names fixed.
+>> - Spy skins not being reset correctly when custom skins were being used.
+>> - Exploding Sentrys/Dispensers producing the wrong death messages fixed.
+>> - Red GL Glow not being removed from players with pent and flag.
+>>
+>> Map Code Changes:
+>> - Flaginfo now allows you to specify only some of the flaginfo strings.
+
+-- [erinyes.com/celabs/newsarchive.htm](https://web.archive.org/web/19980215052113/erinyes.com/celabs/newsarchive.htm) (archived)
+
+Links:
+
+* ftp://ftp.warzone.com/pub2/battlegrounds/tf/tf265e.zip
 
 Changelog:
 
@@ -4783,6 +4838,19 @@ Mentioned on Redwoods:
 
 -- [http://redwood.stomped.com/198.html](https://web.archive.org/web/20011121172234/http://redwood.stomped.com/198.html) (archived)
 
+Mentioned on Sgt. CoolGuy:
+
+> Thursday, January 29, 1998
+>
+> New TF Version\
+> Version 2.7 fixes the sentry bug and is a server update. Get it here (1.6MB), while it hasn't been raped and exploited to find strange bugs.
+
+-- [http://planetfortress.com/coolguy/january.html](https://web.archive.org/web/20001001231836fw_/http://planetfortress.com/coolguy/january.html) (archived)
+
+Links:
+
+* http://www.bluesnews.com/files/patches/teamfortress/tf27.zip
+
 Content of `tf27.zip`:
 
 ```text
@@ -4906,6 +4974,26 @@ Links:
 * ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf28inst.exe
 * http://www.cdrom.com/pub/idgames2/planetquake/teamfortress/tf28.zip
 * ftp://ftp.cdrom.com/pub/quake/planetquake/teamfortress/tf28upgr.exe
+
+Mentioned on Sgt. CoolGuy:
+
+> Monday, May 25, 1998
+>
+> TF 2.8 Released\
+> And yes it works with the new QW 2.21. Get 'em both right here:
+>
+> QW 2.21\
+> If you do not have QW 2.2, would like the full version, or would like a version other than Win95/WinNT go to Blues News Site.
+TF 2.8 Upgrade
+> If you do not have TF 2.6 or higher or would like the full version go to Team Fortress' Official Home page.
+
+-- [http://www.planetfortress.com/coolguy/may98.html](https://web.archive.org/web/20010123111800fw_/http://www.planetfortress.com/coolguy/may98.html) (archived)
+
+Links:
+
+* http://asp.planetquake.com/dl/dl.asp?coolguy/qw221.zip
+* http://asp.planetquake.com/dl/dl.asp?coolguy/tf28upgr.zip
+* http://www.planetquake.com/teamfortress
 
 Content of `tf28.zip`:
 
@@ -5072,6 +5160,19 @@ Links:
 * http://braveheart.warzone.com/tfbugs/
 * http://tf.ethereal.net/
 
+Mentioned on Sgt. CoolGuy:
+
+> Tuesday, May 26, 1998
+>
+> TF 2.81 ?\
+> A server side-only fix for TF v2.8 is out, TF v2.81. Get it at the BugFixing Joint
+
+-- [http://www.planetfortress.com/coolguy/may98.html](https://web.archive.org/web/20010123111800fw_/http://www.planetfortress.com/coolguy/may98.html) (archived)
+
+Links:
+
+* https://web.archive.org/web/20010123111800/http://braveheart.warzone.com/tfbugs/
+
 Content of `tf281.zip`:
 
 ```text
@@ -5091,6 +5192,86 @@ Bugs Fixed:
 ```
 
 -- tf29qw.zip/versions.txt
+
+
+## v2.82
+
+The filenames for this release are not known.
+
+This release was probably unofficial.
+
+Beta's of this release were probably developed based on the discussions found so far
+
+> Monday, June 8
+>
+> A MUCH DESERVED RANT: - Mr.Potato Head\
+> The following post by Gudlyf has made its appearance on quite a few sites lately, and this morning I found it in my Inbox, sent in by Kinlord. Without further ado:
+>
+>> Knowing you have covered the progress of 2.8 for a bit I figured I would pass this along which was posted on the TFBFP board and quickly buried under the common flow of feedback on that board.
+>> I also thought I would mention that the 2.8.2 beta looks really promising and addresses your concerns about the conc.
+>>
+>> Regards,
+>> Kinlord
+>>
+>> I guess I just don't get it. It's just so mind boggling that about 90% of those who are disatisfied with the 2.8 version of TF are in actuality complaining about one change to it from 2.7:
+>>
+>> The concusion grenade.
+>>
+>> Trust me, I'm shaking my head in disbelief here just at that very notion - that some people are practically busting my door in, carrying pitchforks, torches and lynching rope, just because the 2.8 concussion grenade is not to their liking. Everything else is fine though, just not the concussion grenade. I'm told that because of this single change, clan battles are lost, people are more fragable, and the suicides....OH the suicides. The whole game is ruined!!!!
+>>
+>> Yes, it's mind boggling. It seems some people are so disatisfied with the concussion grenade that they are considering moving their clans to specialize in other mods instead. Just because that one change is so bad, they feel like packing their bags. That one change. What a whacked world.
+>>
+>> And when will this all end?! How many mods will be created before everyone is happy?! I'll tell you what - it will never end. There will always be someone who doesn't like something about TF and will want to make their own mod. Then there will be clans who may want to follow them and try to get ALL clans to follow THEM. It goes on and on. And of course this includes TF 2.8 as well - it will never make everyone happy.
+>>
+>> I want to make one thing clear here. I have read all of the suggestions that everyone has sent to me, and we are grateful for them all. Most of the feasible ones were presented to the TFS fellas and they either told me to code it up and show them how it worked out, or flat out did not like them. They also accompanied us into other mod servers which were showing off their own ideas for greanades, with the same response. In the case of the concussion grenade, the 2.8 one is the only one they liked that was not cheatable. As I'm sure you've seen in the later 2.8.2 betas, we are still listening and are tweaking the code after leither listening to suggestions or seeing such changes in action on other peoples' own demonstrations.
+>>
+>> As far as the supposed "cheat demo" that's floating around that was (much to my disgust) mentioned on the TFClans webpage, it is a farce. Yes I have seen it and I'm totally not convinced anything sneaky was going on. And if you'd like to prove me wrong, then by all means please do so and tell me what was attempted so I can either fix it or discredit it right on the spot. In any case I will say this - if (and that's a big "if") the 2.8 concussion grenade is found to be cheatable, I guarantee you it will be changed or fixed. So what are you waiting for? If you hate the concussion grenade so much and you say it's cheatable, then let's hear the proof!
+>>
+>> Anyway, it's all pretty discouraging I must say. TFS never posts here, so all I can hope for is that you take my word for what I say. Oh they read this board though. If I find a lot of people packing it up to move on to other mods just because of the concussion grenade, then I'll probably pack my bags too and hand 2.8 to TFS as a dismal failure. I don't like to quit, but I also don't have time to put work into something like this when it's just gonna be [dumped] on.
+>>
+>> One final note. The power to go back to the 2.7 grenades is in the hands of the server admins out there. If you hate the new grenades SO much, then switch "serverinfo og on" and voila - you will use the old grenades. And before you ask, no - there will not be a switch to have only SOME of the new grens and SOME of the old ones. It's all or nothing. Cheatable or not-cheatable.
+>>
+>> Sorry for the lengthy rant, but I guess I needed to say something to make me feel better and perhaps realize that maybe there's really not that many people out there with lynching ropes. Just pitchforks and torches. :)
+>>
+>> Thanks,
+>> Gudlyf
+
+And:
+
+> Wednesday, June 10
+>
+> WHERE WE STAND: - Mr.Potato Head\
+> Gudlyf has posted up the changes due out in TF version 2.8.2 thus far:
+>
+>> Features Added:
+>> Put in several QW server defaults due to changes in QW 2.21
+>> pausable = 0
+>> sv_friction = 6
+>> sv_waterfriction = 1
+>> sv_aim = 0.93
+>> watervis = 0
+>> sv_mapcheck = 1
+>> A medic's backpack (only the one thrown when he dies) will now also contain any medikit ammo he had left. A player can pick this up to be healed by that ammount left in the pack, a medic can pick it up for more medikit ammo, or an infected player can be cured of infection (only if the medikit ammo left in the pack is 80 or more).
+>> Changes:
+>> Tweaked concussion effect to take a player's ping into consideration. Removed snapping the player's view. Also a jumping player should >> get some concussion effects now.
+>> HWGuy's are not affected by the concussion grenade's effects.
+>> HWGuy is thrown slightly less by explosions.
+>> HWGuy's "special" bind now switches between the Assault Cannon and the Super Shotgun.
+>> Medic's "special" bind now switches between the Medikit and the Super Nailgun.
+>> Admin commands have changed:
+>> Instead of using the admin command "kick" to deal with a player, you now use the command "deal". That command will do the same thing "kick" did, but this time after listing the name of each player in the game there is the option to use the commands "kick" (to simply kick them from the server), "ban" (to add their IP address to be banned from the server), or "next" (to list the next player in the game). When a player is banned with this method, their IP address will be removed from the server banlist if the server is ever restarted.
+>> The command "listips" will show a list of all players in the game, along with their IP address in this format: NAME (IP ADDRESS)
+>> Scout's scanner upgraded and commands changed. The command has changed now to "autoscan" (you can still use the old commands if you still have them bound and they will execute the "autoscan" command). This command turns on/off the scout scanner. It will keep sending out "bursts" every 2 seconds while it is on. It is defaulted to only scan for enemies (this includes players, sentries and flags/goal items), but can be changed by using the commands "scane" (scan enemies) and "scanf" (scan friendlies). You CAN have both set. The scanner also now has the ability to play a sound to the player if it detects an enemy. It is off by default but can be switched on/off with the "scansound" command. Also, the statusbar will now report what your scanner has detected (i.e., "Red Soldier", "Blue Sentry", etc.) and it's range from you in approximate meters.
+>> EMP Grenades will not destroy own-team buildings if explosive damage to teammates is turned off on the server.
+>> When medikit is selected, the medikit ammo will be displayed.
+>> Bugs Fixed:
+>> A dead scout can no longer disarm a detpack.
+>> Health boxes will now heal leg damage even if the player's health is greaterthan or equal-to his class's max health.
+>> HWGuy can shoot while on the ground underwater now.
+>
+> No word on when it is due out however. And as always, you can take a sneak peak at the latest tweaks and fixes on the Braveheart test server(s).
+
+-- [http://www.erinyes.com:80/tf/old/onews24.html](https://web.archive.org/web/19980704070432/http://www.erinyes.com:80/tf/old/onews24.html) (archived)
 
 ## v2.9
 

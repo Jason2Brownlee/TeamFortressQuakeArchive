@@ -24,9 +24,6 @@ v1_33pak.zip
 tf2files.zip
 tf2src.zip
 
-# exists, but not sure what these are... let's get them and find out
-tf26ffbb.zip
-
 # guessed at filenames (no evidence they exist)
 qw25bta.zip
 qw25btb.zip
