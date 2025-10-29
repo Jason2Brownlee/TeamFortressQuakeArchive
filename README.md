@@ -63,8 +63,11 @@ Release Date | File | Description
 1997-12-16 | [tf2666.zip](bin/tf2666.zip) | TeamFortress v2.666
 1997-12-24 | tf2666bd.zip | TeamFortress v2.666 Christmas Mode
 1998-01-29 | [tf27.zip](bin/tf27.zip) | TeamFortress v2.7
+1998-05-10 | [tf28src.zip](bin/tf28src.zip) | TeamFortress v2.8 Source (Unreleased)
+1998-05-13 | [tf28src-commented.zip](bin/tf28src-commented.zip) | TeamFortress v2.8 Source 2 (Unreleased)
 1998-05-23 | [tf28.zip](bin/tf28.zip)<br>[tf28inst.exe](bin/tf28inst.exe)<br>[tf28upgr.zip](bin/tf28upgr.zip) | TeamFortress v2.8
 1998-05-25 | [tf281.zip](bin/tf281.zip) | TeamFortress v2.81
+1998-06-08 | [tf282Bsrc.zip](bin/tf282Bsrc.zip) | TeamFortress v2.82 Source (Unreleased)
 1998-10-21 | [tf29qw.zip](bin/tf29qw.zip) | TeamFortress v2.9
 
 * **Date Format**: YYYY-MM-DD.
@@ -91,3 +94,8 @@ Below are lists of known files missing from the archive.
 
 If you can help, please contact me directly: jason.brownlee05@gmail.com
 
+## Acknowledgements
+
+This archive would not be as complete as it is without the generousness help from the Quake community.
+
+Special thank you to: Keith McDuffee.
