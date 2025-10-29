@@ -98,4 +98,4 @@ If you can help, please contact me directly: jason.brownlee05@gmail.com
 
 This archive would not be as complete as it is without the generousness help from the Quake community.
 
-Special thank you to: Keith McDuffee.
+Special thank you to: Keith McDuffee aka "Gudlyf".
